@@ -26,9 +26,38 @@
         duration: dur,
         tweenChanges: true, reverse: true})
             .setTween(pathTween)
-            // .setPin('#morena_path')
-            .addIndicators() // add indicators (requires plugin)
+            // .setPin('#legend')
+            // .addIndicators() // add indicators (requires plugin)
             .addTo(controller);
+
+    var morenaTween = new TimelineMax()
+                    .add(TweenMax.to('#portrait',1, {width:350, ease:Linear.easeNone}));
+    var morenaScene = new ScrollMagic.Scene({triggerElement:"#portrait",triggerHook:'onLeave',
+        duration:400, tweenChanges: true, reverse:true})
+        .setTween(morenaTween)
+        // .addIndicators()
+        .addTo(controller);
+
+    var morenaTween = new TimelineMax()
+                    .add(TweenMax.to('#container',1, {marginTop:350, ease:Linear.easeNone}))
+                    // .add(TweenMax.to("#legend svg",1,{position:'fixed'}));
+    var morenaScene = new ScrollMagic.Scene({triggerElement:"#portrait",triggerHook:'onLeave',
+        duration:400, tweenChanges: true, reverse:true})
+        .setTween(morenaTween)
+        // .addIndicators()
+        .addTo(controller);
+
+
+    var morenaTween = new TimelineMax()
+                    .add(TweenMax.to('#legend svg',1, {opacity:1, ease:Linear.easeNone}))
+                    // .add(TweenMax.to("#legend svg",1,{position:'fixed'}));
+    var morenaScene = new ScrollMagic.Scene({triggerElement:"#morena_path",
+        duration:20, tweenChanges: true, reverse:true})
+        .setTween(morenaTween)
+        // .addIndicators()
+        .addTo(controller);
+
+ 
 
 
 
@@ -68,7 +97,8 @@
             tweenChanges: true, reverse: true})
                 .setTween(thoughtTween)
                 // .setPin('#morena_path')
-                // .addIndicators() // add indicators (requires plugin)
+                // .addIndicators() // add 
+                // indicators (requires plugin)
                 .addTo(controller);
     })   
 
@@ -164,7 +194,7 @@
             tweenChanges: true, reverse: true})
                 .setTween(highlightTween)
                 // .setPin('#morena_path')
-                .addIndicators() // add indicators (requires plugin)
+                // .addIndicators() // add indicators (requires plugin)
                 .addTo(controller);
     })
 
@@ -213,6 +243,21 @@
         var real_pathScene = new ScrollMagic.Scene({triggerElement: '#real_path *:nth-child('+i+')', duration:50,offset:75,
             tweenChanges: true, reverse: true})
                 .setTween(real_pathTween)
+                // .setPin('#morena_path')
+                // .addIndicators() // add indicators (requires plugin)
+                .addTo(controller);
+    })   
+
+    var $clock = $('#clock').children();
+    $clock.toArray().forEach(function(thought,i){
+
+        i+=1;
+        var clockTween = new TimelineMax()
+                      .add(TweenMax.to('#clock *:nth-child('+i+')', 1 , {visibility:'visible'})); // draw draw dot for 0.1
+                              // 
+        var clockScene = new ScrollMagic.Scene({triggerElement: '#clock *:nth-child('+i+')', duration:50,offset:75,
+            tweenChanges: true, reverse: true})
+                .setTween(clockTween)
                 // .setPin('#morena_path')
                 // .addIndicators() // add indicators (requires plugin)
                 .addTo(controller);

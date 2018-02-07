@@ -3,21 +3,41 @@
           margin: 0;
           padding: 0;
           font-family: 'Roboto', sans-serif;
+          background: #F4F2F1;
 
       }
 
 
       #container {
-          margin: 55vh 5% 55vh 25%;
-          padding: 25px; 
-          outline: 1px dashed orange;
-      
-          width:auto;
+          margin-top: 80vw;
+          margin-bottom: 75vh;
+          /*padding: 25px; */
+          /*outline: 1px dashed orange;*/
+          float: right;
+          width:69vw;
           overflow:auto;
+          position: relative;
+          display: inline-block;
           /*transform:;*/
 
       }
-      
+
+      #legend{
+        left:0;
+        width:29vw;
+        display: inline-block;
+      }
+
+      #legend svg{
+        top:2vh;
+        left:0;
+        position: fixed;
+        display: inline-block;
+        width:29vw;
+        opacity: 0
+      }
+
+
     
 
       #morena_path{
@@ -78,6 +98,13 @@
       visibility:hidden;
      }
 
+     #portrait{
+      width:80vw;
+      position: relative;
+      /*top:0;
+      left:0;
+      display: inline-block;*/
+     }
   /*   #thoughts * g, #encounters * g, 
      #collections * g,#clock * g, 
      #equipment * g, #mile_marks, #text_labels * g, #highlights * g,
