@@ -1,10 +1,11 @@
 html, body {
-	font-family: 'Amatic SC', cursive;
+
 	background: #F4F2F1;
 }
 
 
 #menu {
+	font-family: 'Amatic SC', cursive;
 	width:100%;
 	height: 12vh;
 	border-bottom: 1px solid black;
@@ -32,20 +33,149 @@ html, body {
 	content: "";
 	width: 100%;
 	display: inline-block;
-    }
-
-.data_portraits{
-	width:5%;
-	display:inline-block;
-	position: relative;
-	left:150px;
-	top:200px;
 }
-.overlay_path{
+
+
+#legend{
+	position: fixed;
+	z-index: 20;
+	width:100%;
+	bottom:0;
+	background: #F4F2F1;
+	border-top: 1px solid black;
+	/*display: none;*/
+}
+#legend_toggle{
+	font-family: Roboto-Regular, sans-serif;
+	font-size: 2vh;
+	height:4vh;
+	width:10vw;
+	bottom:2vw;
+	right:2vw;
+	position: fixed;
+	z-index: 25;
+	text-align: top;
+}
+
+#legend_toggle div:nth-child(1){
+	right:0;
+	margin-left: 1vw;
+	position: relative;
+	display: inline-block;
+}
+#triangle {
+    width: 0;
+    height: 0;
+    border-top: 1.6vh solid #999999;
+    border-left:1vh solid transparent;
+    border-right: 1vh solid transparent;
+    display: inline-block;
+    left:0;
+    position: relative;
+    transform: rotate(0deg);
+}
+
+#triangle.On{
+	transition: .4s linear;
+	 -webkit-transform : rotate(-90deg);
+}
+#triangle.Off{
+	transition: .4s linear;
+	 -webkit-transform : rotate(0deg);
+
+}
+#legend_toggle:hover{
+	font-weight:bold;
+	/*text-decoration: underline;*/
+	cursor: pointer;
+
+}
+
+
+#page_container, svg{
+	position: relative;
+}
+path{
 	fill:none;
-	position:relative;
-	z-index: 5;
+	position:absolute;
+	z-index: 1;
 	/*margin-top:200px;*/
 	
 	/*visibility: hidden;*/
+}
+
+
+.data_portrait{
+	width:5%;
+	display:inline-block;
+	position: absolute;
+	left:150px;
+	top:200px;
+	z-index: 10;
+}
+
+
+#popup{
+	padding:1vw;
+	width:15vw;
+	height:10vw;
+	background:white;
+	position: relative;
+	z-index: 9;
+
+	/*visibility:hidden;*/	
+	opacity: 0.85;
+/*	top:350px;
+	left:500px;*/
+	font-size: 3vh
+}
+
+
+ #popup_info #link, #popup_info #soundbite{
+	font-family: 'Amatic SC', cursive;
+
+}
+#name{
+	font-family: 'Roboto-Regular',sans-serif;
+	display: block;
+	margin-bottom: 3vh;
+}
+
+#popup_info{
+	margin-top:5vh;
+}
+#popup_info img {
+	width:3vh;
+	display: inline-block;
+	margin-right: 2vw;
+}
+#popup_info div{
+	display: inline-block;
+	margin-bottom: 1vh;
+}
+
+
+
+#play_pause {
+    width: 0;
+    height: 0;
+    border-top: 1.6vh solid #999999;
+    border-left:1vh solid transparent;
+    border-right: 1vh solid transparent;
+    display: inline-block;
+    left:0;
+    position: relative;
+    transform: rotate(-90deg);
+    top:0.5vh;
+    margin-right: 2.5vw;
+}
+
+#play_pause.On{
+	transition: .4s linear;
+	 -webkit-transform : rotate(-90deg);
+}
+#play_pause.Off{
+	transition: .4s linear;
+	 -webkit-transform : rotate(0deg);
+
 }
