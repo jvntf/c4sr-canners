@@ -106,7 +106,7 @@ $(function(){
 						"<div>MEET MORENA</div>"+
 					"</div>"+
 					"<div id='link'>"+
-						"<img src='img/morena/collection.png'>"+
+						"<img src='img/morena/Cart.png'>"+
 						"<a href='canners/morena'><div>GO CANNING</div></a>"+
 					"</div>"+
 				"</div>"+

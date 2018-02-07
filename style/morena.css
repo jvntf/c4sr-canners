@@ -1,0 +1,108 @@
+ html, body {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+          font-family: 'Roboto', sans-serif;
+
+      }
+
+
+      #loading{
+        width:100vw;
+        height:100vh;
+        position: fixed;
+        z-index: 50;
+        background:white;
+      }
+      #container {
+          margin: 55vh 5% 55vh 25%;
+          padding: 25px; 
+          outline: 1px dashed orange;
+      
+          width:auto;
+          overflow:auto;
+          /*transform:;*/
+
+      }
+      
+    
+
+      #morena_path{
+        /*margin-top:1000px;*/
+        fill:none;
+        stroke:#999999;
+        stroke-width:1;
+        stroke-linecap:round;
+        stroke-linejoin:round;
+        stroke-dasharray: 3000px;
+        stroke-dashoffset: 3000px;
+        /*stroke-width:20;*/
+        /*position: relative;*/
+        /*transform: scale(0.7);*/
+
+      }
+      #bkg_path{
+        /*margin-top:1000px;*/
+        fill:none;
+        stroke:#999999;
+        stroke-linecap:round;
+        stroke-linejoin:round;
+        opacity: 0.1;
+        /*stroke-width:20;*/
+        /*position: relative;*/
+
+
+      }
+
+      #Layer_2{
+        transform:scale(0.7);
+        visibility: hidden
+      }
+
+      #two{
+        /*visibility: visible;*/
+        
+      }
+
+     /*#test{
+      background-color: black;
+      width:100px;
+      height:100px;
+      visibility: hidden;
+     }*/
+/*
+     #mile_marks *{
+      opacity: 0;
+      visibility:hidden;
+
+     }*/
+
+     #thoughts *, #encounters *, 
+     #collections *,#clock *, 
+     #equipment *, #mile_marks, #text_labels *, #highlights *,
+     #icons *, #francesca_comments *, #real_path *{
+      /*opacity: 0;*/
+      visibility:hidden;
+     }
+
+  /*   #thoughts * g, #encounters * g, 
+     #collections * g,#clock * g, 
+     #equipment * g, #mile_marks, #text_labels * g, #highlights * g,
+     #icons * g, #francesca_comments * g, #real_path * g{
+      visibility:hidden;
+     }
+   */
+/*
+     #mile_marks:nth-child(4) {
+      color:red;
+     }
+*/
+    /* #test{
+      visibility: visible;
+     }*/
+
+
+
+
+     
+   
