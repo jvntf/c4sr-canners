@@ -7,13 +7,6 @@
       }
 
 
-      #loading{
-        width:100vw;
-        height:100vh;
-        position: fixed;
-        z-index: 50;
-        background:white;
-      }
       #container {
           margin: 55vh 5% 55vh 25%;
           padding: 25px; 

@@ -4,7 +4,7 @@
   $(function() {
     // jQuery.scrollSpeed(20, 800);
     var controller = new ScrollMagic.Controller();
-
+   
 
     function pathPrepare ($el) {
       var lineLength = $el[0].getTotalLength();
@@ -103,22 +103,122 @@
                 // .addIndicators() // add indicators (requires plugin)
                 .addTo(controller);
     })   
+
+    //EQUIPMENT
+    var $equipment = $('#equipment').children();
+    $equipment.toArray().forEach(function(thought,i){
+
+        i+=1;
+        var equipmentTween = new TimelineMax()
+                      .add(TweenMax.to('#equipment *:nth-child('+i+')', 1 , {visibility:'visible'})); // draw draw dot for 0.1
+                              // 
+        var equipmentscene = new ScrollMagic.Scene({triggerElement: '#equipment *:nth-child('+i+')', duration:50,offset:75,
+            tweenChanges: true, reverse: true})
+                .setTween(equipmentTween)
+                // .setPin('#morena_path')
+                // .addIndicators() // add indicators (requires plugin)
+                .addTo(controller);
+    })
+
+    //mile_marks
+    var $mile_marks = $('#mile_marks').children();
+    $mile_marks.toArray().forEach(function(thought,i){
+
+        i+=1;
+        var mile_markTween = new TimelineMax()
+                      .add(TweenMax.to('#mile_marks *:nth-child('+i+')', 1 , {visibility:'visible'})); // draw draw dot for 0.1
+                              // 
+        var mile_markscene = new ScrollMagic.Scene({triggerElement: '#mile_marks *:nth-child('+i+')', duration:50,offset:75,
+            tweenChanges: true, reverse: true})
+                .setTween(mile_markTween)
+                // .setPin('#morena_path')
+                // .addIndicators() // add indicators (requires plugin)
+                .addTo(controller);
+    })
+
+    //text_labels
+    var $text_labels = $('#text_labels').children();
+    $text_labels.toArray().forEach(function(thought,i){
+
+        i+=1;
+        var text_labelTween = new TimelineMax()
+                      .add(TweenMax.to('#text_labels *:nth-child('+i+')', 1 , {visibility:'visible'})); // draw draw dot for 0.1
+                              // 
+        var text_labelscene = new ScrollMagic.Scene({triggerElement: '#text_labels *:nth-child('+i+')', duration:50,offset:75,
+            tweenChanges: true, reverse: true})
+                .setTween(text_labelTween)
+                // .setPin('#morena_path')
+                // .addIndicators() // add indicators (requires plugin)
+                .addTo(controller);
+    }) 
+
+    //highlights
+    var $highlights = $('#highlights').children();
+    $highlights.toArray().forEach(function(thought,i){
+
+        i+=1;
+        var highlightTween = new TimelineMax()
+                      .add(TweenMax.to('#highlights *:nth-child('+i+') path', 1 , {visibility:'visible'})); // draw draw dot for 0.1
+                              // 
+        var highlightscene = new ScrollMagic.Scene({triggerElement: '#highlights *:nth-child('+i+') path', duration:50,offset:75,
+            tweenChanges: true, reverse: true})
+                .setTween(highlightTween)
+                // .setPin('#morena_path')
+                .addIndicators() // add indicators (requires plugin)
+                .addTo(controller);
+    })
+
+    //icons
+    var $icons = $('#icons').children();
+    $icons.toArray().forEach(function(thought,i){
+
+        i+=1;
+        var iconTween = new TimelineMax()
+                      .add(TweenMax.to('#icons *:nth-child('+i+')', 1 , {visibility:'visible'})); // draw draw dot for 0.1
+                              // 
+        var iconscene = new ScrollMagic.Scene({triggerElement: '#icons *:nth-child('+i+')', duration:50,offset:75,
+            tweenChanges: true, reverse: true})
+                .setTween(iconTween)
+                // .setPin('#morena_path')
+                // .addIndicators() // add indicators (requires plugin)
+                .addTo(controller);
+    })
+
+    //francesca_comments
+    var $francesca_comments = $('#francesca_comments').children();
+    $francesca_comments.toArray().forEach(function(thought,i){
+        console.log(thought);
+
+        i+=1;
+        var francesca_commentTween = new TimelineMax()
+                      .add(TweenMax.to('#francesca_comments *:nth-child('+i+')', 1 , {visibility:'visible'}))
+                      // .add(TweenMax.to('#francesca_comments *:nth-child('+i+') *', 1 , {visibility:'visible'})); // draw draw dot for 0.1
+                              // 
+        var francesca_commentscene = new ScrollMagic.Scene({triggerElement: '#francesca_comments *:nth-child('+i+')', duration:50,offset:75,
+            tweenChanges: true, reverse: true})
+                .setTween(francesca_commentTween)
+                // .setPin('#morena_path')
+                // .addIndicators() // add indicators (requires plugin)
+                .addTo(controller);
+    }) 
+
+    //real_path
+    var $real_path = $('#real_path').children();
+    $real_path.toArray().forEach(function(thought,i){
+
+        i+=1;
+        var real_pathTween = new TimelineMax()
+                      .add(TweenMax.to('#real_path *:nth-child('+i+')', 1 , {visibility:'visible'})); // draw draw dot for 0.1
+                              // 
+        var real_pathScene = new ScrollMagic.Scene({triggerElement: '#real_path *:nth-child('+i+')', duration:50,offset:75,
+            tweenChanges: true, reverse: true})
+                .setTween(real_pathTween)
+                // .setPin('#morena_path')
+                // .addIndicators() // add indicators (requires plugin)
+                .addTo(controller);
+    })   
     
 
-    //PINS
-    //
-    //
-    
-    // var pinScene = new ScrollMagic.Scene({triggerElement: '#test', duration:400})
-    //                 .on("start", function (event) {
-    //                     pathScene.remove();
-    //                     })
-    //                 .on("end", function (event) {
-    //                     pathScene.addTo(controller);
-    //                     })
-    //                 // .setPin('#container')
-    //                 .addIndicators()
-    //                 .addTo(controller);
 
 
 
