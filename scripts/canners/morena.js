@@ -49,10 +49,11 @@
 
 
     var morenaTween = new TimelineMax()
-                    .add(TweenMax.to('#legend svg',1, {opacity:1, ease:Linear.easeNone}))
+                    .add(TweenMax.to('#legend svg',0.1, {visibility:'visible', ease:Linear.easeNone}))
+                    .add(TweenMax.to('#legend svg',0.9, {opacity:1, ease:Linear.easeNone}))
                     // .add(TweenMax.to("#legend svg",1,{position:'fixed'}));
     var morenaScene = new ScrollMagic.Scene({triggerElement:"#morena_path",
-        duration:20, tweenChanges: true, reverse:true})
+        duration:20, tweenChanges: true, reverse:true, offset:-150})
         .setTween(morenaTween)
         // .addIndicators()
         .addTo(controller);

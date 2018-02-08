@@ -4,6 +4,8 @@
           padding: 0;
           font-family: 'Roboto', sans-serif;
           background: #F4F2F1;
+          overflow: 'hidden';
+          height: '100%'
 
       }
 
@@ -34,6 +36,7 @@
         position: fixed;
         display: inline-block;
         width:29vw;
+        visibility: hidden;
         opacity: 0
       }
 
