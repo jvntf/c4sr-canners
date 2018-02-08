@@ -118,7 +118,7 @@ path{
 #popup{
 	padding:1vw;
 	width:15vw;
-	height:10vw;
+	height:auto;
 	background:white;
 	position: relative;
 	z-index: 9;
@@ -128,6 +128,9 @@ path{
 /*	top:350px;
 	left:500px;*/
 	font-size: 3vh
+}
+#sound{
+	width:100%;
 }
 
 

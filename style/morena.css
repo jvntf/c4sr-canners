@@ -125,6 +125,14 @@
      }*/
 
 
+audio{
+  visibility: hidden;
+  top:14vh;
+  left:3vw;
+  position:fixed;
+  z-index: 1000;
+}
+
 
 
      

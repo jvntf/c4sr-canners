@@ -1,23 +1,39 @@
 $(function(){
 	preparepaths();
-	$(document).click(function() {
-	    
-	    $('#popup').remove();
-	    $('#current').remove();
-	    $('.data_portrait').css({
-	    	'visibility':'visible'
-	    })
 
-	    
-	    $('.overlay_path').each(function(){
-	    	$(this).animate({
-	    		strokeDashoffset: $(this).attr('length'),
-	    	},1000);
-	    });
+	
+
+
+	$(document).click(function(e) {
+	    console.log(e.target)
+
+	    if(e.target.id !=='sound'){
+	    	$('#popup').remove();
+	    	$('#current').remove();
+	    	$('.data_portrait').css({
+	    		'visibility':'visible'
+	    	})
+
+	    	
+	    	$('.overlay_path').each(function(){
+	    		$(this).animate({
+	    			strokeDashoffset: $(this).attr('length'),
+	    		},1000);
+	    	});
+
+	    }
+	   
 
 
 
 	});
+
+
+	$('#popup_info').click(function(e){
+		console.log("hello")
+		e.stopPropagation();
+	});
+
 
 	$("#legend_toggle").click(function(e){
 		if( $('#legend').attr('class')=='on'){
@@ -46,7 +62,7 @@ $(function(){
 
 		}
 
-		// console.log($(this).next());
+		// 
 		$(this).addClass('active')
 			.css({
 			'visibility':'hidden'
@@ -65,14 +81,14 @@ $(function(){
 		mySvg.drawsvg('animate');
 
 		var name = $(this).attr('canner');
-		console.log($(this));
+		
 
 
 		var topVal = $(this).position().top
 		var leftVal = $(this).position().left
 		var rightVal=$(this).position().right
-		console.log(this);
-		// console.log($(this).attr('canner'))
+		
+		// 
 
 		// $("this").insertAfter()
 		// $("#popup").offset({
@@ -104,6 +120,10 @@ $(function(){
 					"<div id='soundbite'>"+
 						"<div id='play_pause'></div>"+
 						"<div>MEET MORENA</div>"+
+						 "<audio id='sound' controls>"+
+						  "<source src='../../canners/morena/meet_morena.mp3' type='audio/mpeg'>"+
+						  "Your browser does not support the audio tag."+
+						"</audio>"+
 					"</div>"+
 					"<div id='link'>"+
 						"<img src='img/morena/Cart.png'>"+
@@ -119,9 +139,9 @@ $(function(){
 	})
 
 	function preparepaths(){
-		console.log($('.overlay_path')[0]);
+		
 		$('.overlay_path').each(function(){
-			console.log(this);
+			
 			var lineLength = this.getTotalLength();
 			$(this).css("stroke-dasharray", lineLength);
 			$(this).css("stroke-dashoffset", lineLength);
