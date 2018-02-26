@@ -3,7 +3,36 @@
 
   $(function() {
     // jQuery.scrollSpeed(20, 800);
+    // 
+    var wavesurfer = WaveSurfer.create({
+        container: '#waveform',
+        waveColor: 'grey',
+        progressColor: 'orange',
+        hideScrollbar: true,
+        height: 25,
+        barHeight:10,
+        barWidth: 1
+    });
+
+    wavesurfer.load('meet_morena.mp3');
+
+    $('.playpause').click(function(){
+        if (wavesurfer.isPlaying()){
+            $('#stop').css('visibility','hidden');
+            $('#play').css('visibility','visible');
+            wavesurfer.playPause();
+        }else{
+            $('#stop').css('visibility','visible');
+            $('#play').css('visibility','hidden');
+            wavesurfer.playPause();
+
+
+        }
+    })
+
     var controller = new ScrollMagic.Controller();
+
+    $('body').css({display:'block'});
    
 
     function pathPrepare ($el) {
@@ -16,7 +45,7 @@
     pathPrepare($m_path);
     
     var dur = document.getElementById('container').clientHeight * .9
-    console.log(dur);   
+    // console.log(dur);   
 
     // var clientHeight = document.getElementById('myDiv').clientHeight
     var pathTween = new TimelineMax()
@@ -50,7 +79,7 @@
 
     var morenaTween = new TimelineMax()
                     .add(TweenMax.to('#legend svg',0.1, {visibility:'visible', ease:Linear.easeNone}))
-                    .add(TweenMax.to('audio',0.5, {visibility:'visible', ease:Linear.easeNone}))
+                    .add(TweenMax.to('#waveform',0.9, {opacity:1, ease:Linear.easeNone}))
                     .add(TweenMax.to('#legend svg',0.9, {opacity:1, ease:Linear.easeNone}))
                     // .add(TweenMax.to("#legend svg",1,{position:'fixed'}));
     var morenaScene = new ScrollMagic.Scene({triggerElement:"#morena_path",
@@ -219,7 +248,7 @@
     //francesca_comments
     var $francesca_comments = $('#francesca_comments').children();
     $francesca_comments.toArray().forEach(function(thought,i){
-        console.log(thought);
+        // console.log(thought);
 
         i+=1;
         var francesca_commentTween = new TimelineMax()

@@ -9,6 +9,10 @@
 
       }
 
+      body{
+        display: none;
+      }
+
 
       #container {
           margin-top: 80vw;
@@ -75,10 +79,7 @@
         visibility: hidden
       }
 
-      #two{
-        /*visibility: visible;*/
-        
-      }
+    
 
      /*#test{
       background-color: black;
@@ -124,16 +125,28 @@
       visibility: visible;
      }*/
 
-
-audio{
+/*
+audio, #waveform{
   visibility: hidden;
   top:14vh;
   left:3vw;
   position:fixed;
   z-index: 1000;
 }
+*/
 
 
+#waveform{
+  opacity: 0;
+  position: fixed;
+  top:15vh;
+  left:3vw;
+  width:22vw;
+}
+
+#stop{
+  visibility: hidden;
+}
 
      
    
