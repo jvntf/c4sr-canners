@@ -104,7 +104,10 @@
 
      #portrait{
       width:80vw;
-      position: relative;
+      position: fixed;
+      bottom:-20;
+      right:0;
+      z-index: 100;
       /*top:0;
       left:0;
       display: inline-block;*/

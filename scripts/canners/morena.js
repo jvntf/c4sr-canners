@@ -60,8 +60,8 @@
             .addTo(controller);
 
     var morenaTween = new TimelineMax()
-                    .add(TweenMax.to('#portrait',1, {width:350, ease:Linear.easeNone}));
-    var morenaScene = new ScrollMagic.Scene({triggerElement:"#portrait",triggerHook:'onLeave',
+                    .add(TweenMax.to('#portrait',1, {width:350, bottom:0, ease:Linear.easeNone}));
+    var morenaScene = new ScrollMagic.Scene({triggerElement:"#trigger",triggerHook:'onLeave',
         duration:400, tweenChanges: true, reverse:true})
         .setTween(morenaTween)
         // .addIndicators()
@@ -70,7 +70,7 @@
     var morenaTween = new TimelineMax()
                     .add(TweenMax.to('#container',1, {marginTop:350, ease:Linear.easeNone}))
                     // .add(TweenMax.to("#legend svg",1,{position:'fixed'}));
-    var morenaScene = new ScrollMagic.Scene({triggerElement:"#portrait",triggerHook:'onLeave',
+    var morenaScene = new ScrollMagic.Scene({triggerElement:"#trigger",triggerHook:'onLeave',
         duration:400, tweenChanges: true, reverse:true})
         .setTween(morenaTween)
         // .addIndicators()
