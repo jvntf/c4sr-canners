@@ -152,4 +152,17 @@ audio, #waveform{
 }
 
      
-   
+#clock{
+  width: 100px;
+  height:100px;
+  overflow: hidden;
+  position: fixed;
+  left:31vw;
+  top:5vh;
+  z-index: 200
+  /*margin: auto;*/
+}
+#clock canvas{
+  position: relative;
+  visibility: visible;
+}   
