@@ -153,6 +153,7 @@ audio, #waveform{
 
      
 #clock{
+
   width: 100px;
   height:100px;
   overflow: hidden;
@@ -166,3 +167,7 @@ audio, #waveform{
   position: relative;
   visibility: visible;
 }   
+
+
+
+
