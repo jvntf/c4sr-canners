@@ -1,9 +1,6 @@
 $(function(){
 	preparepaths();
 
-	
-
-
 	$(document).click(function(e) {
 	    console.log(e.target)
 
@@ -13,19 +10,12 @@ $(function(){
 	    	$('.data_portrait').css({
 	    		'visibility':'visible'
 	    	})
-
-	    	
 	    	$('.overlay_path').each(function(){
 	    		$(this).animate({
 	    			strokeDashoffset: $(this).attr('length'),
 	    		},1000);
 	    	});
-
 	    }
-	   
-
-
-
 	});
 
 
@@ -51,6 +41,7 @@ $(function(){
 
 	$(".data_portrait").click(function(e){
 		e.stopPropagation();
+		var name = $(this).attr('canner');
 		
 		if($(this).attr('id')!='current'){
 			$('#popup').remove();
@@ -59,28 +50,39 @@ $(function(){
 			$('.data_portrait').css({
 				'visibility':'visible'
 			},500)
+			$('.overlay_path').each(function(i,v){
+				if ($(v).attr('canner')=== name){
+					return 1
+				}
 
+				$(this).animate({
+					strokeDashoffset: $(this).attr('length'),
+				},1000);
+			});
 		}
 
-		// 
+		
 		$(this).addClass('active')
 			.css({
 			'visibility':'hidden'
 		})
 
 
-		$(this).next().css({
+		var target = '#'+$(this).attr('canner')+'_overlay'
+		$(target).css({
 						'stroke-width':'2px',
 							'stroke':'#222222'});
 
 
-		var mySvg = $(this).next().drawsvg({
+		// console.log($(this).attr('canner'))
+
+		var mySvg = $(target).drawsvg({
 			duration:700,
 			easing:'linear'
 		});
 		mySvg.drawsvg('animate');
 
-		var name = $(this).attr('canner');
+		
 		
 
 
