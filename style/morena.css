@@ -15,16 +15,13 @@
 
 
       #container {
-          margin-top: 80vw;
-          margin-bottom: 75vh;
-          /*padding: 25px; */
-          /*outline: 1px dashed orange;*/
+          margin-top: 60vw;
+          margin-bottom: 50vh;
           float: right;
           width:69vw;
           overflow:auto;
           position: relative;
           display: inline-block;
-          /*transform:;*/
 
       }
 
@@ -32,15 +29,15 @@
         left:0;
         width:29vw;
         display: inline-block;
+        position: fixed;
       }
 
-      #legend svg{
+      #legendSVG{
         top:2vh;
         left:0;
-        position: fixed;
+        /*position: fixed;*/
         display: inline-block;
         width:29vw;
-        visibility: hidden;
         opacity: 0
       }
 
@@ -70,8 +67,6 @@
         opacity: 0.1;
         /*stroke-width:20;*/
         /*position: relative;*/
-
-
       }
 
       #Layer_2{
