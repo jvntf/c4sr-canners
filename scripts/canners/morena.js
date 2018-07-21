@@ -2,26 +2,27 @@ var pathDoc, path_obj, path, controller;
 
 window.onload=function(){
     $('body').css({display:'block'});
+    var obj = document.createElement('object');
 
-    // var m_path = document.getElementById("morena_path");
-    // console.log(m_path)
-    // 
-    // makeTweens();
-    // makeClock();
-    // 
-    // 
-    path_obj = document.getElementById("path_obj");
-    pathDoc = path_obj.contentDocument;
-    path = pathDoc.getElementById("path");
-    controller = new ScrollMagic.Controller();
-
-
-    // console.log(pathDoc);
-    pathPrepare(path);
-    makeAllTweens();
+    obj.data = document.URL.split("!")[1]+'.svg';
+    obj.id = 'path_obj';
+    obj.setAttribute('type',"image/svg+xml");
+    obj.onload = () => {
+        console.log('loaded object')
+        path_obj = document.getElementById("path_obj");
+        pathDoc = path_obj.contentDocument;
+        path = pathDoc.getElementById("path");
+        controller = new ScrollMagic.Controller();
+        pathPrepare(path, makeAllTweens);
+        // makeAllTweens();
+    }
 
 
+    document.getElementById('container').appendChild(obj);
+    console.log(obj)
 }
+
+
 
 
 
@@ -59,13 +60,14 @@ function makeSoundWave(){
     })
 
 }
-function pathPrepare (path) {
+function pathPrepare (path, callback) {
     // console.log(path)
     var lineLength = path.getTotalLength();
-
-
     path.setAttribute("stroke-dasharray", lineLength);
     path.setAttribute("stroke-dashoffset", lineLength);
+    console.log("one");
+    callback();
+
 }
 function makeClock(){
     var theWindow = $(window);
@@ -97,6 +99,7 @@ function makeClock(){
 }
 
 function makeAllTweens(){    
+    console.log("two")
     makePathTween();
     makeAppear("equipment");
     makeAppear("text_labels");
