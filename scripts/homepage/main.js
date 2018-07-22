@@ -129,7 +129,7 @@ $(function(){
 					"</div>"+
 					"<div id='link'>"+
 						"<img src='img/morena/Cart.png'>"+
-						"<a href='canners/morena'><div>GO CANNING</div></a>"+
+						"<a href='canners/index.html#!"+name+"'><div>GO CANNING</div></a>"+
 					"</div>"+
 				"</div>"+
 			"</div>").insertAfter('#current').offset({

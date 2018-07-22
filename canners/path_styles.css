@@ -1,23 +1,23 @@
 @font-face{
   font-family: Roboto-Bold;
-  src: url('fonts/Roboto-Bold.ttf');
+  src: url('../fonts/Roboto-Bold.ttf');
 }
 @font-face{
   font-family: Roboto-BoldItalic;
-  src: url('fonts/Roboto-BoldItalic.ttf');
+  src: url('../fonts/Roboto-BoldItalic.ttf');
 }
 @font-face{
   font-family: Roboto-Light;
-  src: url('fonts/Roboto-Light.ttf');
+  src: url('../fonts/Roboto-Light.ttf');
 }
 @font-face{
   font-family: Roboto-Regular;
-  src: url('fonts/Roboto-Regular.ttf');
+  src: url('../fonts/Roboto-Regular.ttf');
 }
 
 @font-face{
   font-family: ZillaSlab-Medium;
-  src: url('fonts/ZillaSlab-Medium.ttf');
+  src: url('../fonts/ZillaSlab-Medium.ttf');
 }
 #path{
     fill:none;

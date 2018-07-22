@@ -27,12 +27,12 @@
 </g>
 
  
-<!--        <image id="portrait" style="overflow:visible;" width="4000" height="4000" xlink:href="../../img/morena/Morena.png"  transform="matrix(8.675000e-02 0 0 8.675000e-02 -9.428759e-06 55.8074)">
+<!--        <image id="portrait" style="overflow:visible;" width="4000" height="4000" xlink:href="../img/morena/Morena.png"  transform="matrix(8.675000e-02 0 0 8.675000e-02 -9.428759e-06 55.8074)">
  </image> -->
 
 <g id="legend_x5F_items">
  
-   <image style="overflow:visible;" width="1058" height="750" xlink:href="../../img/morena/Comment.png"  transform="matrix(4.988550e-02 0 0 4.988550e-02 36.99 552.3994)">
+   <image style="overflow:visible;" width="1058" height="750" xlink:href="../img/morena/Comment.png"  transform="matrix(4.988550e-02 0 0 4.988550e-02 36.99 552.3994)">
  </image>
  <g>
    <g>
@@ -144,27 +144,27 @@
  <text transform="matrix(1 0 0 1 89.7688 756.3925)" class="st011 st012">Plastic</text>
  <text transform="matrix(1 0 0 1 89.7689 809.9075)" class="st011 st012">Trash bag</text>
  
-   <image style="overflow:visible;" width="243" height="375" xlink:href="../../img/morena/Can.png"  transform="matrix(9.488724e-02 0 0 9.488724e-02 45.8528 616.1534)">
+   <image style="overflow:visible;" width="243" height="375" xlink:href="../img/morena/Can.png"  transform="matrix(9.488724e-02 0 0 9.488724e-02 45.8528 616.1534)">
  </image>
  
-   <image style="overflow:visible;" width="194" height="592" xlink:href="../../img/morena/Glass.png"  transform="matrix(8.958174e-02 0 0 8.958174e-02 48.6922 656.9255)">
+   <image style="overflow:visible;" width="194" height="592" xlink:href="../img/morena/Glass.png"  transform="matrix(8.958174e-02 0 0 8.958174e-02 48.6922 656.9255)">
  </image>
  
-   <image style="overflow:visible;" width="903" height="1034" xlink:href="../../img/morena/Bag_gray.png"  transform="matrix(5.155308e-02 0 0 5.155308e-02 31.684 776.9944)">
+   <image style="overflow:visible;" width="903" height="1034" xlink:href="../img/morena/trash_bag-5.png"  transform="matrix(5.155308e-02 0 0 5.155308e-02 31.684 776.9944)">
  </image>
  <text transform="matrix(1 0 0 1 89.7688 574.8998)" class="st011 st013">Morena’s comments</text>
  <g>
    <text transform="matrix(1 0 0 1 268.4122 574.8994)" class="st011 st013">Encounters</text>
  </g>
  
-   <image style="overflow:visible;" width="1030" height="1252" xlink:href="../../img/morena/Hand.png"  transform="matrix(3.433530e-02 0 0 3.433530e-02 221.6004 549.6126)">
+   <image style="overflow:visible;" width="1030" height="1252" xlink:href="../img/morena/Hand.png"  transform="matrix(3.433530e-02 0 0 3.433530e-02 221.6004 549.6126)">
  </image>
  <g>
    <rect x="182.8" y="784.6" class="st014" width="162.1" height="60.3"/>
    <text transform="matrix(1 0 0 1 182.8206 794.6461)"><tspan x="0" y="0" class="st011 st013">During the collection, canners’ </tspan><tspan x="0" y="14.4" class="st011 st013">units of measurement is a trash </tspan><tspan x="0" y="28.8" class="st011 st013">bag which on average contains </tspan><tspan x="0" y="43.2" class="st011 st013">150 items. </tspan></text>
  </g>
  
-   <image style="overflow:visible;" width="216" height="551" xlink:href="../../img/morena/Plastic.png"  transform="matrix(9.029038e-02 0 0 9.029038e-02 47.6302 715.9324)">
+   <image style="overflow:visible;" width="216" height="551" xlink:href="../img/morena/Plastic.png"  transform="matrix(9.029038e-02 0 0 9.029038e-02 47.6302 715.9324)">
  </image>
 </g>
 </svg>
