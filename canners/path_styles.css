@@ -1,41 +1,46 @@
 @font-face{
   font-family: Roboto-Bold;
-  src: url('../fonts/Roboto-Bold.ttf');
+  src: url('../../fonts/Roboto-Bold.ttf');
 }
 @font-face{
   font-family: Roboto-BoldItalic;
-  src: url('../fonts/Roboto-BoldItalic.ttf');
+  src: url('../../fonts/Roboto-BoldItalic.ttf');
 }
 @font-face{
   font-family: Roboto-Light;
-  src: url('../fonts/Roboto-Light.ttf');
+  src: url('../../fonts/Roboto-Light.ttf');
 }
 @font-face{
   font-family: Roboto-Regular;
-  src: url('../fonts/Roboto-Regular.ttf');
+  src: url('../../fonts/Roboto-Regular.ttf');
 }
 
 @font-face{
   font-family: ZillaSlab-Medium;
-  src: url('../fonts/ZillaSlab-Medium.ttf');
+  src: url('../../fonts/ZillaSlab-Medium.ttf');
 }
 #path{
     fill:none;
     stroke:#999999;
-    stroke-width:2;
+    stroke-width:3px;
     stroke-linecap:round;
     stroke-linejoin:round;  
   }
   #bkg_path{
     fill:none;
     stroke:#999999;
+    stroke-width:2px;
     stroke-linecap:round;
     stroke-linejoin:round;
-    opacity: 0.1;
+    opacity: 0.15;
   }
-  #equipment > *,#icons > *, #text_labels > *,
+ /* #icons > *, #text_labels > *,
   #mile_marks > *,#thoughts > *,#encounters > *,
   #collections > *,#highlights > *,#observations_frame > *,
   #observations > *,#progress_map_bkg > *,#progress_map_comp > *{
    visibility:hidden;
+  }*/
+
+  #content > *{
+    visibility: hidden;
   }
