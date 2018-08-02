@@ -20,7 +20,7 @@
 	.st14{font-family:'AmaticSC-Regular';}
 	.st15{font-size:32px;}
 </style>
-<style>@import url('../legend_styles.css')</style>
+<style>@import url('../svg_styles.css')</style>
 <g id="legend_icons">
 	<polyline class="st0" points="85.2,885.1 85.2,896.1 44,896.1 44.1,885.1 	"/>
 	<g class="st1">

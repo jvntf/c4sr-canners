@@ -9,7 +9,7 @@
 	.st3{font-family:'Roboto-Regular';}
 	.st4{font-size:18px;}
 </style>
-<style>@import url('../legend_styles.css')</style>
+<style>@import url('../svg_styles.css')</style>
 <text transform="matrix(1 0 0 1 15.4775 161.4718)" class="st0 st1">Does not can during the winter</text>
 <text transform="matrix(1 0 0 1 399.4775 161.4718)" class="st0 st1">Does not can during the winter</text>
 <text transform="matrix(1 0 0 1 783.4775 161.4718)" class="st0 st1">Does not can during the winter</text>

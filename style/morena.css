@@ -15,48 +15,63 @@
 
 
  #menu {
-    font-family: 'Amatic SC', cursive;
-
-    height: 12vh;
-    border-bottom: 1px solid black;
-
-    background: #F4F2F1;
-
-        overflow: hidden;
-
-        position: fixed;
-        top: 0;
-        width: 100%;
-  
-
-
+     font-family: 'Amatic SC', cursive;
+     height: 12vh;
+     border-bottom: 1px solid black;
+     background: #F4F2F1;
+     overflow: hidden;
+     position: fixed;
+     top: 0;
+     width: 100%;
  }
- #buttons{
-    width:45%;
-    margin:0 auto;
-    text-align: justify;
 
+ #buttons {
+     width: 45%;
+     margin: 0 auto;
+     text-align: justify;
  }
- .menu_button  {
-    font-size: 4vh;
-    display: inline-block;
-    margin:3vh 0;
-    
+ .menu_button {
+     font-size: 4vh;
+     display: inline-block;
+     margin: 3vh 0;
  }
+
  .menu_button:hover {
-    font-weight:bold;
+     font-weight: bold;
+     text-decoration: underline;
+     cursor: pointer;
+ }
+ #buttons:after {
+     content: "";
+     width: 100%;
+     display: inline-block;
+ }
+ #dropdown{
+    width:15%;
+    left:37.5%;
+    top:12vh;
+    height:40vh;
+    position: fixed;
+    z-index: 100;
+    background: #F4F2F1;
+    display: none;
+ }
+ .drop_btn{
+    height:4.3vh;
+    text-align: center;
+    padding:0.7vh 0px;
+    font-size:3vh;
+    outline:0.5px solid black;
+    overflow: hidden;
+ }
+ .drop_btn:hover{
+    font-weight: bold;
     text-decoration: underline;
     cursor: pointer;
-
  }
 
- #buttons:after {
-    content: "";
-    width: 100%;
-    display: inline-block;
- }
  #container {
-    margin-top:12vh;
+     margin-top: 12vh;
      margin-bottom: 15vh;
      float: right;
      width: 69vw;
@@ -64,16 +79,17 @@
      /*position: relative;*/
      /*display: inline-block;*/
  }
- #data{
-  float:right;
-  width: 69vw;
-  overflow: auto;
-  position: relative;
-  display: inline-block;
+
+ #data {
+     float: right;
+     width: 69vw;
+     overflow: auto;
+     position: relative;
+     display: inline-block;
  }
 
  #legend {
-        top:12vh;
+     top: 12vh;
      left: 0;
      width: 29vw;
      display: inline-block;

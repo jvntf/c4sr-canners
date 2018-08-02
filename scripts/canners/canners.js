@@ -4,8 +4,35 @@ window.onload=function(){
     $('body').css({display:'block'});
     
     loadPath().then(loadlegend).then(loadDataPage);
+    $('body').click(()=> closeDrop());
+    $('#canners_menu').click((e)=> dropDown(e));
+    // $('#dropdown').click(function(e){
+    //     e.stopPropagation();
+    // });
 }
 
+let reload = function(canner){
+    var old = window.location.href;
+    window.location.href = old.split("!")[0]+"!"+canner;
+    window.location.reload(true);
+}
+let dropDown = function(e){
+    e.stopPropagation();
+    var $menu = $("#dropdown");
+    if ($menu.attr("state")==="open"){
+        $menu.attr("state","closed").fadeOut();
+    }else if($menu.attr("state")==="closed"){
+        $menu.attr("state","open").fadeIn();
+        console.log($menu)
+    }
+}
+let closeDrop = function(){
+    // e.stopPropagation();
+    var $menu = $("#dropdown");
+    if ($menu.attr("state")==="open"){
+        $menu.attr("state","closed").fadeOut();
+    }
+}
 let loadPath = function(){
     return new Promise(function(resolve,reject){
         var canner = document.URL.split("!")[1];

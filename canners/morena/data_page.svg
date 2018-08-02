@@ -12,7 +12,7 @@
 	.st2{font-family:'Roboto-Regular';}
 	.st3{font-size:18px;}
 </style>
-<style>@import url('../legend_styles.css')</style>
+<style>@import url('../svg_styles.css')</style>
 <g id="Legend_text">
 </g>
 <g id="Legend_x5F_img">

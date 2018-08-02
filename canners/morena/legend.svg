@@ -22,7 +22,7 @@
 	.st16{font-family:'Roboto-Regular';}
 	.st17{font-size:13.1545px;}
 </style>
-<style>@import url('../legend_styles.css')</style>
+<style>@import url('../svg_styles.css')</style>
 <g id="legend_icons">
 	<g class="st1">
 		<text transform="matrix(1 0 0 1 -7.3285 556.8654)" class="st2 st3">1 Glass</text>

@@ -20,7 +20,7 @@
 	.st14{font-size:10px;}
 	.st15{fill:#D7DED5;}
 </style>
-<style>@import url('../legend_styles.css')</style>
+<style>@import url('../svg_styles.css')</style>
 <g id="header">
 	
 		<image style="overflow:visible;" width="3560" height="3291" xlink:href="../../img/angel/legend/Angel.png"  transform="matrix(-9.296372e-02 0 0 9.296372e-02 344.9754 52.09)">

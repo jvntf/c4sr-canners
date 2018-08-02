@@ -7,7 +7,7 @@
 	.st1{font-family:'Roboto-Regular';}
 	.st2{font-size:18px;}
 </style>
-<style>@import url('../legend_styles.css')</style>
+<style>@import url('../svg_styles.css')</style>
 <g>
 	
 		<image style="overflow:visible;" width="6000" height="4000" xlink:href="../../img/angel/data_page/Angel_Jan_2017.png"  transform="matrix(6.367606e-02 0 0 6.367606e-02 -12.6663 23.0148)">

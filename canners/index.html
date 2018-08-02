@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
     <title>ScrollMagic #1 Setup</title>
     <script src="../scripts/jquery.min.js"></script>
     <script src="../scripts/TweenMax.min.js"></script>
@@ -25,10 +26,21 @@
 <body>
     <header id="menu">
         <div id="buttons">
-            <div class="menu_button">WE CAN NYC</div>
-            <div class="menu_button">CANNERS</div>
+            <div class="menu_button"><a href="/canners/index.html#!morena" onclick="reload('morena')">WE CAN NYC</a></div>
+            <div class="menu_button" id="canners_menu">CANNERS
+
+            </div>
             <div class="menu_button">CANNING</div>
             <div class="menu_button">ABOUT</div>
+            <div id="dropdown" state="closed">
+                <div class="drop_btn" onclick="reload('morena')">MORENA</div>
+                <div class="drop_btn" onclick="reload('venzen')">VENZEN</div>
+                <div class="drop_btn" onclick="reload('angel')">ANGEL</div>
+                <div class="drop_btn" onclick="reload('morena')">MA</div>
+                <div class="drop_btn" onclick="reload('morena')">PEDRO Y JOSEFA</div>
+                <div class="drop_btn" onclick="reload('morena')">LYDIA</div>
+                <div class="drop_btn" onclick="reload('morena')">WALTER</div>
+            </div>
         </div>
     </header>
     <div id="legend">

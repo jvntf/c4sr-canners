@@ -1,11 +1,4 @@
-@font-face{
-  font-family: Roboto-Bold;
-  src: url('../../fonts/Roboto-Bold.ttf');
-}
-@font-face{
-  font-family: Roboto-BoldItalic;
-  src: url('../../fonts/Roboto-BoldItalic.ttf');
-}
+
 @font-face{
   font-family: Roboto-Light;
   src: url('../../fonts/Roboto-Light.ttf');
@@ -14,10 +7,26 @@
   font-family: Roboto-Regular;
   src: url('../../fonts/Roboto-Regular.ttf');
 }
+@font-face{
+  font-family: Roboto-Bold;
+  src: url('../../fonts/Roboto-Bold.ttf');
+}
+@font-face{
+  font-family: Roboto-BoldItalic;
+  src: url('../../fonts/Roboto-BoldItalic.ttf');
+}
 
 @font-face{
   font-family: ZillaSlab-Medium;
   src: url('../../fonts/ZillaSlab-Medium.ttf');
+}
+@font-face {
+    font-family: AmaticSC-Regular;
+    src: url('../../fonts/AmaticSC-Regular.ttf');
+}
+
+#data_legend_icons {
+    opacity: 0;
 }
 #path{
     fill:none;
