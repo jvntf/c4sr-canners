@@ -1,19 +1,20 @@
 var pathDoc, path_obj, path, controller, currentCanner;
+var legendDoc, legend_obj;
 
 window.onload=function(){
     $('body').css({display:'block'});
     loadPath().then(loadlegend).then(loadCameraImages).then(loadDataPage);
-    // $('body').click(()=> closeDrop());
     $(document).click(function(e) {
         closeDrop();
         closeImgs();
     })
     $('#canners_menu').click((e)=> dropDown(e));
-    // $('#dropdown').click(function(e){
-    //     e.stopPropagation();
-    // });
 }
-
+window.onresize = function(){
+    var loc = legendDoc.getElementById("sc-image").getBoundingClientRect();
+    positionSC(loc);
+    console.log("res")
+}
 let reload = function(canner){
     var old = window.location.href;
     window.location.href = old.split("!")[0]+"!"+canner;
@@ -26,7 +27,6 @@ let dropDown = function(e){
         $menu.attr("state","closed").fadeOut();
     }else if($menu.attr("state")==="closed"){
         $menu.attr("state","open").fadeIn();
-        console.log($menu)
     }
 }
 let closeDrop = function(){
@@ -71,6 +71,8 @@ let loadlegend = function(){
         obj.onload = () => {
             var scLoc = obj.contentDocument.getElementById("sc-image").getBoundingClientRect();
             loadSC(scLoc);
+            legend_obj = obj;
+            legendDoc = obj.contentDocument;
             makeDataPageTweens();
             $(obj.contentDocument).click(function(e) {
                 closeDrop();
@@ -100,7 +102,8 @@ let loadCameraImages = function(){
 
                 img[0].onclick = function(e){
                     e.stopPropagation()
-                    $(this).css({"opacity":1});
+                    closeImgs();
+                    $(this).animate({"opacity":1});
                 }
             } else{
                 img = $("<video>",{
@@ -116,8 +119,8 @@ let loadCameraImages = function(){
             }
             img.css({
                 position:"absolute",
-                top: cameras[index].getBoundingClientRect().y +offset.y + header.y + window.scrollY,
-                left: cameras[index].getBoundingClientRect().left +offset.left,
+                top: cameras[index].getBoundingClientRect().y +offset.y + header.y + window.scrollY + 5,
+                left: cameras[index].getBoundingClientRect().left +offset.left + 5,
                 opacity:0
 
             });
@@ -129,8 +132,14 @@ let loadCameraImages = function(){
     })
 }
 let closeImgs = function(){
-    console.log("ewfwef")
+
     $(".camPopImg").animate({"opacity":0});
+    for(let vid of $('video').toArray()){
+        console.log(vid)
+        if (vid){
+            vid.pause();
+        }
+    }
 }
 let loadDataPage = function(){
     return new Promise(function(resolve,reject){
@@ -160,12 +169,10 @@ let preparePath = function(path){
 }
 let open = function(index){
     var imgs = document.getElementsByClassName(".cameraImage");
-    console.log(imgs);
-  // [index].css("display","block")
-  //       .animate({width:"150px"});
+
 }
 
-function makeAllTweens(){
+let makeAllTweens = function(){
     return new Promise(function(resolve, reject){
                 // console.log("makeAll")
         makePathTween();
@@ -189,9 +196,8 @@ function makeAllTweens(){
     //             // .addIndicators() // add indicators (requires plugin)
     //             .addTo(controller);
     // })   
-
 }
-function makeAppear(layer){
+let makeAppear = function(layer){
 
 
     var currentLayer = pathDoc.getElementById(layer).childNodes
@@ -217,7 +223,7 @@ function makeAppear(layer){
     })
 
 }
-function makePathTween(){
+let makePathTween = function(){
     var pathTween = new TimelineMax()
                   .add(TweenMax.to(path,  1,{strokeDashoffset: 0, ease:Linear.easeNone, useFrames:true})); // draw draw dot for 0.1
                           // 
@@ -230,7 +236,7 @@ function makePathTween(){
             .addIndicators() // add indicators (requires plugin)
             .addTo(controller);
 }
-function makeDataPageTweens(){
+let makeDataPageTweens = function(){
     var leg_obj = document.getElementById("legend_obj").contentDocument.getElementById("legend_icons");
     var data_leg_obj = document.getElementById("legend_obj").contentDocument.getElementById("data_legend_icons");
     // console.log(leg_obj, data_leg_obj)
@@ -245,20 +251,24 @@ function makeDataPageTweens(){
             // .addIndicators() // add indicators (requires plugin)
             .addTo(controller);
 }
-function loadSC(location){
-    var offset = $("#legend_obj")[0].getBoundingClientRect();
+let loadSC = function(location){
     $("#sc")
     .attr("src", cannerAttr[currentCanner].sclink)
     .css({
         position:"fixed",
-        top:location.top+offset.top+"px",
-        left:location.left + offset.left +"px",
         zIndex:100,
         display:"block"
-
+    });
+    positionSC(location);
+}
+let positionSC = function(location){
+    var offset = $("#legend_obj")[0].getBoundingClientRect();
+    $("#sc").css({
+        top:location.top+offset.top+"px",
+        left:location.left + offset.left +"px",
     })
 }
-function makeClock(){
+let makeClock = function(){
     var theWindow = $(window);
     var winHeight = theWindow.height();
     var animDuration = winHeight * 4;

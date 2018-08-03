@@ -244,7 +244,7 @@
         </image>
         <image style="overflow:visible;" width="1030" height="1252" xlink:href="../../img/pablo_y_violeta/Hand.png" transform="matrix(4.316688e-02 0 0 4.316688e-02 1263.9318 1034.076)">
         </image>
-        <image style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/pablo_y_violeta/Camera.png" transform="matrix(3.302100e-02 0 0 3.302100e-02 1226.6069 1137.0889)">
+        <image class="cameraImage" style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/pablo_y_violeta/Camera.png" transform="matrix(3.302100e-02 0 0 3.302100e-02 1226.6069 1137.0889)">
         </image>
         <path class="st6" d="M1380.6,1349.7c2.1-1.4,4.3-2.7,6.4-4.1c-0.3,0.2-0.6,0.4-0.9,0.6c7.5-4.6,15-9.3,22.5-14
 		c4.4-2.8,8.9-5.6,13.4-8.3c1.3-0.8,2-2.3,0.6-3.5c-1.2-0.6-2.4-1-3.8-1.2c-1.3-0.3-2.6-0.4-3.9-0.2c-2.6,1.4-5.1,3.1-7.6,4.7
@@ -497,7 +497,7 @@
         </text>
         <image style="overflow:visible;" width="1058" height="750" xlink:href="../../img/pablo_y_violeta/Comment.png" transform="matrix(5.792760e-02 0 0 5.792760e-02 809.0066 2172.5032)">
         </image>
-        <image style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/pablo_y_violeta/Camera.png" transform="matrix(3.302100e-02 0 0 3.302100e-02 747.3427 2269.4949)">
+        <image class="cameraImage" style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/pablo_y_violeta/Camera.png" transform="matrix(3.302100e-02 0 0 3.302100e-02 747.3427 2269.4949)">
         </image>
         <rect x="966.4" y="2183.1" class="st4" width="339.9" height="69.2" />
         <text transform="matrix(1 0 0 1 966.373 2198.5217)">
@@ -552,7 +552,7 @@
             <tspan x="-10.2" y="43.2" class="st5 st2">who are canners and express concern </tspan>
             <tspan x="73.7" y="64.8" class="st5 st2">about the upcoming winter.</tspan>
         </text>
-        <image style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/pablo_y_violeta/Camera.png" transform="matrix(3.302100e-02 0 0 3.302100e-02 975.022 7217.5371)">
+        <image class="cameraImage" style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/pablo_y_violeta/Camera.png" transform="matrix(3.302100e-02 0 0 3.302100e-02 975.022 7217.5371)">
         </image>
         <rect x="271.6" y="7180.7" class="st8" width="283.5" height="138.1" />
         <rect x="292" y="7196.2" class="st4" width="242.6" height="99.2" />
@@ -664,7 +664,7 @@
         </image>
         <image style="overflow:visible;" width="973" height="1198" xlink:href="../../img/pablo_y_violeta/trash_bag-5.png" transform="matrix(6.129400e-02 0 0 6.129400e-02 362.2205 2424.866)">
         </image>
-        <image style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/pablo_y_violeta/Camera.png" transform="matrix(3.302100e-02 0 0 3.302100e-02 1473.8346 4286.9551)">
+        <image class="cameraImage" style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/pablo_y_violeta/Camera.png" transform="matrix(3.302100e-02 0 0 3.302100e-02 1473.8346 4286.9551)">
         </image>
         <image style="overflow:visible;" width="1030" height="1252" xlink:href="../../img/pablo_y_violeta/Hand.png" transform="matrix(4.316688e-02 0 0 4.316688e-02 1361.6265 732.8492)">
         </image>

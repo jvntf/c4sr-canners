@@ -473,13 +473,13 @@
 	</image>
 	<image style="overflow:visible;" width="973" height="1198" xlink:href="../../img/venzen/trash_bag-3.png"  transform="matrix(6.129400e-02 0 0 6.129400e-02 74.9054 4568.0645)">
 	</image>
-	<image style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/venzen/Camera.png"  transform="matrix(3.302100e-02 0 0 3.302100e-02 246.6737 2579.8826)">
+	<image class="cameraImage" style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/venzen/Camera.png"  transform="matrix(3.302100e-02 0 0 3.302100e-02 246.6737 2579.8826)">
 	</image>
-	<image style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/venzen/Camera.png"  transform="matrix(3.302100e-02 0 0 3.302100e-02 681.859 2752.0469)">
+	<image class="cameraImage" style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/venzen/Camera.png"  transform="matrix(3.302100e-02 0 0 3.302100e-02 681.859 2752.0469)">
 	</image>
-	<image style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/venzen/Camera.png"  transform="matrix(3.302100e-02 0 0 3.302100e-02 246.6737 3211.7395)">
+	<image class="cameraImage" style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/venzen/Camera.png"  transform="matrix(3.302100e-02 0 0 3.302100e-02 246.6737 3211.7395)">
 	</image>
-	<image style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/venzen/Camera.png"  transform="matrix(3.302100e-02 0 0 3.302100e-02 1044.0072 3643.6406)">
+	<image class="cameraImage" style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/venzen/Camera.png"  transform="matrix(3.302100e-02 0 0 3.302100e-02 1044.0072 3643.6406)">
 	</image>
 	<g>
 		<path d="M963.7,2376.6c0,4.6,0,9.3,0,13.9c0.6-0.3,1.2-0.6,1.8-0.9c-19.7,0-39.4,0-59.2,0c0.3,0.2,0.5,0.4,0.8,0.6

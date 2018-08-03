@@ -37,6 +37,11 @@ a{
     text-decoration: underline;
     cursor: pointer;
 }
+
+#goCanLink:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
 #buttons:after {
     content: "";
     width: 100%;
@@ -127,6 +132,9 @@ a{
 
 #page_container, svg{
 	position: relative;
+}
+#page_container{
+	margin-top:12vh;
 }
 path{
 	fill:none;

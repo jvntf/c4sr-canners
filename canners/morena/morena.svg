@@ -1613,22 +1613,22 @@
 		<image style="overflow:visible;enable-background:new    ;" width="150" height="106" xlink:href="../../img/morena/Comment.png"  transform="matrix(0.409 0 0 0.409 1522.9841 2174.5129)">
 	</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 1412.3843 -2259.5256)">
+		<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 1412.3843 -2259.5256)">
 	</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 1930.0925 -823.5461)">
+		<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 1930.0925 -823.5461)">
 	</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 919.7527 -1362.0237)">
+		<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 919.7527 -1362.0237)">
 	</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 1248.3157 -497.1892)">
+		<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 1248.3157 -497.1892)">
 	</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 1824.0837 1147.3221)">
+		<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 1824.0837 1147.3221)">
 	</image>
 	
-		<image style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 2054.7998 1442.5443)">
+		<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 2054.7998 1442.5443)">
 	</image>
 	<rect x="904.2" y="-2674.3" class="st12" width="283.5" height="138.1"/>
 	<rect x="904.2" y="-1996.7" class="st12" width="283.5" height="138.1"/>
