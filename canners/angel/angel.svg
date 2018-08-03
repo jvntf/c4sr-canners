@@ -93,9 +93,9 @@
 	</image>
 	<image style="overflow:visible;" width="1058" height="750" xlink:href="../../img/angel/Comment.png"  transform="matrix(5.792760e-02 0 0 5.792760e-02 1049.087 1217.571)">
 	</image>
-	<image style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/angel/Camera.png"  transform="matrix(3.302100e-02 0 0 3.302100e-02 1049.0881 1266.4397)">
+	<image class="cameraImage" style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/angel/Camera.png"  transform="matrix(3.302100e-02 0 0 3.302100e-02 1049.0881 1266.4397)">
 	</image>
-	<image style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/angel/Camera.png"  transform="matrix(3.302100e-02 0 0 3.302100e-02 1121.4547 2586.573)">
+	<image class="cameraImage" style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/angel/Camera.png"  transform="matrix(3.302100e-02 0 0 3.302100e-02 1121.4547 2586.573)">
 	</image>
 	<image style="overflow:visible;" width="973" height="1198" xlink:href="../../img/angel/trash_bag-5.png"  transform="matrix(6.129400e-02 0 0 6.129400e-02 1332.9683 1129.2814)">
 	</image>

@@ -25,10 +25,10 @@
 	
 		<image style="overflow:visible;" width="3560" height="3291" xlink:href="../../img/angel/legend/Angel.png"  transform="matrix(-9.296372e-02 0 0 9.296372e-02 344.9754 52.09)">
 	</image>
-	<polygon class="st0" points="42,444 67,457 42,469.9 	"/>
-	<text transform="matrix(1 0 0 1 82.8134 468.9994)" class="st1 st2">Meet Angel</text>
+<!-- 	<polygon class="st0" points="42,444 67,457 42,469.9 	"/> -->
+<!-- 	<text transform="matrix(1 0 0 1 82.8134 468.9994)" class="st1 st2">Meet Angel</text> -->
 	
-		<image style="overflow:visible;" width="602" height="79" xlink:href="../../img/angel/legend/Soundcloud.png"  transform="matrix(0.459 0 0 0.3578 41 398)">
+		<image id="sc-image" style="visibility:hidden; overflow:visible;" width="602" height="79" xlink:href="../../img/angel/legend/Soundcloud.png"  transform="matrix(0.459 0 0 0.3578 41 398)">
 	</image>
 </g>
 <g id="data_legend_icons">

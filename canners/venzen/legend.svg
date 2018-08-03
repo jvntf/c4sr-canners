@@ -173,10 +173,10 @@
 	
 		<image style="overflow:visible;" width="3099" height="2895" xlink:href="../../img/venzen/legend/Venzen.png"  transform="matrix(-0.1063 0 0 0.1063 344.1742 51.2277)">
 	</image>
-	<polygon class="st10" points="42,444 67,457 42,469.9 	"/>
-	<text transform="matrix(1 0 0 1 77.3324 469.9994)" class="st14 st15">Meet Venzen</text>
+<!-- 	<polygon class="st10" points="42,444 67,457 42,469.9 	"/> -->
+<!-- 	<text transform="matrix(1 0 0 1 77.3324 469.9994)" class="st14 st15">Meet Venzen</text> -->
 	
-		<image style="overflow:visible;" width="602" height="79" xlink:href="../../img/venzen/legend/Soundcloud.png"  transform="matrix(0.459 0 0 0.3578 41 398)">
+		<image id="sc-image" style="visibility:hidden;overflow:visible;" width="602" height="79" xlink:href="../../img/venzen/legend/Soundcloud.png"  transform="matrix(0.459 0 0 0.3578 41 398)">
 	</image>
 </g>
 </svg>

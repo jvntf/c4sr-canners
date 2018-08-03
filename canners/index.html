@@ -5,11 +5,14 @@
     <meta charset="utf-8">
     <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
     <title>ScrollMagic #1 Setup</title>
+    <link rel="stylesheet" type="text/css" href="../style/morena.css">
+
     <script src="../scripts/jquery.min.js"></script>
     <script src="../scripts/TweenMax.min.js"></script>
     <script src="../scripts/scrollmagic/uncompressed/ScrollMagic.js"></script>
     <script src="../scripts/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
     <script src="../scripts/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+    <script src="../scripts/canners/cannerAttr.js"></script>
     <script src="../scripts/canners/canners.js"></script>
     
     <!-- <script src="../../scripts/jQuery.scrollSpeed.js"></script> -->
@@ -20,13 +23,12 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">  -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../style/morena.css">
 </head>
 
 <body>
     <header id="menu">
         <div id="buttons">
-            <div class="menu_button"><a href="/canners/index.html#!morena" onclick="reload('morena')">WE CAN NYC</a></div>
+            <div class="menu_button"><a href="../">WE CAN NYC</a></div>
             <div class="menu_button" id="canners_menu">CANNERS
 
             </div>
@@ -36,14 +38,16 @@
                 <div class="drop_btn" onclick="reload('morena')">MORENA</div>
                 <div class="drop_btn" onclick="reload('venzen')">VENZEN</div>
                 <div class="drop_btn" onclick="reload('angel')">ANGEL</div>
-                <div class="drop_btn" onclick="reload('morena')">MA</div>
-                <div class="drop_btn" onclick="reload('morena')">PEDRO Y JOSEFA</div>
-                <div class="drop_btn" onclick="reload('morena')">LYDIA</div>
-                <div class="drop_btn" onclick="reload('morena')">WALTER</div>
+                <div class="drop_btn" onclick="reload('ma')">MA</div>
+                <div class="drop_btn" onclick="reload('pablo_y_violeta')">PABLO Y VIOLETA</div>
+                <div class="drop_btn" onclick="reload('maria')">MARIA</div>
+                <div class="drop_btn" onclick="reload('walter')">WALTER</div>
             </div>
         </div>
     </header>
     <div id="legend">
+        <iframe id="sc" width="15%" height="20" style="display: none" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480189960%3Fsecret_token%3Ds-cknB8&color=%23ff5500&inverse=false&auto_play=false&show_user=false"></iframe>
+
         <div id="trigger"></div>
         <!-- <img id="portrait" src="../../img/morena/Morena.png"/> -->
         <!--  <audio controls>
