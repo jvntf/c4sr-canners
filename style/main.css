@@ -8,26 +8,31 @@ a{
 	    color:black;
 }
 
+.menu_button.selected{
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
 #menu {
     font-family: 'Amatic SC', cursive;
     height: 12vh;
     border-bottom: 1px solid black;
     background: #F4F2F1;
-    overflow: hidden;
+    /*overflow: hidden;*/
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 12;
 }
-
-
 #buttons {
     width: 45%;
     margin: 0 auto;
     text-align: justify;
 }
 .menu_button {
+	width:24%;
     font-size: 4vh;
+    text-align: center;
     display: inline-block;
     margin: 3vh 0;
 }
@@ -38,31 +43,23 @@ a{
     cursor: pointer;
 }
 
-#goCanLink:hover{
-	font-weight: bold;
-	text-decoration: underline;
-}
-#buttons:after {
-    content: "";
-    width: 100%;
-    display: inline-block;
-}
 #dropdown{
-   width:15%;
+	position: fixed;
+/*   width:24%;
    left:37.5%;
-   top:12vh;
-   height:40vh;
-   position: fixed;
-   z-index: 100;
+   top:12vh;*/
+   border-bottom: 2px solid black;
+   /*height:40vh;*/
+   z-index: -1;
    background: #F4F2F1;
    display: none;
 }
 .drop_btn{
    height:4.3vh;
+   border-bottom: 0.5px solid black;
    text-align: center;
    padding:0.7vh 0px;
    font-size:3vh;
-   outline:0.5px solid black;
    overflow: hidden;
 }
 .drop_btn:hover{
@@ -70,46 +67,63 @@ a{
    text-decoration: underline;
    cursor: pointer;
 }
+#spacer{
+	height:8vh;
+}
 
+
+
+
+
+#goCanLink:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
 
 #legend{
 	position: fixed;
-	z-index: 20;
+	z-index: 13;
 	width:100%;
 	bottom:0;
 	background: #F4F2F1;
 	border-top: 1px solid black;
 	/*display: none;*/
 }
+
+
 #legend_toggle{
 	font-family: Roboto-Regular, sans-serif;
 	font-size: 1vw;
-	height:4vh;
+	height:2vh;
 	width:10vw;
 	bottom:2vw;
 	right:2vw;
+	padding:0.5vh 0.5vw;
 	position: fixed;
-	z-index: 25;
-	text-align: top;
+	z-index: 14;
+	background: #606060;
+	color:white;
 	/*border:1px solid black;*/
 }
 
-#legend_toggle div:nth-child(1){
+#legend_toggle > #label{
 	right:0;
-	margin-left: 1vw;
+	font-size: 2vh;
 	position: relative;
 	display: inline-block;
+	vertical-align: middle;
+
 	/*border: 1px solid black;*/
 }
 #triangle {
+    display: inline-block;
+    position: relative;
     width: 0;
     height: 0;
-    border-top: 1.6vh solid #999999;
-    border-left:1vh solid transparent;
-    border-right: 1vh solid transparent;
-    display: inline-block;
     left:0;
-    position: relative;
+    border-top: 1vh solid #ffffff;
+    border-left:0.8vh solid transparent;
+    border-right: 0.8vh solid transparent;
     transform: rotate(0deg);
 }
 
@@ -128,6 +142,8 @@ a{
 	cursor: pointer;
 
 }
+
+
 
 
 #page_container, svg{

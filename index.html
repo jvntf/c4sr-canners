@@ -2,23 +2,23 @@
 <html>
 <head>
 	<title>Canners</title>
-
 	<script src="scripts/jquery.min.js"></script>
-	<script type="text/javascript" src="scripts/homepage/main.js"></script>
-	<script type="text/javascript" src="scripts/jquery-drawsvg-master/src/jquery.drawsvg.js"></script>
-	<link rel="stylesheet" type="text/css" href="style/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<script type="text/javascript" src="scripts/homepage/main.js"></script>
+	<script type="text/javascript" src="scripts/jquery-drawsvg-master/src/jquery.drawsvg.js"></script>
 </head>
 <body>
 	<header id="menu">
 		<div id="buttons">
-			<div class="menu_button"><a href="/">WE CAN NYC</a></div>
-			<div class="menu_button" id="canners_menu">CANNERS</div>
-			<div class="menu_button">CANNING</div>
-			<div class="menu_button">ABOUT</div>
-			<div id="dropdown" state="closed">
+			<div class="menu_button selected page" id="homepage"><a href="/">WE CAN NYC</a></div>
+			<div class="menu_button drop" id="canners_menu">CANNERS</div>
+			<div class="menu_button page" id="canning_faq"><a href="/canning_faq">CANNING FAQ</a></div>
+			<div class="menu_button page" id="about"><a href="/about">ABOUT</a></div>
+			
+			<div id="dropdown" class="drop" state="closed">
+				<div id="spacer"></div>
 			    <div class="drop_btn" onclick="reload('morena')">MORENA</div>
 			    <div class="drop_btn" onclick="reload('venzen')">VENZEN</div>
 			    <div class="drop_btn" onclick="reload('angel')">ANGEL</div>
@@ -276,7 +276,7 @@
 				<image canner="pablo_y_violeta" class="data_portrait" style="overflow:visible;" width="60.66" height="66.10" xlink:href="img/homepage/data_portraits/pablo_y_violeta.png"  transform="matrix(1 0 0 1 847.7897 315.4883)">
 				</image>
 
-				<svg id="pedro_josefa_overlay">
+				<svg id="pablo_y_violeta_overlay">
 				<path canner="pablo_y_violeta" class="overlay_path" d="M1024.3,256.2c-1.9,0.4-2.4,1.2-1.5,2.2s1.3,2.3,1.3,3.9c0.1,1.6-0.2,3.1-0.7,4.5c-0.5,1.4-1.2,2.6-2.1,3.8
 					c-0.9,1.2-1.8,2.2-2.9,3.2c-1,1-1.9,2-2.8,3c-0.8,1-1.7,2.1-2.7,3.2s-1.9,2.3-2.7,3.4s-1.7,2.1-2.4,3s-1.3,1.6-1.6,1.9
 					c-0.3,0.4-0.9,1.2-1.9,2.6c-1,1.4-1.9,2.6-2.9,3.8c-0.9,1.1-2,2.1-3.3,3s-2.4,1.8-3.5,2.8c-1.1,1-2.3,1.9-3.7,2.7
@@ -644,7 +644,7 @@
 				<image canner="maria" class="data_portrait" style="overflow:visible;" width="55.51" height="64.67" xlink:href="img/homepage/data_portraits/maria.png"  transform="matrix(1 0 0 1 761.1592 203.8905)">
 				</image>
 
-				<svg id="lidia_overlay">
+				<svg id="maria_overlay">
 					<path canner="maria" class="overlay_path" d="M750.9,236.2c0.1,1.8,0.1,3.5,0.2,5.3c0,1.7,0.2,3.4,0.4,4.9c0.3,1.5,0,2.5-0.8,3c-0.8,0.5-1,1.3-0.6,2.5
 						c0.4,1.2,0.7,2.6,0.9,4.3c0.2,1.7-0.1,3.3-0.8,5c-0.7,1.7-1.5,3.3-2.2,4.9c-0.7,1.6-1.4,3.2-2.1,4.8c-0.7,1.6-1.4,3.2-2.1,4.9
 						s-1.4,3.2-2.2,4.8c-0.8,1.6-1.6,3.2-2.3,4.8c-0.8,1.6-1.5,3.2-2.2,4.8c-0.7,1.6-1.5,3.2-2.5,4.9c-1,1.7-0.8,3.2,0.4,4.4
@@ -1615,7 +1615,7 @@
 				<image canner="venzen" class="data_portrait" style="overflow:visible;" width="57.90" height="61.51" xlink:href="img/homepage/data_portraits/venzen.png"  transform="matrix(1 0 0 1 84.9687 1133.3849)">
 				</image>
 
-				<svg id="vincent_overlay">
+				<svg id="venzen_overlay">
 					<path canner="venzen" class="overlay_path" d="M78.2,1165.2c-0.9-0.2-1.3-0.7-0.9-1.1c0.4-0.4,1.5-0.6,2-0.3c0.5,0.2,0.4,0.8,0.2,1.5
 						c-0.2,0.7-0.4,1.4-0.5,2.2c-0.1,0.8-0.1,1.5,0.1,2.3c0.1,0.7,0.3,1.5,0.4,2.2s0.1,1.4,0.4,2.2c0.3,0.8,1,1.6,1,2
 						c0,0.3-0.7,0.1-1.4,0.3c-0.6,0.2-1.2,0.9-1.8,1.2c-0.7,0.3-1.5,0.3-2.1,0.6s-1.2,0.8-1.9,1.1c-0.7,0.3-1.4,0.5-2.1,0.8
@@ -1740,8 +1740,9 @@
 
 		<div id='legend_toggle'>
 			<div id="triangle"></div>
-			<div style='display: inline-block;'>Hide Legend</div>
+			<div id="label" style='display: inline-block;'>HIDE LEGEND</div>
 		</div>
+
 		<div id="legend" class="on">
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 				 viewBox="0 0 5015 615" style="enable-background:new 0 0 5015 615;" xml:space="preserve">

@@ -1,34 +1,24 @@
-let reload = function(canner){
-    var old = window.location.href;
-    window.location.href = old+"canners/index.html#!"+canner;
-    console.log(window.location.href)
-    // window.location.reload(true);
-}
-let dropDown = function(e){
-	console.log("dropdown")
-    e.stopPropagation();
-    var $menu = $("#dropdown");
-    if ($menu.attr("state")==="open"){
-        $menu.attr("state","closed").fadeOut();
-    }else if($menu.attr("state")==="closed"){
-        $menu.attr("state","open").fadeIn();
-        console.log($menu)
-    }
-}
-let closeDrop = function(){
-    // e.stopPropagation();
-    var $menu = $("#dropdown");
-    if ($menu.attr("state")==="open"){
-        $menu.attr("state","closed").fadeOut();
-    }
-}
+
 
 $(function(){
 	preparepaths();
-	$('#canners_menu').click((e)=> dropDown(e));
+	makeDropDownMenu();
+	// $('#canners_menu').click((e)=> dropDown(e));
+	// $('#canners_menu').hover( (e) => $("#dropdown").fadeIn(), (e)=> $("#dropdown").fadeOut());
+	$('#canners_menu').mouseenter( (e) => $("#dropdown").fadeIn());
+	$('#dropdown').mouseleave( (e) => {
+		var next = e.toElement || e.relatedTarget;
+		console.log(next)
+		if (next.id === "buttons"){
+			console.log("nothing");
+		}else{
+			$("#dropdown").fadeOut()
+		}
+	});
+	$(".page").mouseenter( () => $("#dropdown").fadeOut());
 
 	$(document).click(function(e) {
-		closeDrop()
+		// closeDrop()
 	    if(e.target.id !=='sound'){
 	    	$('#popup').remove();
 	    	$('#current').remove();
@@ -53,12 +43,12 @@ $(function(){
 	$("#legend_toggle").click(function(e){
 		if( $('#legend').attr('class')=='on'){
 			$('#legend').fadeOut().removeClass('on');
-			$('#legend_toggle div:nth-child(2)').html('Show Legend');
+			$('#legend_toggle div:nth-child(2)').html('SHOW LEGEND');
 			$('#triangle').addClass('On').removeClass('Off');
 
 		}else{
 			$('#legend').fadeIn().addClass('on');
-			$('#legend_toggle div:nth-child(2)').html('Hide Legend');
+			$('#legend_toggle div:nth-child(2)').html('HIDE LEGEND');
 			$('#triangle').removeClass('On').addClass('Off');
 		}
 	})
@@ -99,7 +89,6 @@ $(function(){
 							'stroke':'#222222'});
 
 
-		// console.log($(this).attr('canner'))
 
 		var mySvg = $(target).drawsvg({
 			duration:700,
@@ -114,17 +103,6 @@ $(function(){
 		var topVal = $(this).position().top
 		var leftVal = $(this).position().left
 		var rightVal= $(this).position().right
-		
-		// 
-
-		// $("this").insertAfter()
-		// $("#popup").offset({
-		// 	top:topVal,
-		// 	left:leftVal
-		// }).css({visibility:'visible'});
-		// 
-		// 
-		
 
 
 		$("<img id='current' class='data_portrait' src='img/homepage/data_portraits/"+name+".png'/>").insertAfter("#paths")
@@ -133,12 +111,12 @@ $(function(){
 				left:leftVal
 			})
 			.css({
-				transform:'scale(2)'
+				transform:'scale(2)',
+				zIndex:10
 			});
 
 		// $("<div")
 
-	console.log(name);
 	var popup = $("<div>",{id:"popup"})
 	var namediv = $("<div>",{
 		id:"name"}).html( name.replace(/_/g," ").toProperCase())
@@ -175,32 +153,6 @@ $(function(){
 					left:leftVal-$(window).width()*0.12
 				});
 	}
-	
-
-		// $("<div id='popup'>"+
-		// 		"<div id='name'>"+name[0].toUpperCase()+name.slice(1)+"</div>"+
-		// 		"<div id='popup_info'>"+ 
-
-		// 			"<div id='soundbite'>"+
-		// 				"<div id='play_pause'></div>"+
-		// 				"<div>MEET MORENA</div>"+
-		// 				 "<audio id='sound' controls>"+
-		// 				  "<source src='../../canners/morena/meet_morena.mp3' type='audio/mpeg'>"+
-		// 				  "Your browser does not support the audio tag."+
-		// 				"</audio>"+
-		// 			"</div>"+
-
-		// 			"<div id='link'>"+
-		// 				"<img src='img/morena/Cart.png'>"+
-		// 				"<a href='canners/index.html#!"+name+"'><div>GO CANNING</div></a>"+
-		// 			"</div>"+
-		// 		"</div>"+
-		// 	"</div>").insertAfter('#current').offset({
-		// 		top:topVal*1.1,
-		// 		left:leftVal-$(window).width()*0.12
-		// 	});
-
-
 	})
 
 	function preparepaths(){
@@ -213,11 +165,24 @@ $(function(){
 			$(this).attr('length',lineLength);
 		})
 	}
-
-
-
-
 })
+let makeDropDownMenu = function(){
+	var $menu = $("#canners_menu");
+	console.log($menu.width());
+	$("#dropdown").css({
+		top: 0 + "px",
+		left: $menu.offset().left + "px",
+		width: $menu.width() + "px"
+	})
+}
+let reload = function(canner){
+    var old = window.location.href;
+
+    console.log(window.location.origin)
+
+    window.location.href = window.location.origin+"/canners/index.html#!"+canner;
+    console.log(window.location.href)
+}
 
 String.prototype.toProperCase = function () {
     return this.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});

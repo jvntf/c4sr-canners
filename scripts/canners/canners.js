@@ -7,6 +7,7 @@ window.onload=function(){
     $(document).click(function(e) {
         closeDrop();
         closeImgs();
+        stopVids();
     })
     $('#canners_menu').click((e)=> dropDown(e));
 }
@@ -54,6 +55,7 @@ let loadPath = function(){
             $(pathDoc).click(function(e) {
                 closeDrop();
                 closeImgs();
+                stopVids();
             })
             resolve();
 
@@ -77,6 +79,7 @@ let loadlegend = function(){
             $(obj.contentDocument).click(function(e) {
                 closeDrop();
                 closeImgs();
+                stopVids();
             })
             resolve();
         }
@@ -97,30 +100,48 @@ let loadCameraImages = function(){
                 img = $("<img>",{
                     class:'camPopImg',
                     src:"../img/"+currentCanner+"/camera/"+file,
-                    style: "width:200px",
+                    style: "width:2vw",
                 }).appendTo('#container');
 
                 img[0].onclick = function(e){
                     e.stopPropagation()
-                    closeImgs();
-                    $(this).animate({"opacity":1});
+                    closeImgs().then( ()=>{
+                        stopVids();
+                        $(this).css({marginTop:"3.5vh", marginLeft:"2.5vw",width:"20vw"})
+                                .animate({"opacity":1});
+                    });
+                    
                 }
             } else{
                 img = $("<video>",{
                     controls:"",
                     class:'camPopImg',
                     src:"../img/"+currentCanner+"/camera/"+file,
-                    style: "width:200px",
+                    style: "width:10vw",
                 }).appendTo('#container');
-                img[0].onplay = function(e){
+
+              img[0].onclick = function(e){
                     e.stopPropagation()
-                    $(this).animate({"opacity":1});
+                $(this).css({marginTop:"3.5vh", marginLeft:"2.5vw",width:"20vw"})
+                        .animate({"opacity":1});
+                        this.play();
+                console.log("click")
+              }
+                img[0].onplay = function(e){
+                //     e.stopPropagation()
+                //     closeImgs().then( ()=>{
+                        $(this).css({marginTop:"3.5vh", marginLeft:"2.5vw",width:"20vw"})
+                                .animate({"opacity":1});
+      
+                //     });
                 }
+
             }
             img.css({
                 position:"absolute",
-                top: cameras[index].getBoundingClientRect().y +offset.y + header.y + window.scrollY + 5,
-                left: cameras[index].getBoundingClientRect().left +offset.left + 5,
+                top: cameras[index].getBoundingClientRect().y +offset.y + header.y + window.scrollY,
+                left: cameras[index].getBoundingClientRect().left +offset.left,
+                cursor:"pointer",
                 opacity:0
 
             });
@@ -132,8 +153,19 @@ let loadCameraImages = function(){
     })
 }
 let closeImgs = function(){
+    return new Promise(function(resolve,reject){
+        $(".camPopImg").animate({"opacity":0},
+            () => {
+                $(".camPopImg").css({marginTop:"0", marginLeft:"0",width:"2vw"})
+                resolve(); 
+            })
+            // .css({marginTop:"0", marginLeft:"0",width:"2vw"})
+        
+    })
+    
+}
 
-    $(".camPopImg").animate({"opacity":0});
+let stopVids = function(){
     for(let vid of $('video').toArray()){
         console.log(vid)
         if (vid){
@@ -151,6 +183,7 @@ let loadDataPage = function(){
             $(obj.contentDocument).click(function(e) {
                 closeDrop();
                 closeImgs();
+                stopVids();
             })
             resolve();
         }

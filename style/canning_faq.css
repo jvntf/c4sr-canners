@@ -1,0 +1,49 @@
+
+#content{
+	position: relative;
+	width:50%;
+	margin:0 auto;
+	top:18vh;
+	height:auto;
+	font-size: 2vh;
+	margin-bottom: 18vh;
+}
+#content a{
+	text-decoration: underline;
+}
+.row{
+	display: flex;
+	margin-bottom: 4vh;
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	/*height:auto;*/
+
+}
+.section_title{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	width:25%;
+	height:auto;
+	float:left;
+	text-align: right;
+
+}
+
+.text_block{
+	font-family: 'Roboto', sans-serif;
+	width:70%;
+	height:auto;
+	margin-left:5%;
+	float: right;
+	text-align: left;
+}
+
+#video{
+	width:85%;
+	margin:0 auto;
+}
+#caps_img{
+	width:60%;
+	margin:0 20%;
+	bottom:-10vh;
+}

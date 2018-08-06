@@ -40,12 +40,19 @@
      margin: 0 auto;
      text-align: justify;
  }
+
  .menu_button {
      font-size: 4vh;
      display: inline-block;
      margin: 3vh 0;
  }
 
+ .menu_button.selected{
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+ }
+ 
  .menu_button:hover {
      font-weight: bold;
      text-decoration: underline;
