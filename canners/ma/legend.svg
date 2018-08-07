@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 389.8 1080" style="enable-background:new 0 0 389.8 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#999999;}
+	.st1{font-family:'AmaticSC-Regular';}
+	.st2{font-size:32px;}
+	.st3{font-family:'Roboto-Regular';}
+	.st4{font-size:13.1545px;}
+</style>
+<style>@import url('../svg_styles.css')</style>
+
+<g id="header">
+	
+		<image style="overflow:visible;" width="3116" height="3504" xlink:href="../../img/ma/legend/Ma.png"  transform="matrix(-9.611680e-02 0 0 9.611680e-02 331.6477 36.9723)">
+	</image>
+	<!-- <polygon class="st0" points="42,444 67,457 42,469.9 	"/>
+	<text transform="matrix(1 0 0 1 77.3324 469.9994)" class="st1 st2">Meet Ma</text> -->
+	
+		<image id="sc-image" style="overflow:visible; visibility:hidden" width="602" height="79" xlink:href="../../img/ma/legend/Soundcloud.png"  transform="matrix(0.459 0 0 0.3578 41 398)">
+	</image>
+</g>
+<g id="legend_icons">
+</g>
+<g id="data_legend_icons">
+	<text transform="matrix(1 0 0 1 88.9579 570.1895)" class="st3 st4">Cans</text>
+	<text transform="matrix(1 0 0 1 88.9576 623.7046)" class="st3 st4">Glass</text>
+	<text transform="matrix(1 0 0 1 88.9579 677.2191)" class="st3 st4">Plastic</text>
+	<text transform="matrix(1 0 0 1 88.9581 734.6142)"><tspan x="0" y="0" class="st3 st4">10 unsorted items</tspan><tspan x="0" y="15.8" class="st3 st4">Each one can be redeemed for 5 cents</tspan></text>
+	<text transform="matrix(1 0 0 1 88.9579 802.6142)"><tspan x="0" y="0" class="st3 st4">10 sorted items</tspan><tspan x="0" y="15.8" class="st3 st4">Each one can be redeemed for 6 or 6.5 cents</tspan></text>
+	
+		<image style="overflow:visible;" width="243" height="375" xlink:href="../../img/ma/legend/Can.png"  transform="matrix(9.488724e-02 0 0 9.488724e-02 45.0419 536.9801)">
+	</image>
+	
+		<image style="overflow:visible;" width="194" height="592" xlink:href="../../img/ma/legend/Glass.png"  transform="matrix(8.958174e-02 0 0 8.958174e-02 47.8812 577.7521)">
+	</image>
+	
+		<image style="overflow:visible;" width="216" height="551" xlink:href="../../img/ma/legend/Plastic.png"  transform="matrix(9.272574e-02 0 0 9.272574e-02 46.5563 635.3765)">
+	</image>
+	
+		<image style="overflow:visible;" width="158" height="726" xlink:href="../../img/ma/legend/DataViz_legend_dots.png"  transform="matrix(0.1217 -9.739679e-03 9.739679e-03 0.1217 46.5591 725.4985)">
+	</image>
+</g>
+</svg>
