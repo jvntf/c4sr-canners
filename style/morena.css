@@ -88,10 +88,10 @@
  }
 
  #container {
-     margin-top: 42vh;
+     margin-top: 30vh;
      margin-bottom: 12vh;
      float: right;
-     width: 69vw;
+     width: 81.5vw;
  }
 
  #data {
@@ -105,7 +105,7 @@
  #legend {
      top: 12vh;
      left: 0;
-     width: 29vw;
+     width:4vw;
      display: inline-block;
      position: fixed;
  }

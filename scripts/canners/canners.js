@@ -20,13 +20,14 @@ window.onload=function(){
         }
     });
     $(".page").mouseenter( () => $("#dropdown").fadeOut());
-    // $('#canners_menu').click((e)=> dropDown(e));
 }
 window.onresize = function(){
     var loc = legendDoc.getElementById("sc-image").getBoundingClientRect();
     positionSC(loc);
     console.log("res")
 }
+
+
 let reload = function(canner){
     var old = window.location.href;
     window.location.href = old.split("!")[0]+"!"+canner;
@@ -51,6 +52,7 @@ let closeDrop = function(){
 let loadPath = function(){
     return new Promise(function(resolve,reject){
         currentCanner = document.URL.split("!")[1];
+        document.title = currentCanner.charAt(0).toUpperCase() + currentCanner.slice(1);
         var obj = document.createElement('object');
         obj.data = currentCanner+'/'+currentCanner+'.svg';
         obj.id = 'path_obj';
@@ -104,7 +106,6 @@ let loadCameraImages = function(){
 
         var offset = $("#path_obj")[0].getBoundingClientRect();
         var header = $("#menu")[0].getBoundingClientRect();
-        console.log(cameras);
         for(let [index,file] of files.entries()){
             let img;
             if (file.includes("jpg")){
@@ -204,7 +205,6 @@ let loadDataPage = function(){
 
 let preparePath = function(path){
     return new Promise((resolve, reject) => {
-        console.log(path);
         var lineLength = path.getTotalLength();
         path.setAttribute("stroke-dasharray", lineLength);
         path.setAttribute("stroke-dashoffset", lineLength);

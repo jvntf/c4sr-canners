@@ -1,12 +1,11 @@
-
 #content{
 	position: relative;
-	width:50%;
+	width:52%;
 	margin:0 auto;
 	top:18vh;
 	height:auto;
 	font-size: 2vh;
-	margin-bottom: 18vh;
+	margin-bottom: 33vh;
 }
 #content a{
 	text-decoration: underline;
