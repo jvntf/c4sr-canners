@@ -5,11 +5,22 @@ window.onload=function(){
     $('body').css({display:'block'});
     loadPath().then(loadlegend).then(loadCameraImages).then(loadDataPage);
     $(document).click(function(e) {
-        closeDrop();
+        // closeDrop();
         closeImgs();
         stopVids();
     })
-    $('#canners_menu').click((e)=> dropDown(e));
+    $('#canners_menu').mouseenter( (e) => $("#dropdown").fadeIn());
+    $('#dropdown').mouseleave( (e) => {
+        var next = e.toElement || e.relatedTarget;
+        console.log(next)
+        if (next.id === "buttons"){
+            console.log("nothing");
+        }else{
+            $("#dropdown").fadeOut()
+        }
+    });
+    $(".page").mouseenter( () => $("#dropdown").fadeOut());
+    // $('#canners_menu').click((e)=> dropDown(e));
 }
 window.onresize = function(){
     var loc = legendDoc.getElementById("sc-image").getBoundingClientRect();

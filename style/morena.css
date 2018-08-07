@@ -72,13 +72,13 @@
     z-index: 100;
     background: #F4F2F1;
     display: none;
+    border-bottom: 2px solid black;
  }
  .drop_btn{
     height:4.3vh;
     text-align: center;
     padding:0.7vh 0px;
     font-size:3vh;
-    outline:0.5px solid black;
     overflow: hidden;
  }
  .drop_btn:hover{
