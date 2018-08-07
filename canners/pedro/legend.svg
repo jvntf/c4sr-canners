@@ -22,7 +22,7 @@
 	<!-- <polygon class="st0" points="42,444 67,457 42,469.9 	"/>
 	<text transform="matrix(1 0 0 1 77.3324 469.9994)" class="st1 st2">Meet Walter</text> -->
 	
-		<image id="sc-image" style="overflow:visible;" width="602" height="79" xlink:href="../../img/pedro/legend/Soundcloud.png"  transform="matrix(0.459 0 0 0.3578 41 398)">
+		<image id="sc-image" style="visiblity:hidden; overflow:visible;" width="602" height="79" xlink:href="../../img/pedro/legend/Soundcloud.png"  transform="matrix(0.459 0 0 0.3578 41 398)">
 	</image>
 </g>
 <g id="legend_icons">

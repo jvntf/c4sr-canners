@@ -150,3 +150,7 @@
      position: relative;
      visibility: visible;
  }
+
+ .camPopImg,.slides{
+    box-shadow: 5px 5px 5px #606060
+ }

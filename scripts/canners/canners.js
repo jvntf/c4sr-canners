@@ -122,12 +122,69 @@ let loadCameraImages = function(){
                     e.stopPropagation()
                     closeImgs().then( ()=>{
                         stopVids();
-                        $(this).css({marginTop:"3.5vh", marginLeft:"2.5vw",width:"20vw"})
+                        $(this).css({marginTop:"3.5vh",width:"20vw"})
                                 .animate({"opacity":1});
+                        if (window.screen.width - e.target.getBoundingClientRect().x < 400){
+                            $(this).css({marginLeft:"-22.5vw"});
+                        } else{
+                            $(this).css({marginLeft:"2.5vw"});
+                        }
                     });
-                    
                 }
-            } else{
+            } 
+            else if(file.includes("folder")){
+                let num = Number(file.split('-')[1])
+                var subimgs = []
+                $("<div>",{id:'imgfolder'+index,class:"folder"})
+                    .css({display:"none",
+                        position:"absolute",
+                        top: cameras[index].getBoundingClientRect().y +offset.y + header.y + window.scrollY+10,
+                        left: cameras[index].getBoundingClientRect().left +offset.left + 10,
+                        width:"20vw",
+                        })
+                    .attr("active",0)
+                    .appendTo("#container");
+
+                
+
+                for (let i = 0; i < num; i++) {
+                    console.log(i);
+                    subimgs[i] = $("<img>",{
+                        class:'slides',
+                        src:"../img/"+currentCanner+"/camera/"+file+"/"+i+".jpg",
+                        style: "display:none",
+                    }).appendTo('#imgfolder'+index);
+                }
+                subimgs[0].css({display:"block", width:"20vw"});
+                img = $("<div>",{
+                    class:'camPopImg',
+                    style: "width:2vw; height:2vw",
+                }).appendTo('#container');
+
+                img[0].onclick = function(e){
+                    e.stopPropagation()
+                    closeImgs().then( ()=>{
+                        stopVids();
+                        $('#imgfolder'+index).fadeIn();
+                        img[0].loop = setInterval(function(){
+                            var ind = Number($('#imgfolder'+ index).attr("active"));
+                            console.log(ind);
+                            var last = $('#imgfolder'+index +'>' +'img')[ind];
+                            $(last).css({display:"none",
+                                        width:"20vw"});
+                            if (ind+1 ===num){
+                                ind = -1
+                            }
+                            var vis = $('#imgfolder'+index +'>' +'img')[ind+1];
+                            $(vis).css({display:"block",
+                                        width:"20vw"});
+                            $('#imgfolder'+index).attr("active",ind+1)
+                        },2000)
+                    });
+                }
+
+            }
+            else{
                 img = $("<video>",{
                     controls:"",
                     class:'camPopImg',
@@ -171,7 +228,19 @@ let closeImgs = function(){
     return new Promise(function(resolve,reject){
         $(".camPopImg").animate({"opacity":0},
             () => {
-                $(".camPopImg").css({marginTop:"0", marginLeft:"0",width:"2vw"})
+                $(".camPopImg").css({marginTop:"0", marginLeft:"0",width:"2vw"});
+                var imgs = $('.camPopImg')
+                for (let i=0; i<imgs.length; i++){
+                    console.log(imgs[i].loop)
+                    console.log(typeof imgs[i].loop)
+                    if (typeof imgs[i].loop !== 'undefined'){
+                        clearInterval(imgs[i].loop)
+                        $('.folder').fadeOut();
+
+                    }
+                }
+
+                // $('.folder').
                 resolve(); 
             })
             // .css({marginTop:"0", marginLeft:"0",width:"2vw"})
@@ -280,7 +349,7 @@ let makePathTween = function(){
         tweenChanges: true, reverse: true})
             .setTween(pathTween)
             // .setPin('#legend')
-            .addIndicators() // add indicators (requires plugin)
+            // .addIndicators() // add indicators (requires plugin)
             .addTo(controller);
 }
 let makeDataPageTweens = function(){
@@ -295,7 +364,7 @@ let makeDataPageTweens = function(){
         duration:0,
         tweenChanges: true, reverse: true})
             .setTween(pathTween)
-            .addIndicators() // add indicators (requires plugin)
+            // .addIndicators() // add indicators (requires plugin)
             .addTo(controller);
 }
 let loadSC = function(location){

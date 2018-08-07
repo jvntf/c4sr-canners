@@ -167,12 +167,12 @@ path{
 
 #popup{
 	padding:1vw;
-	width:15vw;
+	width:17vw;
 	height:auto;
 	background:white;
 	position: relative;
 	z-index: 9;
-
+	box-shadow:5px 5px 5px #606060;
 	/*visibility:hidden;*/	
 	opacity: 0.85;
 /*	top:350px;

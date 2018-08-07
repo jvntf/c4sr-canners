@@ -118,6 +118,7 @@ $(function(){
 		// $("<div")
 
 	var popup = $("<div>",{id:"popup"})
+	popup.css({display:"none"});
 	var namediv = $("<div>",{
 		id:"name"}).html( name.replace(/_/g," ").toProperCase())
 	var scframe = $("<iframe>",{
@@ -126,8 +127,13 @@ $(function(){
 		height:"20",
 		scrolling:"no",
 		frameborder:"no",
-		src:"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480189960%3Fsecret_token%3Ds-cknB8&color=%23ff5500&inverse=false&auto_play=false&show_user=false"
+		src:cannerAttr[name].sclink
 	})
+	// scframe[0].onload = function(){
+	// 	// popup.css("visibility","visible")
+	// 	console.log("load");
+	// 	$('#popup').css("visibility","visible");
+	// }
 	var link = $("<div>",{id:"goCanLink"})
 	var cartimg = $("<img>").attr("src","img/morena/Cart.png")
 	.css({
@@ -141,6 +147,7 @@ $(function(){
 	link.append(cartimg).append(canlink);
 
 	popup.append(namediv).append(scframe).append(link);
+	popup.fadeIn();
 	
 	if(name==="venzen"){
 		popup.insertAfter("#current").offset({
@@ -150,9 +157,10 @@ $(function(){
 	}else{
 		popup.insertAfter("#current").offset({
 					top:topVal*1.1,
-					left:leftVal-$(window).width()*0.12
+					left:leftVal-$(window).width()*0.15
 				});
 	}
+
 	})
 
 	function preparepaths(){
@@ -166,6 +174,7 @@ $(function(){
 		})
 	}
 })
+
 let makeDropDownMenu = function(){
 	var $menu = $("#canners_menu");
 	console.log($menu.width());

@@ -1593,10 +1593,10 @@
 		<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 1414.7268 -2256.6282)">
 	</image>
 	
-		<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 1932.4351 -820.6486)">
-	</image>
 	
 		<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 922.0953 -1359.1262)">
+	</image>
+		<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 1932.4351 -820.6486)">
 	</image>
 	
 		<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/Camera.png"  transform="matrix(0.377 0 0 0.377 1250.6582 -494.2917)">
