@@ -102,8 +102,11 @@ let loadlegend = function(){
 let loadCameraImages = function(){
     return new Promise(function(resolve,reject){
         var files = cannerAttr[currentCanner].images;
-        var cameras = pathDoc.getElementsByClassName("cameraImage");
 
+        var cameras = pathDoc.getElementsByClassName("cameraImage");
+        if (cameras.length===0){
+            resolve();
+        }
         var offset = $("#path_obj")[0].getBoundingClientRect();
         var header = $("#menu")[0].getBoundingClientRect();
         for(let [index,file] of files.entries()){
@@ -292,7 +295,7 @@ let makeDataPageTweens = function(){
         duration:0,
         tweenChanges: true, reverse: true})
             .setTween(pathTween)
-            // .addIndicators() // add indicators (requires plugin)
+            .addIndicators() // add indicators (requires plugin)
             .addTo(controller);
 }
 let loadSC = function(location){
