@@ -189,7 +189,9 @@
 </g>
 <g>
 	<text transform="matrix(1 0 0 1 40.6502 484.8654)" class="st12 st8 st14">&gt;</text>
-	<text transform="matrix(1 0 0 1 49.1502 484.8654)" class="st12 st8 st15"> OPEN SCRIPT</text>
+	<text transform="matrix(1 0 0 1 49.1502 484.8654)" class="st12 st8 st15">
+		<a href="../../img/venzen/transcript.pdf" download="Venzen_Transcript.pdf">OPEN SCRIPT</a>
+	</text>
 </g>
 <line class="st16" x1="40.2" y1="487" x2="351.2" y2="487"/>
 </svg>

@@ -188,7 +188,9 @@
 	</image>
 	<g>
 		<text transform="matrix(1 0 0 1 42.6502 481.8654)" class="st12 st8 st14">&gt;</text>
-		<text transform="matrix(1 0 0 1 51.1502 481.8654)" class="st12 st8 st15"> OPEN SCRIPT</text>
+		<text transform="matrix(1 0 0 1 51.1502 481.8654)" class="st12 st8 st15">
+			<a href="../../img/pablo_y_violeta/transcript.pdf" download="PabloVioleta_Transcript.pdf">OPEN SCRIPT</a>
+		</text>
 	</g>
 	<line class="st16" x1="42.2" y1="484" x2="353.2" y2="484"/>
 </g>

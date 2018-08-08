@@ -121,19 +121,31 @@ $(function(){
 	popup.css({display:"none"});
 	var namediv = $("<div>",{
 		id:"name"}).html( name.replace(/_/g," ").toProperCase())
-	var scframe = $("<iframe>",{
-		id:"sc",
-		width:"100%",
-		height:"20",
-		scrolling:"no",
-		frameborder:"no",
-		src:cannerAttr[name].sclink
-	})
-	// scframe[0].onload = function(){
-	// 	// popup.css("visibility","visible")
-	// 	console.log("load");
-	// 	$('#popup').css("visibility","visible");
-	// }
+
+	var scframe;
+
+	if(name==="morena"){
+		scframe = $("<div>",{
+            id:"sc",
+            width: "100%",
+            height: "20"
+        }).html("<a href='http://wnyc.org'>Meet Morena</a>")
+        .css({
+        	fontFamily:"Amatic SC",
+        	marginBottom:"2vh"
+        })
+	}
+	else{
+		scframe = $("<iframe>",{
+			id:"sc",
+			width:"100%",
+			height:"20",
+			scrolling:"no",
+			frameborder:"no",
+			src:cannerAttr[name].sclink
+		})
+	}
+
 	var link = $("<div>",{id:"goCanLink"})
 	var cartimg = $("<img>").attr("src","img/morena/Cart.png")
 	.css({

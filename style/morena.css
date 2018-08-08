@@ -65,7 +65,7 @@
  }
  #dropdown{
     width:15%;
-    left:37.5%;
+    left:36.5%;
     top:12vh;
     height:40vh;
     position: fixed;
@@ -91,12 +91,12 @@
      margin-top: 12vh;
      margin-bottom: 12vh;
      float: right;
-     width: 81.5vw;
+     width: 80vw;
  }
 
  #data {
      float: right;
-     width: 81.5vw;
+     width: 80vw;
      overflow: auto;
      position: relative;
      display: inline-block;

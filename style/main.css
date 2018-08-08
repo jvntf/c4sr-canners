@@ -3,6 +3,24 @@ html, body {
 	background: #F4F2F1;
 
 }
+#screen_cover{
+	background: #F4F2F1;
+	font-family: 'Amatic SC', cursive;
+	font-size: 6vh;
+	width:100vw;
+	height:100vh;
+	margin-top: -12vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	z-index: 20;
+}
+@media screen and (min-width: 600px){
+	#screen_cover{
+		display: none;
+	}
+}
 a{
 	text-decoration: none;
 	    color:black;

@@ -56,7 +56,9 @@
 </g>
 <g>
 	<text transform="matrix(1 0 0 1 40.6502 472.8654)" class="st3 st2 st6">&gt;</text>
-	<text transform="matrix(1 0 0 1 49.1502 472.8654)" class="st3 st2 st7"> OPEN SCRIPT</text>
+	<text transform="matrix(1 0 0 1 49.1502 472.8654)" class="st3 st2 st7">
+		<a href="../../img/pedro/transcript.pdf" download="Pedro_Transcript.pdf">OPEN SCRIPT</a>
+	</text>
 </g>
 <line class="st8" x1="40.2" y1="475" x2="351.2" y2="475"/>
 </svg>
