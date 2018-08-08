@@ -194,18 +194,20 @@ let loadCameraImages = function(){
 
               img[0].onclick = function(e){
                     e.stopPropagation()
-                $(this).css({marginTop:"3.5vh", marginLeft:"2.5vw",width:"20vw"})
-                        .animate({"opacity":1});
+                    // await stopVids();
+                       
+
+                        // $(this).css({marginTop:"3.5vh", marginLeft:"2.5vw",width:"20vw"})
+                        // .animate({"opacity":1});
                         this.play();
-                console.log("click")
               }
                 img[0].onplay = function(e){
                 //     e.stopPropagation()
-                //     closeImgs().then( ()=>{
+                    closeImgs().then( ()=>{
                         $(this).css({marginTop:"3.5vh", marginLeft:"2.5vw",width:"20vw"})
                                 .animate({"opacity":1});
       
-                //     });
+                    });
                 }
 
             }
@@ -231,12 +233,10 @@ let closeImgs = function(){
                 $(".camPopImg").css({marginTop:"0", marginLeft:"0",width:"2vw"});
                 var imgs = $('.camPopImg')
                 for (let i=0; i<imgs.length; i++){
-                    console.log(imgs[i].loop)
-                    console.log(typeof imgs[i].loop)
+   
                     if (typeof imgs[i].loop !== 'undefined'){
                         clearInterval(imgs[i].loop)
                         $('.folder').fadeOut();
-
                     }
                 }
 
@@ -250,12 +250,21 @@ let closeImgs = function(){
 }
 
 let stopVids = function(){
-    for(let vid of $('video').toArray()){
-        console.log(vid)
-        if (vid){
-            vid.pause();
+    return new Promise(function(resolve,reject){
+        var i = 0
+        for(let vid of $('video').toArray()){
+            console.log(vid)
+            if (vid){
+                vid.pause();
+            }
+            if (i === $('video').toArray().length-1){
+                resolve();
+            }else{
+                i+=1;
+            }
         }
-    }
+    })
+    
 }
 let loadDataPage = function(){
     return new Promise(function(resolve,reject){

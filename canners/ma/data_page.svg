@@ -6,9 +6,10 @@
 	.st0{fill:#333333;}
 	.st1{font-family:'Roboto-Regular';}
 	.st2{font-size:18px;}
-	.st3{font-family:'Roboto-Italic';}
+	.st3{font-family:'Roboto-Light';}
 	.st4{font-size:13.1545px;}
 </style>
+<style>@import url('../svg_styles.css')</style>
 <g id="data_illustrations">
 	<g>
 		
