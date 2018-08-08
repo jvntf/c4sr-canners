@@ -384,6 +384,22 @@ let loadSC = function(location){
         zIndex:100,
         display:"block"
     });
+
+    if (currentCanner==="morena"){
+        $("#sc").remove();
+        var link = $("<div>",{
+            id:"sc",
+            width: "15%",
+            height: "20"
+        }).html("<a href='http://wnyc.org'>WNYC.ORG</a>")
+        .css({
+            position:"fixed",
+            zIndex:100,
+            display:"block",
+            textAlign:"center"
+        })
+        .prependTo("#legend");
+    }
     positionSC(location);
 }
 let positionSC = function(location){
