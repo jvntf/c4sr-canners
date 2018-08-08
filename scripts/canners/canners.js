@@ -335,7 +335,8 @@ let makeAppear = function(layer){
             }
         } else{
             var currentLayerTween = new TimelineMax()
-                          .add(TweenMax.to(item, 1 , {visibility:'visible', useFrames:true})); // draw draw dot for 0.1
+                          .add(TweenMax.to(item, 1 , {visibility:'visible', useFrames:true}))
+                           // draw draw dot for 0.1
                                   // 
             var currentLayerScene = new ScrollMagic.Scene({triggerElement: path_obj, triggerHook: 0.7,
                 duration:0, offset: item.getBoundingClientRect().top,
@@ -350,7 +351,8 @@ let makeAppear = function(layer){
 }
 let makePathTween = function(){
     var pathTween = new TimelineMax()
-                  .add(TweenMax.to(path,  1,{strokeDashoffset: 0, ease:Linear.easeNone, useFrames:true})); // draw draw dot for 0.1
+                  .add(TweenMax.to(path,  1,{strokeDashoffset: 0, ease:Linear.easeNone, useFrames:true}))
+
                           // 
     var pathScene = new ScrollMagic.Scene({triggerElement: "#path_obj", triggerHook: 0.9,
         duration:path.getBoundingClientRect().height,
@@ -360,6 +362,21 @@ let makePathTween = function(){
             // .setPin('#legend')
             // .addIndicators() // add indicators (requires plugin)
             .addTo(controller);
+
+    var scrollTween = new TimelineMax()
+                  .add(TweenMax.to('#scroll',  1,{visibility: "hidden", ease:Linear.easeNone, useFrames:true}))
+
+                          // 
+    var scrollScene = new ScrollMagic.Scene({triggerElement: "#path_obj", triggerHook: 0.68,
+        duration:0,
+        offset: path.getBoundingClientRect().top,
+        tweenChanges: true, reverse: true})
+            .setTween(scrollTween)
+            // .setPin('#legend')
+            // .addIndicators() // add indicators (requires plugin)
+            .addTo(controller);
+
+
 }
 let makeDataPageTweens = function(){
     var leg_obj = document.getElementById("legend_obj").contentDocument.getElementById("legend_icons");
