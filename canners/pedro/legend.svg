@@ -3,14 +3,15 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 389.8 1080" style="enable-background:new 0 0 389.8 1080;" xml:space="preserve">
 <style type="text/css">
-	.st0{display:none;}
-	.st1{display:inline;}
-	.st2{font-family:'Roboto-Regular';}
-	.st3{font-size:16.8px;}
-	.st4{font-family:'Roboto-BoldItalic';}
-	.st5{fill:#999999;}
-	.st6{font-size:14px;}
-	.st7{fill:#D7DED5;}
+	.st0{font-family:'Roboto-Regular';}
+	.st1{font-size:16.8px;}
+	.st2{font-family:'Roboto-BoldItalic';}
+	.st3{fill:#999999;}
+	.st4{font-size:14px;}
+	.st5{fill:#D7DED5;}
+	.st6{font-size:16px;}
+	.st7{font-size:10px;}
+	.st8{fill:none;stroke:#999999;stroke-width:0.75;stroke-miterlimit:10;}
 </style>
 <style>@import url('../svg_styles.css')</style>
 <g id="header">
@@ -21,36 +22,41 @@
 		<image style="visibility:hidden;overflow:visible;enable-background:new    ;" width="602" height="79" id="sc-image" xlink:href="../../img/pedro/legend/Soundcloud.png"  transform="matrix(0.459 0 0 0.3578 41 398)">
 	</image>
 </g>
-<g id="data_legend_icons_1_" class="st0">
-	<text transform="matrix(1 0 0 1 51.9579 510.8649)" class="st1 st2 st3">Cans</text>
-	<text transform="matrix(1 0 0 1 51.9576 564.38)" class="st1 st2 st3">Glass</text>
-	<text transform="matrix(1 0 0 1 51.9579 617.8945)" class="st1 st2 st3">Plastic</text>
-	<text transform="matrix(1 0 0 1 51.9581 688.2896)" class="st1 st2 st3">10 unsorted items</text>
-	<text transform="matrix(1 0 0 1 51.9581 704.0896)" class="st1 st2 st3">Each one can be redeemed for 5 cents</text>
-	<text transform="matrix(1 0 0 1 51.9579 756.2896)" class="st1 st2 st3">10 sorted items</text>
-	<text transform="matrix(1 0 0 1 51.9579 772.0896)" class="st1 st2 st3">Each one can be redeemed for 6 or 6.5 cents</text>
+<g id="data_legend_icons_1_">
+	<text transform="matrix(1 0 0 1 51.9579 510.8649)" class="st0 st1">Cans</text>
+	<text transform="matrix(1 0 0 1 51.9576 564.38)" class="st0 st1">Glass</text>
+	<text transform="matrix(1 0 0 1 51.9579 617.8945)" class="st0 st1">Plastic</text>
+	<text transform="matrix(1 0 0 1 51.9581 688.2896)" class="st0 st1">10 unsorted items</text>
+	<text transform="matrix(1 0 0 1 51.9581 704.0896)" class="st0 st1">Each one can be redeemed for 5 cents</text>
+	<text transform="matrix(1 0 0 1 51.9579 756.2896)" class="st0 st1">10 sorted items</text>
+	<text transform="matrix(1 0 0 1 51.9579 772.0896)" class="st0 st1">Each one can be redeemed for 6 or 6.5 cents</text>
 
-		<image style="display:inline;overflow:visible;enable-background:new    ;" width="97" height="150" xlink:href="../../img/angel/legend/Can.png"  transform="matrix(0.2374 0 0 0.2374 8.0586 487.6447)">
+		<image style="overflow:visible;enable-background:new    ;" width="97" height="150" xlink:href="../../img/angel/legend/Can.png"  transform="matrix(0.2374 0 0 0.2374 8.0586 487.6447)">
 	</image>
 
-		<image style="display:inline;overflow:visible;enable-background:new    ;" width="49" height="150" xlink:href="../../img/angel/legend/Glass.png"  transform="matrix(0.3537 0 0 0.3537 10.906 528.4195)">
+		<image style="overflow:visible;enable-background:new    ;" width="49" height="150" xlink:href="../../img/angel/legend/Glass.png"  transform="matrix(0.3537 0 0 0.3537 10.906 528.4195)">
 	</image>
 
-		<image style="display:inline;overflow:visible;enable-background:new    ;" width="59" height="150" xlink:href="../../img/angel/legend/Plastic.png"  transform="matrix(0.3405 0 0 0.3405 9.5271 586.0634)">
+		<image style="overflow:visible;enable-background:new    ;" width="59" height="150" xlink:href="../../img/angel/legend/Plastic.png"  transform="matrix(0.3405 0 0 0.3405 9.5271 586.0634)">
 	</image>
 
-		<image style="display:inline;overflow:visible;enable-background:new    ;" width="32" height="150" xlink:href="../../img/angel/legend/DataViz_legend_dots.png"  transform="matrix(0.5895 -4.718178e-02 4.718178e-02 0.5895 9.7375 676.1202)">
+		<image style="overflow:visible;enable-background:new    ;" width="32" height="150" xlink:href="../../img/angel/legend/DataViz_legend_dots.png"  transform="matrix(0.5895 -4.718178e-02 4.718178e-02 0.5895 9.7375 676.1202)">
 	</image>
 </g>
 <g id="legend_icons_1_">
-	<text transform="matrix(1 0 0 1 74.6567 511.8965)" class="st4 st3">Observations</text>
+	<text transform="matrix(1 0 0 1 74.6567 511.8965)" class="st2 st1">Observations</text>
 	<g>
-		<text transform="matrix(1 0 0 1 261.4941 503.5791)" class="st4 st3">Visual notes</text>
-		<text transform="matrix(1 0 0 1 261.4941 521.7793)" class="st5 st4 st6">CLICK TO VIEW</text>
+		<text transform="matrix(1 0 0 1 261.4941 503.5791)" class="st2 st1">Visual notes</text>
+		<text transform="matrix(1 0 0 1 261.4941 521.7793)" class="st3 st2 st4">CLICK TO VIEW</text>
 	</g>
-	<rect x="15" y="489" class="st7" width="48" height="35"/>
+	<rect x="15" y="489" class="st5" width="48" height="35"/>
 
 		<image style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/angel/legend/Camera.png"  transform="matrix(0.3077 0 0 0.3077 199.9494 489.0659)">
 	</image>
 </g>
+<g>
+	<text transform="matrix(1 0 0 1 40.6502 472.8654)" class="st3 st2 st6">&gt;</text>
+	<text transform="matrix(1 0 0 1 49.1502 472.8654)" class="st3 st2 st7"> OPEN SCRIPT</text>
+</g>
+<line class="st8" x1="40.2" y1="475" x2="351.2" y2="475"/>
 </svg>

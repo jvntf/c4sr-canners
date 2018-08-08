@@ -5,6 +5,11 @@
 <style type="text/css">
 	.st0{font-family:'Roboto-Regular';}
 	.st1{font-size:16.8px;}
+	.st2{fill:#999999;}
+	.st3{font-family:'Roboto-BoldItalic';}
+	.st4{font-size:16px;}
+	.st5{font-size:10px;}
+	.st6{fill:none;stroke:#999999;stroke-width:0.75;stroke-miterlimit:10;}
 </style>
 <style>@import url('../svg_styles.css')</style>
 <g id="header">
@@ -38,4 +43,9 @@
 		<image style="overflow:visible;enable-background:new    ;" width="32" height="150" xlink:href="../../img/angel/legend/DataViz_legend_dots.png"  transform="matrix(0.5895 -4.718178e-02 4.718178e-02 0.5895 11.7375 724.1202)">
 	</image>
 </g>
+<g>
+	<text transform="matrix(1 0 0 1 40.6502 508.8654)" class="st2 st3 st4">&gt;</text>
+	<text transform="matrix(1 0 0 1 49.1502 508.8654)" class="st2 st3 st5"> OPEN SCRIPT</text>
+</g>
+<line class="st6" x1="40.2" y1="511" x2="351.2" y2="511"/>
 </svg>
