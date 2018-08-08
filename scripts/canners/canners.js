@@ -391,7 +391,7 @@ let loadSC = function(location){
             id:"sc",
             width: "15%",
             height: "20"
-        }).html("<a href='http://wnyc.org'>WNYC.ORG</a>")
+        }).html("<a href='http://wnyc.org'>WNYCLINK</a>")
         .css({
             position:"fixed",
             zIndex:100,
