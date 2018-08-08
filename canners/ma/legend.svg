@@ -1,45 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 389.8 1080" style="enable-background:new 0 0 389.8 1080;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#999999;}
-	.st1{font-family:'AmaticSC-Regular';}
-	.st2{font-size:32px;}
-	.st3{font-family:'Roboto-Regular';}
-	.st4{font-size:13.1545px;}
+	.st0{font-family:'Roboto-Regular';}
+	.st1{font-size:16.8px;}
+	.st2{fill:#999999;}
+	.st3{font-family:'Roboto-BoldItalic';}
+	.st4{font-size:16px;}
+	.st5{font-size:10px;}
+	.st6{fill:none;stroke:#999999;stroke-width:0.75;stroke-miterlimit:10;}
 </style>
 <style>@import url('../svg_styles.css')</style>
-
 <g id="header">
-	
-		<image style="overflow:visible;" width="3116" height="3504" xlink:href="../../img/ma/legend/Ma.png"  transform="matrix(-9.611680e-02 0 0 9.611680e-02 331.6477 36.9723)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="1558" height="1752" xlink:href="../../img/ma/legend/Ma.png"  transform="matrix(-0.1922 0 0 0.1922 331.6477 36.9723)">
 	</image>
-	<!-- <polygon class="st0" points="42,444 67,457 42,469.9 	"/>
-	<text transform="matrix(1 0 0 1 77.3324 469.9994)" class="st1 st2">Meet Ma</text> -->
-	
-		<image id="sc-image" style="overflow:visible; visibility:hidden" width="602" height="79" xlink:href="../../img/ma/legend/Soundcloud.png"  transform="matrix(0.459 0 0 0.3578 41 398)">
+
+		<image style="visibility:hidden;overflow:visible;enable-background:new    ;" width="150" height="19" id="sc-image" xlink:href="../../img/ma/legend/Soundcloud.png"  transform="matrix(1.8432 0 0 1.4368 40.92 398.4835)">
 	</image>
 </g>
 <g id="legend_icons">
 </g>
-<g id="data_legend_icons">
-	<text transform="matrix(1 0 0 1 88.9579 570.1895)" class="st3 st4">Cans</text>
-	<text transform="matrix(1 0 0 1 88.9576 623.7046)" class="st3 st4">Glass</text>
-	<text transform="matrix(1 0 0 1 88.9579 677.2191)" class="st3 st4">Plastic</text>
-	<text transform="matrix(1 0 0 1 88.9581 734.6142)"><tspan x="0" y="0" class="st3 st4">10 unsorted items</tspan><tspan x="0" y="15.8" class="st3 st4">Each one can be redeemed for 5 cents</tspan></text>
-	<text transform="matrix(1 0 0 1 88.9579 802.6142)"><tspan x="0" y="0" class="st3 st4">10 sorted items</tspan><tspan x="0" y="15.8" class="st3 st4">Each one can be redeemed for 6 or 6.5 cents</tspan></text>
-	
-		<image style="overflow:visible;" width="243" height="375" xlink:href="../../img/ma/legend/Can.png"  transform="matrix(9.488724e-02 0 0 9.488724e-02 45.0419 536.9801)">
+<g id="data_legend_icons_1_">
+	<text transform="matrix(1 0 0 1 53.9579 558.8649)" class="st0 st1">Cans</text>
+	<text transform="matrix(1 0 0 1 53.9576 612.38)" class="st0 st1">Glass</text>
+	<text transform="matrix(1 0 0 1 53.9579 665.8945)" class="st0 st1">Plastic</text>
+	<text transform="matrix(1 0 0 1 53.9581 736.2896)" class="st0 st1">10 unsorted items</text>
+	<text transform="matrix(1 0 0 1 53.9581 752.0896)" class="st0 st1">Each one can be redeemed for 5 cents</text>
+	<text transform="matrix(1 0 0 1 53.9579 804.2896)" class="st0 st1">10 sorted items</text>
+	<text transform="matrix(1 0 0 1 53.9579 820.0896)" class="st0 st1">Each one can be redeemed for 6 or 6.5 cents</text>
+
+		<image style="overflow:visible;enable-background:new    ;" width="97" height="150" xlink:href="../../img/angel/legend/Can.png"  transform="matrix(0.2374 0 0 0.2374 10.0586 535.6447)">
 	</image>
-	
-		<image style="overflow:visible;" width="194" height="592" xlink:href="../../img/ma/legend/Glass.png"  transform="matrix(8.958174e-02 0 0 8.958174e-02 47.8812 577.7521)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="49" height="150" xlink:href="../../img/angel/legend/Glass.png"  transform="matrix(0.3537 0 0 0.3537 12.906 576.4195)">
 	</image>
-	
-		<image style="overflow:visible;" width="216" height="551" xlink:href="../../img/ma/legend/Plastic.png"  transform="matrix(9.272574e-02 0 0 9.272574e-02 46.5563 635.3765)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="59" height="150" xlink:href="../../img/angel/legend/Plastic.png"  transform="matrix(0.3405 0 0 0.3405 11.5271 634.0634)">
 	</image>
-	
-		<image style="overflow:visible;" width="158" height="726" xlink:href="../../img/ma/legend/DataViz_legend_dots.png"  transform="matrix(0.1217 -9.739679e-03 9.739679e-03 0.1217 46.5591 725.4985)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="32" height="150" xlink:href="../../img/angel/legend/DataViz_legend_dots.png"  transform="matrix(0.5895 -4.718178e-02 4.718178e-02 0.5895 11.7375 724.1202)">
 	</image>
 </g>
+<g>
+	<text transform="matrix(1 0 0 1 40.6502 508.8654)" class="st2 st3 st4">&gt;</text>
+	<text transform="matrix(1 0 0 1 49.1502 508.8654)" class="st2 st3 st5"> OPEN SCRIPT</text>
+</g>
+<line class="st6" x1="40.2" y1="511" x2="351.2" y2="511"/>
 </svg>

@@ -1,182 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 389.8 1080" style="enable-background:new 0 0 389.8 1080;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#000000;stroke-width:2;}
-	.st1{opacity:0.5;}
-	.st2{opacity:0.1797;fill:#883AB5;}
-	.st3{opacity:0.1797;fill:#2AC0FF;}
-	.st4{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;}
-	.st5{fill:none;stroke:#7C7C7C;stroke-miterlimit:10;stroke-dasharray:1,2;}
-	.st6{font-family:'Roboto-BoldItalic';}
-	.st7{font-size:12px;}
-	.st8{font-family:'Roboto-Bold';}
-	.st9{font-size:10px;}
-	.st10{fill:#999999;}
-	.st11{fill:#D7DED5;}
-	.st12{font-family:'Roboto-Regular';}
-	.st13{font-size:13.1545px;}
-	.st14{font-family:'AmaticSC-Regular';}
-	.st15{font-size:32px;}
+	.st0{font-family:'Roboto-Regular';}
+	.st1{font-size:16.8px;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;}
+	.st3{opacity:0.5;}
+	.st4{opacity:0.1797;fill:#883AB5;enable-background:new    ;}
+	.st5{opacity:0.1797;fill:#2AC0FF;enable-background:new    ;}
+	.st6{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;}
+	.st7{fill:none;stroke:#7C7C7C;stroke-miterlimit:10;stroke-dasharray:1,2;}
+	.st8{font-family:'Roboto-BoldItalic';}
+	.st9{font-size:17.5343px;}
+	.st10{font-family:'Roboto-Bold';}
+	.st11{font-size:14px;}
+	.st12{fill:#999999;}
+	.st13{fill:#D7DED5;}
+	.st14{font-size:16px;}
+	.st15{font-size:10px;}
+	.st16{fill:none;stroke:#999999;stroke-width:0.75;stroke-miterlimit:10;}
 </style>
 <style>@import url('../svg_styles.css')</style>
-<g id="legend_icons">
-	<polyline class="st0" points="85.2,885.1 85.2,896.1 44,896.1 44.1,885.1 	"/>
-	<g class="st1">
-		<path class="st2" d="M212.6,997.2c11.3,0.1,22.7-0.1,34,0.2c0.8,0,0.6-1,0.5-1.4c-0.2-0.6-1.5-2.1-2.2-2.1
-			c-5.7-0.4-11.4-0.3-17.1-0.3c-5.6,0-11.1-0.1-16.7-0.2C209.2,993.4,211.3,997.2,212.6,997.2z"/>
-		<path class="st2" d="M212.8,995.9c11.4,0.1,22.7-0.1,34.1,0.2c0.5,0,0.7-0.9,0.6-1.3c-0.2-0.5-1.1-1-1.6-1
-			c-11.4-0.5-22.8-0.1-34.2-0.3c-0.5,0-0.9,1-0.7,1.4C211.1,995.4,212.3,995.8,212.8,995.9z"/>
-		<path class="st2" d="M217,1000.5c11.4,0,22.9,0,34.3,0c1.6,0-0.5-2.2-0.6-2.2c-1.2-1.1-2.9-2.7-4.6-2.9
-			c-5.5-0.5-11.2-0.3-16.7-0.3c-5.6,0-11.2,0-16.8-0.2c-1.6-0.1,0.2,2.1,0.3,2.3c0.8,0.9,1.6,1.7,2.5,2.4
-			C215.8,1000.1,216.4,1000.4,217,1000.5z"/>
-		<path class="st2" d="M215.7,997.8c11.4,0.1,22.8-0.1,34.2,0.1c0.9,0,1.2-0.7,0.7-1.4c-0.6-0.5-1.3-0.9-2.1-1.2
-			c-0.7-0.4-1.5-0.7-2.3-0.9c-5.6-0.4-11.2-0.2-16.9-0.2c-5.6,0-11.3,0-16.9-0.2c-0.9,0-1.3,0.5-0.8,1.3c0.6,0.5,1.2,1,1.9,1.4
-			C214.3,997.2,215,997.5,215.7,997.8z"/>
-		<path class="st2" d="M212.1,996.2c11.4-0.1,22.8,0,34.2,0c0.5,0,1.1-1.5,1.3-1.5c-11.4,0-22.8,0-34.2,0
-			C212.8,994.7,212.3,996.2,212.1,996.2z"/>
-		<path class="st2" d="M213.3,1000.1c11.4,0.1,22.8-0.1,34.1,0.1c2,0-1-4.4-2.2-4.5c-5.5-0.5-11-0.2-16.5-0.2
-			c-5.6,0-11.1,0-16.7-0.2c-1.1,0-1,1-0.7,1.7C211.6,997.7,212.4,1000.1,213.3,1000.1z"/>
-		<path class="st2" d="M211.4,997.7c6,0.1,12.1,0.1,18.1,0.1c5.1,0,10.3-0.1,15.4,0.2c1.1,0.1,1.9-1.9,0.6-1.9
-			c-11.2,0.1-22.4,0.1-33.6,0.1c-0.5,0-1.2,0.2-1.3,0.7C210.6,997.3,210.9,997.7,211.4,997.7z"/>
+<g id="header">
+
+		<image style="overflow:visible;enable-background:new    ;" width="1549" height="1447" xlink:href="../../img/venzen/legend/Venzen.png"  transform="matrix(-0.2127 0 0 0.2127 344.1759 51.2296)">
+	</image>
+
+		<image style="visibility:hidden;overflow:visible;enable-background:new    ;" width="150" height="19" id="sc-image" xlink:href="../../img/venzen/legend/Soundcloud.png"  transform="matrix(1.8432 0 0 1.4368 40.92 398.4835)">
+	</image>
+</g>
+<g id="data_legend_icons_1_">
+	<text transform="matrix(1 0 0 1 48.9579 606.8649)" class="st0 st1">Cans</text>
+	<text transform="matrix(1 0 0 1 48.9576 660.38)" class="st0 st1">Glass</text>
+	<text transform="matrix(1 0 0 1 48.9579 713.8945)" class="st0 st1">Plastic</text>
+	<text transform="matrix(1 0 0 1 48.9581 784.2896)" class="st0 st1">10 unsorted items</text>
+	<text transform="matrix(1 0 0 1 48.9581 800.0896)" class="st0 st1">Each one can be redeemed for 5 cents</text>
+	<text transform="matrix(1 0 0 1 48.9579 852.2896)" class="st0 st1">10 sorted items</text>
+	<text transform="matrix(1 0 0 1 48.9579 868.0896)" class="st0 st1">Each one can be redeemed for 6 or 6.5 cents</text>
+
+		<image style="overflow:visible;enable-background:new    ;" width="97" height="150" xlink:href="../../img/angel/legend/Can.png"  transform="matrix(0.2374 0 0 0.2374 5.0586 583.6447)">
+	</image>
+
+		<image style="overflow:visible;enable-background:new    ;" width="49" height="150" xlink:href="../../img/angel/legend/Glass.png"  transform="matrix(0.3537 0 0 0.3537 7.906 624.4195)">
+	</image>
+
+		<image style="overflow:visible;enable-background:new    ;" width="59" height="150" xlink:href="../../img/angel/legend/Plastic.png"  transform="matrix(0.3405 0 0 0.3405 6.5271 682.0634)">
+	</image>
+
+		<image style="overflow:visible;enable-background:new    ;" width="32" height="150" xlink:href="../../img/angel/legend/DataViz_legend_dots.png"  transform="matrix(0.5895 -4.718178e-02 4.718178e-02 0.5895 6.7375 772.1202)">
+	</image>
+</g>
+<g id="legend_icons_1_">
+	<polyline class="st2" points="69.8,929.1 69.8,942.3 20.3,942.3 20.4,929.1 	"/>
+	<g class="st3">
+		<path class="st4" d="M209.6,1049.2c13.6,0.1,27.2-0.1,40.8,0.2c1,0,0.7-1.2,0.6-1.7c-0.2-0.7-1.8-2.5-2.6-2.5
+			c-6.8-0.5-13.7-0.4-20.5-0.4c-6.7,0-13.3-0.1-20-0.2C205.6,1044.7,208.1,1049.2,209.6,1049.2z"/>
+		<path class="st4" d="M209.9,1047.7c13.7,0.1,27.2-0.1,40.9,0.2c0.6,0,0.8-1.1,0.7-1.6c-0.2-0.6-1.3-1.2-1.9-1.2
+			c-13.7-0.6-27.4-0.1-41-0.4c-0.6,0-1.1,1.2-0.8,1.7C207.8,1047.1,209.3,1047.6,209.9,1047.7z"/>
+		<path class="st4" d="M214.9,1053.2c13.7,0,27.5,0,41.2,0c1.9,0-0.6-2.6-0.7-2.6c-1.4-1.3-3.5-3.2-5.5-3.5
+			c-6.6-0.6-13.4-0.4-20-0.4c-6.7,0-13.4,0-20.2-0.2c-1.9-0.1,0.2,2.5,0.4,2.8c1,1.1,1.9,2,3,2.9
+			C213.5,1052.7,214.2,1053.1,214.9,1053.2z"/>
+		<path class="st4" d="M213.4,1050c13.7,0.1,27.4-0.1,41,0.1c1.1,0,1.4-0.8,0.8-1.7c-0.7-0.6-1.6-1.1-2.5-1.4
+			c-0.8-0.5-1.8-0.8-2.8-1.1c-6.7-0.5-13.4-0.2-20.3-0.2c-6.7,0-13.6,0-20.3-0.2c-1.1,0-1.6,0.6-1,1.6c0.7,0.6,1.4,1.2,2.3,1.7
+			C211.7,1049.2,212.5,1049.6,213.4,1050z"/>
+		<path class="st4" d="M209,1048c13.7-0.1,27.4,0,41,0c0.6,0,1.3-1.8,1.6-1.8c-13.7,0-27.4,0-41,0C209.9,1046.2,209.3,1048,209,1048
+			z"/>
+		<path class="st4" d="M210.5,1052.7c13.7,0.1,27.4-0.1,40.9,0.1c2.4,0-1.2-5.3-2.6-5.4c-6.6-0.6-13.2-0.2-19.8-0.2
+			c-6.7,0-13.3,0-20-0.2c-1.3,0-1.2,1.2-0.8,2C208.4,1049.9,209.4,1052.7,210.5,1052.7z"/>
+		<path class="st4" d="M208.2,1049.9c7.2,0.1,14.5,0.1,21.7,0.1c6.1,0,12.4-0.1,18.5,0.2c1.3,0.1,2.3-2.3,0.7-2.3
+			c-13.4,0.1-26.9,0.1-40.3,0.1c-0.6,0-1.4,0.2-1.6,0.8C207.2,1049.4,207.6,1049.9,208.2,1049.9z"/>
 	</g>
-	<g class="st1">
-		<path class="st3" d="M55,996.6c10.4,0.1,20.8,0,31.2,0.1c1,0,0.6-1.3,0.3-1.7c-0.6-0.8-1.4-1.8-2.4-2c-2.3-0.3-4.7-0.1-7-0.1
-			c-3.3,0-6.6,0-9.8,0c-4.6,0-9.2-0.1-13.7-0.2C51.6,992.7,53.8,996.6,55,996.6z"/>
-		<path class="st3" d="M55.3,995.2c10.4,0.1,20.8-0.1,31.2,0.1c0.6,0,0.8-1.1,0.6-1.4c-0.3-0.6-1.5-0.9-2.1-0.9
-			c-5.1-0.2-10.3,0-15.5,0c-5.1,0-10.3,0-15.4-0.1c-0.5,0-0.9,1-0.7,1.4C53.6,994.7,54.7,995.2,55.3,995.2z"/>
-		<path class="st3" d="M59.5,999.9c10.4,0,20.9,0,31.3,0c1.6,0-0.4-2.1-0.5-2.2c-1.1-1.1-2.8-2.8-4.4-3.1c-1.5-0.2-3.2-0.1-4.8-0.1
-			c-3.6,0-7.1,0-10.7,0c-5.1,0-10.2-0.1-15.4-0.2c-1.6-0.1,0.2,2.1,0.3,2.3c0.8,0.9,1.6,1.7,2.5,2.4
-			C58.3,999.5,58.8,999.8,59.5,999.9z"/>
-		<path class="st3" d="M58.2,997.1c10.4,0.1,20.8,0,31.3,0.1c0.9,0,1.3-0.7,0.7-1.4c-0.6-0.5-1.3-0.9-2-1.3
-			c-0.7-0.4-1.5-0.7-2.2-0.9c-1.6-0.1-3.2,0-4.8-0.1c-3.6,0-7.2,0-10.7,0c-5.1,0-10.3-0.1-15.4-0.2c-0.9,0-1.3,0.5-0.8,1.3
-			c0.6,0.5,1.2,1,1.9,1.4C56.8,996.5,57.5,996.9,58.2,997.1z"/>
-		<path class="st3" d="M54.5,995.5c10.4,0,20.8,0,31.2,0c0.5,0,1.1-1.5,1.3-1.5c-10.4,0-20.8,0-31.2,0
-			C55.3,994,54.7,995.5,54.5,995.5z"/>
-		<path class="st3" d="M55.8,999.4c10.4,0.1,20.8-0.1,31.2,0.1c2.1,0-0.7-4.5-1.9-4.7c-1.5-0.2-3.2,0-4.7,0c-3.6,0-7.1,0-10.7,0
-			c-5.1,0-10.1,0-15.2-0.2c-1.1,0-1,1-0.7,1.7C54,997,54.9,999.4,55.8,999.4z"/>
-		<path class="st3" d="M53.9,997c5.1,0.1,10.1,0.1,15.2,0.1c3.6,0,7.2,0,10.7,0c1.6,0,3.3-0.1,4.9,0.1c0.4,0,1.3-0.3,1.4-0.7
-			c0.1-0.3-0.1-1.1-0.5-1c-2.3,0.2-4.8,0-7.1,0c-3.3,0-6.6,0-9.8,0c-4.7,0-9.4,0-14.1,0c-0.5,0-1.2,0.2-1.3,0.7
-			C53,996.7,53.4,997,53.9,997z"/>
+	<g class="st3">
+		<path class="st5" d="M33.5,1048.9c12.5,0.1,25,0,37.4,0.1c1.2,0,0.7-1.6,0.4-2c-0.7-1-1.7-2.2-2.9-2.4c-2.8-0.4-5.6-0.1-8.4-0.1
+			c-4,0-7.9,0-11.8,0c-5.5,0-11-0.1-16.4-0.2C29.4,1044.2,32.1,1048.9,33.5,1048.9z"/>
+		<path class="st5" d="M33.9,1047.2c12.5,0.1,25-0.1,37.4,0.1c0.7,0,1-1.3,0.7-1.7c-0.4-0.7-1.8-1.1-2.5-1.1c-6.1-0.2-12.4,0-18.6,0
+			c-6.1,0-12.4,0-18.5-0.1c-0.6,0-1.1,1.2-0.8,1.7S33.2,1047.2,33.9,1047.2z"/>
+		<path class="st5" d="M38.9,1052.9c12.5,0,25.1,0,37.6,0c1.9,0-0.5-2.5-0.6-2.6c-1.3-1.3-3.4-3.4-5.3-3.7c-1.8-0.2-3.8-0.1-5.8-0.1
+			c-4.3,0-8.5,0-12.8,0c-6.1,0-12.2-0.1-18.5-0.2c-1.9-0.1,0.2,2.5,0.4,2.8c1,1.1,1.9,2,3,2.9C37.5,1052.4,38.1,1052.8,38.9,1052.9z
+			"/>
+		<path class="st5" d="M37.4,1049.5c12.5,0.1,25,0,37.6,0.1c1.1,0,1.6-0.8,0.8-1.7c-0.7-0.6-1.6-1.1-2.4-1.6s-1.8-0.8-2.6-1.1
+			c-1.9-0.1-3.8,0-5.8-0.1c-4.3,0-8.6,0-12.8,0c-6.1,0-12.4-0.1-18.5-0.2c-1.1,0-1.6,0.6-1,1.6c0.7,0.6,1.4,1.2,2.3,1.7
+			C35.7,1048.8,36.5,1049.3,37.4,1049.5z"/>
+		<path class="st5" d="M32.9,1047.6c12.5,0,25,0,37.4,0c0.6,0,1.3-1.8,1.6-1.8c-12.5,0-25,0-37.4,0
+			C33.9,1045.8,33.2,1047.6,32.9,1047.6z"/>
+		<path class="st5" d="M34.5,1052.3c12.5,0.1,25-0.1,37.4,0.1c2.5,0-0.8-5.4-2.3-5.6c-1.8-0.2-3.8,0-5.6,0c-4.3,0-8.5,0-12.8,0
+			c-6.1,0-12.1,0-18.2-0.2c-1.3,0-1.2,1.2-0.8,2C32.3,1049.4,33.4,1052.3,34.5,1052.3z"/>
+		<path class="st5" d="M32.2,1049.4c6.1,0.1,12.1,0.1,18.2,0.1c4.3,0,8.6,0,12.8,0c1.9,0,4-0.1,5.9,0.1c0.5,0,1.6-0.4,1.7-0.8
+			s-0.1-1.3-0.6-1.2c-2.8,0.2-5.8,0-8.5,0c-4,0-7.9,0-11.8,0c-5.6,0-11.3,0-16.9,0c-0.6,0-1.4,0.2-1.6,0.8
+			C31.1,1049,31.6,1049.4,32.2,1049.4z"/>
 	</g>
 	<g>
-		<path d="M206.7,859.3c7.4,0,14.9,0,22.3,0c1.8,0,4.8-0.6,5.7-2.5c0.8-1.8-0.7-2.9-2.4-2.9c-7.4,0-14.9,0-22.3,0
-			c-1.8,0-4.8,0.6-5.7,2.5C203.5,858.2,205,859.3,206.7,859.3L206.7,859.3z"/>
+		<path d="M201.6,898.8c8.9,0,17.9,0,26.8,0c2.2,0,5.8-0.7,6.8-3c1-2.2-0.8-3.5-2.9-3.5c-8.9,0-17.9,0-26.8,0c-2.2,0-5.8,0.7-6.8,3
+			C197.7,897.5,199.5,898.8,201.6,898.8L201.6,898.8z"/>
 	</g>
 	<g>
-		<path d="M207.8,897.1c7.4,0,14.9,0,22.3,0c1.2,0,3-1.8,1.1-1.8c-7.4,0-14.9,0-22.3,0C207.7,895.3,205.9,897.1,207.8,897.1
-			L207.8,897.1z"/>
+		<path d="M202.9,941.1c8.9,0,17.9,0,26.8,0c1.4,0,3.6-2.2,1.3-2.2c-8.9,0-17.9,0-26.8,0C202.8,939,200.6,941.1,202.9,941.1
+			L202.9,941.1z"/>
 	</g>
-	<line class="st0" x1="44" y1="856.9" x2="85" y2="856.9"/>
-	<path class="st4" d="M78.6,925.7c3.1,0,5.7,2.5,5.7,5.7s-2.5,5.7-5.7,5.7l-30-0.2c-3.1,0-5.7-2.5-5.7-5.7s2.5-5.7,5.7-5.7"/>
-	<line class="st5" x1="44.5" y1="986" x2="44.5" y2="1005"/>
-	<line class="st5" x1="203.5" y1="986" x2="203.5" y2="1005"/>
-	<path d="M65.7,994c-7.2,0-14.5,0-21.7,0v1.8c6.9,0,13.8,0,20.6,0C65.8,995.8,67.7,994,65.7,994z"/>
-	<path d="M224.7,994.4c-7.2,0-14.5,0-21.7,0v1.8c6.9,0,13.8,0,20.6,0C224.8,996.2,226.7,994.4,224.7,994.4z"/>
+	<line class="st2" x1="20.3" y1="895.3" x2="69.5" y2="895.3"/>
+	<path class="st6" d="M63.8,980.2c3.7,0,6.8,3,6.8,6.8s-3,6.8-6.8,6.8l-36-0.2c-3.7,0-6.8-3-6.8-6.8s3-6.8,6.8-6.8"/>
+	<line class="st7" x1="20.9" y1="1036.2" x2="20.9" y2="1059"/>
+	<line class="st7" x1="202.7" y1="1035.8" x2="202.7" y2="1058.6"/>
+	<path d="M46.4,1045.8c-8.6,0-17.4,0-26,0v2.2c8.3,0,16.6,0,24.7,0C46.5,1048,48.8,1045.8,46.4,1045.8z"/>
+	<path d="M228.2,1045.9c-8.6,0-17.4,0-26,0v2.2c8.3,0,16.6,0,24.7,0C228.3,1048,230.6,1045.9,228.2,1045.9z"/>
 	<g>
-		<path d="M227.8,951.5h-14.7v-16.2h14.7V951.5z M220.5,941.3c-1.2,0-2.1,0.9-2.1,2.1c0,1.2,0.9,2.1,2.1,2.1s2.1-0.9,2.1-2.1
-			C222.6,942.2,221.6,941.3,220.5,941.3z"/>
+		<path d="M219.9,1005.4h-17.6V986h17.6V1005.4z M211.1,993.2c-1.4,0-2.5,1.1-2.5,2.5s1.1,2.5,2.5,2.5s2.5-1.1,2.5-2.5
+			S212.4,993.2,211.1,993.2z"/>
 		<g>
-			<path d="M227.8,935.2h-2c0-5-2.5-9.2-5.4-9.2s-5.4,4.2-5.4,9.2h-2c0-6.3,3.2-11.2,7.4-11.2S227.8,929,227.8,935.2z"/>
+			<path d="M219.9,985.9h-2.4c0-6-3-11-6.5-11s-6.5,5-6.5,11h-2.4c0-7.6,3.8-13.4,8.9-13.4C216,972.4,219.9,978.4,219.9,985.9z"/>
 		</g>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 102.6715 700.8654)" class="st6 st7">1 Glass</text>
+		<text transform="matrix(1 0 0 1 66.6572 726.7793)" class="st8 st1">1 Glass</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 260.4123 700.8654)" class="st6 st7">1 Plastic</text>
+		<text transform="matrix(1 0 0 1 255.4941 724.7793)" class="st8 st1">1 Plastic</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 260.4123 768.8654)"><tspan x="0" y="0" class="st6 st7">Trash bag</tspan><tspan x="0" y="14.4" class="st6 st7">= 150 items</tspan></text>
+		<text transform="matrix(1 0 0 1 257.4941 783.9785)" class="st8 st1">Trash bag</text>
+		<text transform="matrix(1 0 0 1 257.4941 804.1387)" class="st8 st1">= 150 items</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 102.6715 769.3234)" class="st6 st7">1 Can</text>
+		<text transform="matrix(0.9581 0 0 1 67.6572 796.249)" class="st8 st9">1 Can</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 102.6715 860.629)" class="st6 st7">Ground</text>
+		<text transform="matrix(1 0 0 1 88.6572 899.4482)" class="st8 st1">Ground</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 102.6715 898.9757)" class="st6 st7">Bin</text>
+		<text transform="matrix(1 0 0 1 88.6715 941.9757)" class="st8 st1">Bin</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 102.6715 937.3234)" class="st6 st7">Bag</text>
+		<text transform="matrix(1 0 0 1 91.6715 989.3234)" class="st8 st1">Bag</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 102.6714 994.8993)"><tspan x="0" y="0" class="st6 st7">Connected</tspan><tspan x="0" y="14.4" class="st6 st7">to residence</tspan></text>
+		<text transform="matrix(1 0 0 1 88.6572 1042.4268)" class="st8 st1">Connected</text>
+		<text transform="matrix(1 0 0 1 88.6572 1062.5859)" class="st8 st1">to residence</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 260.4121 994.8993)"><tspan x="0" y="0" class="st6 st7">Connected</tspan><tspan x="0" y="14.4" class="st6 st7">to business</tspan></text>
+		<text transform="matrix(1 0 0 1 262.4941 1043.4268)" class="st8 st1">Connected</text>
+		<text transform="matrix(1 0 0 1 262.4941 1063.5859)" class="st8 st1">to business</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 260.4121 937.3235)"><tspan x="0" y="0" class="st6 st7">Needs someone</tspan><tspan x="0" y="14.4" class="st6 st7">to get in</tspan></text>
+		<text transform="matrix(1 0 0 1 261.4941 986.8203)" class="st8 st1">Needs someone</text>
+		<text transform="matrix(1 0 0 1 261.4941 1006.9805)" class="st8 st1">to get in</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 260.4123 860.6287)" class="st6 st7">Private</text>
+		<text transform="matrix(1 0 0 1 262.4941 897.4473)" class="st8 st1">Private</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 260.4123 898.9754)" class="st6 st7">Public</text>
+		<text transform="matrix(1 0 0 1 261.4941 945.1328)" class="st8 st1">Public</text>
 	</g>
-	<text transform="matrix(1 0 0 1 102.6712 589.0924)"><tspan x="0" y="0" class="st6 st7">Venzen’s</tspan><tspan x="0" y="14.4" class="st6 st7">comments</tspan></text>
-	<text transform="matrix(1 0 0 1 102.6712 523.0924)" class="st6 st7">Observations</text>
+	<text transform="matrix(1 0 0 1 74.6567 585.2969)" class="st8 st1">Venzen’s</text>
+	<text transform="matrix(1 0 0 1 74.6567 605.457)" class="st8 st1">comments</text>
+	<text transform="matrix(1 0 0 1 71.6567 522.8965)" class="st8 st1">Observations</text>
 	<g>
-		<text transform="matrix(1 0 0 1 260.4122 589.092)"><tspan x="0" y="0" class="st6 st7">Venzen’s</tspan><tspan x="0" y="14.4" class="st6 st7">encounters</tspan></text>
+		<text transform="matrix(1 0 0 1 262.4941 585.2959)" class="st8 st1">Venzen’s</text>
+		<text transform="matrix(1 0 0 1 262.4941 605.4561)" class="st8 st1">encounters</text>
 	</g>
-	
-		<image style="overflow:visible;" width="1030" height="1252" xlink:href="../../img/venzen/legend/Hand.png"  transform="matrix(3.433530e-02 0 0 3.433530e-02 213 567.2132)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="123" height="150" xlink:href="../../img/angel/legend/Hand.png"  transform="matrix(0.287 0 0 0.287 208.0345 568.1849)">
 	</image>
-	
-		<image style="overflow:visible;" width="1058" height="750" xlink:href="../../img/venzen/legend/Comment.png"  transform="matrix(4.988550e-02 0 0 4.988550e-02 37 570)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="150" height="106" xlink:href="../../img/angel/legend/Comment.png"  transform="matrix(0.3522 0 0 0.3522 14.9724 570.039)">
 	</image>
-	<text transform="matrix(1 0 0 1 40 654)" class="st8 st9">ITEMS</text>
-	<text transform="matrix(1 0 0 1 41 837)" class="st8 st9">LOCATIONS</text>
-	
-		<image style="overflow:visible;" width="194" height="592" xlink:href="../../img/venzen/legend/Glass.png"  transform="matrix(9.918366e-02 0 0 9.918366e-02 45 668.0546)">
+	<text transform="matrix(1 0 0 1 17.917 665.168)" class="st10 st11">ITEMS</text>
+	<text transform="matrix(1 0 0 1 12.3169 860.3672)" class="st10 st11">LOCATIONS</text>
+
+		<image style="overflow:visible;enable-background:new    ;" width="49" height="150" xlink:href="../../img/angel/legend/Glass.png"  transform="matrix(0.3916 0 0 0.3916 32.0275 689.0457)">
 	</image>
-	
-		<image style="overflow:visible;" width="243" height="375" xlink:href="../../img/venzen/legend/Can.png"  transform="matrix(9.595792e-02 0 0 9.595792e-02 42.9619 747.8243)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="97" height="150" xlink:href="../../img/angel/legend/Can.png"  transform="matrix(0.24 0 0 0.24 31.9788 769.8134)">
 	</image>
-	
-		<image style="overflow:visible;" width="216" height="551" xlink:href="../../img/venzen/legend/Plastic.png"  transform="matrix(0.1091 0 0 0.1091 215 667.3515)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="59" height="150" xlink:href="../../img/angel/legend/Plastic.png"  transform="matrix(0.4006 0 0 0.4006 210.9657 686.365)">
 	</image>
-	
-		<image style="overflow:visible;" width="973" height="1198" xlink:href="../../img/venzen/legend/trash_bag-5.png"  transform="matrix(4.292977e-02 0 0 4.292977e-02 206 736)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="122" height="150" xlink:href="../../img/angel/legend/trash_bag-5.png"  transform="matrix(0.3427 0 0 0.3427 202.9823 759.0144)">
 	</image>
 	<g>
-		<text transform="matrix(1 0 0 1 260.4123 522.8654)"><tspan x="0" y="0" class="st6 st7">Visual notes</tspan><tspan x="0" y="13" class="st10 st6 st9">CLICK TO VIEW</tspan></text>
+		<text transform="matrix(1 0 0 1 258.4941 514.5791)" class="st8 st1">Visual notes</text>
+		<text transform="matrix(1 0 0 1 258.4941 532.7793)" class="st12 st8 st11">CLICK TO VIEW</text>
 	</g>
-	<rect x="42" y="507" class="st11" width="48" height="35"/>
-	
-		<image style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/venzen/legend/Camera.png"  transform="matrix(2.695115e-02 0 0 2.695115e-02 204 507)">
-	</image>
-</g>
-<g id="data_legend_icons">
-	<text transform="matrix(1 0 0 1 85.3473 538.7594)" class="st12 st13">Cans</text>
-	<text transform="matrix(1 0 0 1 85.3471 592.2746)" class="st12 st13">Glass</text>
-	<text transform="matrix(1 0 0 1 85.3473 645.7891)" class="st12 st13">Plastic</text>
-	<text transform="matrix(1 0 0 1 85.3476 703.1841)"><tspan x="0" y="0" class="st12 st13">10 unsorted items</tspan><tspan x="0" y="15.8" class="st12 st13">Each one can be redeemed for 5 cents</tspan></text>
-	<text transform="matrix(1 0 0 1 85.3473 771.1841)"><tspan x="0" y="0" class="st12 st13">10 sorted items</tspan><tspan x="0" y="15.8" class="st12 st13">Each one can be redeemed for 6 or 6.5 cents</tspan></text>
-	
-		<image style="overflow:visible;" width="243" height="375" xlink:href="../../img/venzen/legend/Can.png"  transform="matrix(9.488724e-02 0 0 9.488724e-02 41.4313 505.5501)">
-	</image>
-	
-		<image style="overflow:visible;" width="194" height="592" xlink:href="../../img/venzen/legend/Glass.png"  transform="matrix(8.958174e-02 0 0 8.958174e-02 44.2707 546.3221)">
-	</image>
-	
-		<image style="overflow:visible;" width="216" height="551" xlink:href="../../img/venzen/legend/Plastic.png"  transform="matrix(9.272574e-02 0 0 9.272574e-02 42.9457 603.9464)">
-	</image>
-	
-		<image style="overflow:visible;" width="158" height="726" xlink:href="../../img/venzen/legend/DataViz_legend_dots.png"  transform="matrix(0.1217 -9.739679e-03 9.739679e-03 0.1217 42.9486 694.0684)">
+	<rect x="12" y="500" class="st13" width="48" height="35"/>
+
+		<image style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/angel/legend/Camera.png"  transform="matrix(0.3077 0 0 0.3077 196.9494 500.0659)">
 	</image>
 </g>
-<g id="header">
-	
-		<image style="overflow:visible;" width="3099" height="2895" xlink:href="../../img/venzen/legend/Venzen.png"  transform="matrix(-0.1063 0 0 0.1063 344.1742 51.2277)">
-	</image>
-<!-- 	<polygon class="st10" points="42,444 67,457 42,469.9 	"/> -->
-<!-- 	<text transform="matrix(1 0 0 1 77.3324 469.9994)" class="st14 st15">Meet Venzen</text> -->
-	
-		<image id="sc-image" style="visibility:hidden;overflow:visible;" width="602" height="79" xlink:href="../../img/venzen/legend/Soundcloud.png"  transform="matrix(0.459 0 0 0.3578 41 398)">
-	</image>
+<g>
+	<text transform="matrix(1 0 0 1 40.6502 484.8654)" class="st12 st8 st14">&gt;</text>
+	<text transform="matrix(1 0 0 1 49.1502 484.8654)" class="st12 st8 st15"> OPEN SCRIPT</text>
 </g>
+<line class="st16" x1="40.2" y1="487" x2="351.2" y2="487"/>
 </svg>

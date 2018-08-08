@@ -1,190 +1,194 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 389.8 1080" style="enable-background:new 0 0 389.8 1080;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#999999;}
-	.st1{font-family:'AmaticSC-Regular';}
-	.st2{font-size:32px;}
-	.st3{font-family:'Roboto-BoldItalic';}
-	.st4{font-size:12px;}
-	.st5{font-family:'Roboto-Bold';}
-	.st6{font-size:10px;}
-	.st7{fill:none;stroke:#000000;stroke-width:2;}
-	.st8{opacity:0.5;}
-	.st9{opacity:0.1797;fill:#883AB5;}
-	.st10{opacity:0.1797;fill:#2AC0FF;}
-	.st11{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;}
-	.st12{fill:none;stroke:#7C7C7C;stroke-miterlimit:10;stroke-dasharray:1,2;}
+	.st0{font-family:'Roboto-Regular';}
+	.st1{font-size:16.8px;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;}
+	.st3{opacity:0.5;}
+	.st4{opacity:0.1797;fill:#883AB5;enable-background:new    ;}
+	.st5{opacity:0.1797;fill:#2AC0FF;enable-background:new    ;}
+	.st6{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;}
+	.st7{fill:none;stroke:#7C7C7C;stroke-miterlimit:10;stroke-dasharray:1,2;}
+	.st8{font-family:'Roboto-BoldItalic';}
+	.st9{font-size:17.5343px;}
+	.st10{font-family:'Roboto-Bold';}
+	.st11{font-size:14px;}
+	.st12{fill:#999999;}
 	.st13{fill:#D7DED5;}
 	.st14{font-size:16px;}
-	.st15{stroke:#999999;stroke-width:0.75;stroke-miterlimit:10;}
-	.st16{font-family:'Roboto-Regular';}
-	.st17{font-size:13.1545px;}
+	.st15{font-size:10px;}
+	.st16{fill:none;stroke:#999999;stroke-width:0.75;stroke-miterlimit:10;}
 </style>
-<style>@import url('../svg_styles.css')</style>
 <g id="header">
 	
-		<image style="overflow:visible;" width="4189" height="2793" xlink:href="../../img/pablo_y_violeta/legend/PedroYJosefa.png"  transform="matrix(-8.951800e-02 0 0 8.951800e-02 378.9906 80.0002)">
+		<image style="overflow:visible;enable-background:new    ;" width="2094" height="1396" xlink:href="../../img/pablo_y_violeta/legend/PedroYJosefa.png"  transform="matrix(-0.1791 0 0 0.1791 378.9975 80.0105)">
 	</image>
-<!-- 	<polygon class="st0" points="42,444 67,457 42,469.9 	"/> -->
-<!-- 	<text transform="matrix(1 0 0 1 77.3324 469.9994)" class="st1 st2">Meet Pablo y Violeta</text> -->
 	
-		<image id="sc-image" style="visibility:hidden;overflow:visible;" width="602" height="79" xlink:href="../../img/pablo_y_violeta/legend/Soundcloud.png"  transform="matrix(0.459 0 0 0.3578 40.9966 398.0013)">
+		<image style="display:none;overflow:visible;enable-background:new    ;" width="150" height="19" id="sc-image" xlink:href="../../img/pablo_y_violeta/legend/Soundcloud.png"  transform="matrix(1.8432 0 0 1.4368 40.9166 398.4848)">
 	</image>
 </g>
-<g id="legend_icons">
-	<g>
-		<text transform="matrix(1 0 0 1 102.6715 710.8654)" class="st3 st4">1 Glass</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 260.4123 710.8654)" class="st3 st4">1 Plastic</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 260.4123 778.8654)"><tspan x="0" y="0" class="st3 st4">Trash bag</tspan><tspan x="0" y="14.4" class="st3 st4">= 150 items</tspan></text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 102.6715 779.3234)" class="st3 st4">1 Can</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 102.6715 870.629)" class="st3 st4">Ground</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 102.6715 908.9757)" class="st3 st4">Bin</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 102.6715 947.3234)" class="st3 st4">Bag</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 102.6714 1004.8993)"><tspan x="0" y="0" class="st3 st4">Connected</tspan><tspan x="0" y="14.4" class="st3 st4">to residence</tspan></text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 260.4121 1004.8993)"><tspan x="0" y="0" class="st3 st4">Connected</tspan><tspan x="0" y="14.4" class="st3 st4">to business</tspan></text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 260.4121 947.3235)"><tspan x="0" y="0" class="st3 st4">Needs someone</tspan><tspan x="0" y="14.4" class="st3 st4">to get in</tspan></text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 260.4123 870.6287)" class="st3 st4">Private</text>
-	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 260.4123 908.9754)" class="st3 st4">Public</text>
-	</g>
-	<text transform="matrix(1 0 0 1 102.6712 599.0924)"><tspan x="0" y="0" class="st3 st4">Pablo y Violeta’s</tspan><tspan x="0" y="14.4" class="st3 st4">comments</tspan></text>
-	<text transform="matrix(1 0 0 1 102.6712 533.0924)" class="st3 st4">Observations</text>
-	<g>
-		<text transform="matrix(1 0 0 1 260.4122 599.092)"><tspan x="0" y="0" class="st3 st4">Pablo y Violeta’s</tspan><tspan x="0" y="14.4" class="st3 st4">encounters</tspan></text>
-	</g>
+<g id="data_legend_icons_1_">
+	<text transform="matrix(1 0 0 1 48.9579 612.8649)" class="st0 st1">Cans</text>
+	<text transform="matrix(1 0 0 1 48.9576 666.38)" class="st0 st1">Glass</text>
+	<text transform="matrix(1 0 0 1 48.9579 719.8945)" class="st0 st1">Plastic</text>
+	<text transform="matrix(1 0 0 1 48.9581 790.2896)" class="st0 st1">10 unsorted items</text>
+	<text transform="matrix(1 0 0 1 48.9581 806.0896)" class="st0 st1">Each one can be redeemed for 5 cents</text>
+	<text transform="matrix(1 0 0 1 48.9579 858.2896)" class="st0 st1">10 sorted items</text>
+	<text transform="matrix(1 0 0 1 48.9579 874.0896)" class="st0 st1">Each one can be redeemed for 6 or 6.5 cents</text>
 	
-		<image style="overflow:visible;" width="1030" height="1252" xlink:href="../../img/pablo_y_violeta/legend/Hand.png"  transform="matrix(3.433536e-02 0 0 3.433536e-02 213.002 577.2153)">
+		<image style="overflow:visible;enable-background:new    ;" width="97" height="150" xlink:href="../../img/angel/legend/Can.png"  transform="matrix(0.2374 0 0 0.2374 5.0586 589.6447)">
 	</image>
 	
-		<image style="overflow:visible;" width="1058" height="750" xlink:href="../../img/pablo_y_violeta/legend/Comment.png"  transform="matrix(4.988544e-02 0 0 4.988544e-02 36.998 579.9979)">
-	</image>
-	<text transform="matrix(1 0 0 1 40 664)" class="st5 st6">ITEMS</text>
-	<text transform="matrix(1 0 0 1 41 847)" class="st5 st6">LOCATIONS</text>
-	
-		<image style="overflow:visible;" width="194" height="592" xlink:href="../../img/pablo_y_violeta/legend/Glass.png"  transform="matrix(9.918400e-02 0 0 9.918400e-02 45.0025 678.0572)">
+		<image style="overflow:visible;enable-background:new    ;" width="49" height="150" xlink:href="../../img/angel/legend/Glass.png"  transform="matrix(0.3537 0 0 0.3537 7.906 630.4195)">
 	</image>
 	
-		<image style="overflow:visible;" width="243" height="375" xlink:href="../../img/pablo_y_violeta/legend/Can.png"  transform="matrix(9.595800e-02 0 0 9.595800e-02 42.9625 757.8248)">
+		<image style="overflow:visible;enable-background:new    ;" width="59" height="150" xlink:href="../../img/angel/legend/Plastic.png"  transform="matrix(0.3405 0 0 0.3405 6.5271 688.0634)">
 	</image>
 	
-		<image style="overflow:visible;" width="216" height="551" xlink:href="../../img/pablo_y_violeta/legend/Plastic.png"  transform="matrix(0.1091 0 0 0.1091 215.0018 677.3534)">
+		<image style="overflow:visible;enable-background:new    ;" width="32" height="150" xlink:href="../../img/angel/legend/DataViz_legend_dots.png"  transform="matrix(0.5895 -4.718178e-02 4.718178e-02 0.5895 6.7375 778.1202)">
 	</image>
-	
-		<image style="overflow:visible;" width="973" height="1198" xlink:href="../../img/pablo_y_violeta/legend/trash_bag-5.png"  transform="matrix(4.293000e-02 0 0 4.293000e-02 206.0016 746.0017)">
-	</image>
-	<g>
-		<text transform="matrix(1 0 0 1 260.4123 532.8654)"><tspan x="0" y="0" class="st3 st4">Visual notes</tspan><tspan x="0" y="13" class="st0 st3 st6">CLICK TO VIEW</tspan></text>
+</g>
+<g id="legend_icons_1_">
+	<polyline class="st2" points="69.8,935.1 69.8,948.3 20.3,948.3 20.4,935.1 	"/>
+	<g class="st3">
+		<path class="st4" d="M209.6,1055.2c13.6,0.1,27.2-0.1,40.8,0.2c1,0,0.7-1.2,0.6-1.7c-0.2-0.7-1.8-2.5-2.6-2.5
+			c-6.8-0.5-13.7-0.4-20.5-0.4c-6.7,0-13.3-0.1-20-0.2C205.6,1050.7,208.1,1055.2,209.6,1055.2z"/>
+		<path class="st4" d="M209.9,1053.7c13.7,0.1,27.2-0.1,40.9,0.2c0.6,0,0.8-1.1,0.7-1.6c-0.2-0.6-1.3-1.2-1.9-1.2
+			c-13.7-0.6-27.4-0.1-41-0.4c-0.6,0-1.1,1.2-0.8,1.7C207.8,1053.1,209.3,1053.6,209.9,1053.7z"/>
+		<path class="st4" d="M214.9,1059.2c13.7,0,27.5,0,41.2,0c1.9,0-0.6-2.6-0.7-2.6c-1.4-1.3-3.5-3.2-5.5-3.5
+			c-6.6-0.6-13.4-0.4-20-0.4c-6.7,0-13.4,0-20.2-0.2c-1.9-0.1,0.2,2.5,0.4,2.8c1,1.1,1.9,2,3,2.9
+			C213.5,1058.7,214.2,1059.1,214.9,1059.2z"/>
+		<path class="st4" d="M213.4,1056c13.7,0.1,27.4-0.1,41,0.1c1.1,0,1.4-0.8,0.8-1.7c-0.7-0.6-1.6-1.1-2.5-1.4
+			c-0.8-0.5-1.8-0.8-2.8-1.1c-6.7-0.5-13.4-0.2-20.3-0.2c-6.7,0-13.6,0-20.3-0.2c-1.1,0-1.6,0.6-1,1.6c0.7,0.6,1.4,1.2,2.3,1.7
+			C211.7,1055.2,212.5,1055.6,213.4,1056z"/>
+		<path class="st4" d="M209,1054c13.7-0.1,27.4,0,41,0c0.6,0,1.3-1.8,1.6-1.8c-13.7,0-27.4,0-41,0C209.9,1052.2,209.3,1054,209,1054
+			z"/>
+		<path class="st4" d="M210.5,1058.7c13.7,0.1,27.4-0.1,40.9,0.1c2.4,0-1.2-5.3-2.6-5.4c-6.6-0.6-13.2-0.2-19.8-0.2
+			c-6.7,0-13.3,0-20-0.2c-1.3,0-1.2,1.2-0.8,2C208.4,1055.9,209.4,1058.7,210.5,1058.7z"/>
+		<path class="st4" d="M208.2,1055.9c7.2,0.1,14.5,0.1,21.7,0.1c6.1,0,12.4-0.1,18.5,0.2c1.3,0.1,2.3-2.3,0.7-2.3
+			c-13.4,0.1-26.9,0.1-40.3,0.1c-0.6,0-1.4,0.2-1.6,0.8C207.2,1055.4,207.6,1055.9,208.2,1055.9z"/>
 	</g>
-	<polyline class="st7" points="85.2,895.1 85.2,906.1 44,906.1 44.1,895.1 	"/>
-	<g class="st8">
-		<path class="st9" d="M212.6,1007.2c11.3,0.1,22.7-0.1,34,0.2c0.8,0,0.6-1,0.5-1.4c-0.2-0.6-1.5-2.1-2.2-2.1
-			c-5.7-0.4-11.4-0.3-17.1-0.3c-5.6,0-11.1-0.1-16.7-0.2C209.2,1003.4,211.3,1007.2,212.6,1007.2z"/>
-		<path class="st9" d="M212.8,1005.9c11.4,0.1,22.7-0.1,34.1,0.2c0.5,0,0.7-0.9,0.6-1.3c-0.2-0.5-1.1-1-1.6-1
-			c-11.4-0.5-22.8-0.1-34.2-0.3c-0.5,0-0.9,1-0.7,1.4C211.1,1005.4,212.3,1005.8,212.8,1005.9z"/>
-		<path class="st9" d="M217,1010.5c11.4,0,22.9,0,34.3,0c1.6,0-0.5-2.2-0.6-2.2c-1.2-1.1-2.9-2.7-4.6-2.9
-			c-5.5-0.5-11.2-0.3-16.7-0.3c-5.6,0-11.2,0-16.8-0.2c-1.6-0.1,0.2,2.1,0.3,2.3c0.8,0.9,1.6,1.7,2.5,2.4
-			C215.8,1010.1,216.4,1010.4,217,1010.5z"/>
-		<path class="st9" d="M215.7,1007.8c11.4,0.1,22.8-0.1,34.2,0.1c0.9,0,1.2-0.7,0.7-1.4c-0.6-0.5-1.3-0.9-2.1-1.2
-			c-0.7-0.4-1.5-0.7-2.3-0.9c-5.6-0.4-11.2-0.2-16.9-0.2c-5.6,0-11.3,0-16.9-0.2c-0.9,0-1.3,0.5-0.8,1.3c0.6,0.5,1.2,1,1.9,1.4
-			C214.3,1007.2,215,1007.5,215.7,1007.8z"/>
-		<path class="st9" d="M212.1,1006.2c11.4-0.1,22.8,0,34.2,0c0.5,0,1.1-1.5,1.3-1.5c-11.4,0-22.8,0-34.2,0
-			C212.8,1004.7,212.3,1006.2,212.1,1006.2z"/>
-		<path class="st9" d="M213.3,1010.1c11.4,0.1,22.8-0.1,34.1,0.1c2,0-1-4.4-2.2-4.5c-5.5-0.5-11-0.2-16.5-0.2
-			c-5.6,0-11.1,0-16.7-0.2c-1.1,0-1,1-0.7,1.7C211.6,1007.7,212.4,1010.1,213.3,1010.1z"/>
-		<path class="st9" d="M211.4,1007.7c6,0.1,12.1,0.1,18.1,0.1c5.1,0,10.3-0.1,15.4,0.2c1.1,0.1,1.9-1.9,0.6-1.9
-			c-11.2,0.1-22.4,0.1-33.6,0.1c-0.5,0-1.2,0.2-1.3,0.7C210.6,1007.3,210.9,1007.7,211.4,1007.7z"/>
-	</g>
-	<g class="st8">
-		<path class="st10" d="M55,1006.6c10.4,0.1,20.8,0,31.2,0.1c1,0,0.6-1.3,0.3-1.7c-0.6-0.8-1.4-1.8-2.4-2c-2.3-0.3-4.7-0.1-7-0.1
-			c-3.3,0-6.6,0-9.8,0c-4.6,0-9.2-0.1-13.7-0.2C51.6,1002.7,53.8,1006.6,55,1006.6z"/>
-		<path class="st10" d="M55.3,1005.2c10.4,0.1,20.8-0.1,31.2,0.1c0.6,0,0.8-1.1,0.6-1.4c-0.3-0.6-1.5-0.9-2.1-0.9
-			c-5.1-0.2-10.3,0-15.5,0c-5.1,0-10.3,0-15.4-0.1c-0.5,0-0.9,1-0.7,1.4C53.6,1004.7,54.7,1005.2,55.3,1005.2z"/>
-		<path class="st10" d="M59.5,1009.9c10.4,0,20.9,0,31.3,0c1.6,0-0.4-2.1-0.5-2.2c-1.1-1.1-2.8-2.8-4.4-3.1
-			c-1.5-0.2-3.2-0.1-4.8-0.1c-3.6,0-7.1,0-10.7,0c-5.1,0-10.2-0.1-15.4-0.2c-1.6-0.1,0.2,2.1,0.3,2.3c0.8,0.9,1.6,1.7,2.5,2.4
-			C58.3,1009.5,58.8,1009.8,59.5,1009.9z"/>
-		<path class="st10" d="M58.2,1007.1c10.4,0.1,20.8,0,31.3,0.1c0.9,0,1.3-0.7,0.7-1.4c-0.6-0.5-1.3-0.9-2-1.3
-			c-0.7-0.4-1.5-0.7-2.2-0.9c-1.6-0.1-3.2,0-4.8-0.1c-3.6,0-7.2,0-10.7,0c-5.1,0-10.3-0.1-15.4-0.2c-0.9,0-1.3,0.5-0.8,1.3
-			c0.6,0.5,1.2,1,1.9,1.4C56.8,1006.5,57.5,1006.9,58.2,1007.1z"/>
-		<path class="st10" d="M54.5,1005.5c10.4,0,20.8,0,31.2,0c0.5,0,1.1-1.5,1.3-1.5c-10.4,0-20.8,0-31.2,0
-			C55.3,1004,54.7,1005.5,54.5,1005.5z"/>
-		<path class="st10" d="M55.8,1009.4c10.4,0.1,20.8-0.1,31.2,0.1c2.1,0-0.7-4.5-1.9-4.7c-1.5-0.2-3.2,0-4.7,0c-3.6,0-7.1,0-10.7,0
-			c-5.1,0-10.1,0-15.2-0.2c-1.1,0-1,1-0.7,1.7C54,1007,54.9,1009.4,55.8,1009.4z"/>
-		<path class="st10" d="M53.9,1007c5.1,0.1,10.1,0.1,15.2,0.1c3.6,0,7.2,0,10.7,0c1.6,0,3.3-0.1,4.9,0.1c0.4,0,1.3-0.3,1.4-0.7
-			c0.1-0.3-0.1-1.1-0.5-1c-2.3,0.2-4.8,0-7.1,0c-3.3,0-6.6,0-9.8,0c-4.7,0-9.4,0-14.1,0c-0.5,0-1.2,0.2-1.3,0.7
-			C53,1006.7,53.4,1007,53.9,1007z"/>
+	<g class="st3">
+		<path class="st5" d="M33.5,1054.9c12.5,0.1,25,0,37.4,0.1c1.2,0,0.7-1.6,0.4-2c-0.7-1-1.7-2.2-2.9-2.4c-2.8-0.4-5.6-0.1-8.4-0.1
+			c-4,0-7.9,0-11.8,0c-5.5,0-11-0.1-16.4-0.2C29.4,1050.2,32.1,1054.9,33.5,1054.9z"/>
+		<path class="st5" d="M33.9,1053.2c12.5,0.1,25-0.1,37.4,0.1c0.7,0,1-1.3,0.7-1.7c-0.4-0.7-1.8-1.1-2.5-1.1c-6.1-0.2-12.4,0-18.6,0
+			c-6.1,0-12.4,0-18.5-0.1c-0.6,0-1.1,1.2-0.8,1.7S33.2,1053.2,33.9,1053.2z"/>
+		<path class="st5" d="M38.9,1058.9c12.5,0,25.1,0,37.6,0c1.9,0-0.5-2.5-0.6-2.6c-1.3-1.3-3.4-3.4-5.3-3.7c-1.8-0.2-3.8-0.1-5.8-0.1
+			c-4.3,0-8.5,0-12.8,0c-6.1,0-12.2-0.1-18.5-0.2c-1.9-0.1,0.2,2.5,0.4,2.8c1,1.1,1.9,2,3,2.9C37.5,1058.4,38.1,1058.8,38.9,1058.9z
+			"/>
+		<path class="st5" d="M37.4,1055.5c12.5,0.1,25,0,37.6,0.1c1.1,0,1.6-0.8,0.8-1.7c-0.7-0.6-1.6-1.1-2.4-1.6s-1.8-0.8-2.6-1.1
+			c-1.9-0.1-3.8,0-5.8-0.1c-4.3,0-8.6,0-12.8,0c-6.1,0-12.4-0.1-18.5-0.2c-1.1,0-1.6,0.6-1,1.6c0.7,0.6,1.4,1.2,2.3,1.7
+			C35.7,1054.8,36.5,1055.3,37.4,1055.5z"/>
+		<path class="st5" d="M32.9,1053.6c12.5,0,25,0,37.4,0c0.6,0,1.3-1.8,1.6-1.8c-12.5,0-25,0-37.4,0
+			C33.9,1051.8,33.2,1053.6,32.9,1053.6z"/>
+		<path class="st5" d="M34.5,1058.3c12.5,0.1,25-0.1,37.4,0.1c2.5,0-0.8-5.4-2.3-5.6c-1.8-0.2-3.8,0-5.6,0c-4.3,0-8.5,0-12.8,0
+			c-6.1,0-12.1,0-18.2-0.2c-1.3,0-1.2,1.2-0.8,2C32.3,1055.4,33.4,1058.3,34.5,1058.3z"/>
+		<path class="st5" d="M32.2,1055.4c6.1,0.1,12.1,0.1,18.2,0.1c4.3,0,8.6,0,12.8,0c1.9,0,4-0.1,5.9,0.1c0.5,0,1.6-0.4,1.7-0.8
+			s-0.1-1.3-0.6-1.2c-2.8,0.2-5.8,0-8.5,0c-4,0-7.9,0-11.8,0c-5.6,0-11.3,0-16.9,0c-0.6,0-1.4,0.2-1.6,0.8
+			C31.1,1055,31.6,1055.4,32.2,1055.4z"/>
 	</g>
 	<g>
-		<path d="M206.7,869.3c7.4,0,14.9,0,22.3,0c1.8,0,4.8-0.6,5.7-2.5c0.8-1.8-0.7-2.9-2.4-2.9c-7.4,0-14.9,0-22.3,0
-			c-1.8,0-4.8,0.6-5.7,2.5C203.5,868.2,205,869.3,206.7,869.3L206.7,869.3z"/>
+		<path d="M201.6,904.8c8.9,0,17.9,0,26.8,0c2.2,0,5.8-0.7,6.8-3c1-2.2-0.8-3.5-2.9-3.5c-8.9,0-17.9,0-26.8,0c-2.2,0-5.8,0.7-6.8,3
+			C197.7,903.5,199.5,904.8,201.6,904.8L201.6,904.8z"/>
 	</g>
 	<g>
-		<path d="M207.8,907.1c7.4,0,14.9,0,22.3,0c1.2,0,3-1.8,1.1-1.8c-7.4,0-14.9,0-22.3,0C207.7,905.3,205.9,907.1,207.8,907.1
-			L207.8,907.1z"/>
+		<path d="M202.9,947.1c8.9,0,17.9,0,26.8,0c1.4,0,3.6-2.2,1.3-2.2c-8.9,0-17.9,0-26.8,0C202.8,945,200.6,947.1,202.9,947.1
+			L202.9,947.1z"/>
 	</g>
-	<line class="st7" x1="44" y1="866.9" x2="85" y2="866.9"/>
-	<path class="st11" d="M78.6,935.7c3.1,0,5.7,2.5,5.7,5.7s-2.5,5.7-5.7,5.7l-30-0.2c-3.1,0-5.7-2.5-5.7-5.7c0-3.1,2.5-5.7,5.7-5.7"
-		/>
-	<line class="st12" x1="44.5" y1="996" x2="44.5" y2="1015"/>
-	<line class="st12" x1="203.5" y1="996" x2="203.5" y2="1015"/>
-	<path d="M65.7,1004c-7.2,0-14.5,0-21.7,0v1.8c6.9,0,13.8,0,20.6,0C65.8,1005.8,67.7,1004,65.7,1004z"/>
-	<path d="M224.7,1004.4c-7.2,0-14.5,0-21.7,0v1.8c6.9,0,13.8,0,20.6,0C224.8,1006.2,226.7,1004.4,224.7,1004.4z"/>
+	<line class="st2" x1="20.3" y1="901.3" x2="69.5" y2="901.3"/>
+	<path class="st6" d="M63.8,986.2c3.7,0,6.8,3,6.8,6.8s-3,6.8-6.8,6.8l-36-0.2c-3.7,0-6.8-3-6.8-6.8s3-6.8,6.8-6.8"/>
+	<line class="st7" x1="20.9" y1="1042.2" x2="20.9" y2="1065"/>
+	<line class="st7" x1="202.7" y1="1041.8" x2="202.7" y2="1064.6"/>
+	<path d="M46.4,1051.8c-8.6,0-17.4,0-26,0v2.2c8.3,0,16.6,0,24.7,0C46.5,1054,48.8,1051.8,46.4,1051.8z"/>
+	<path d="M228.2,1051.9c-8.6,0-17.4,0-26,0v2.2c8.3,0,16.6,0,24.7,0C228.3,1054,230.6,1051.9,228.2,1051.9z"/>
 	<g>
-		<path d="M227.8,961.5h-14.7v-16.2h14.7V961.5z M220.5,951.3c-1.2,0-2.1,0.9-2.1,2.1c0,1.2,0.9,2.1,2.1,2.1c1.2,0,2.1-0.9,2.1-2.1
-			C222.6,952.2,221.6,951.3,220.5,951.3z"/>
+		<path d="M219.9,1011.4h-17.6V992h17.6V1011.4z M211.1,999.2c-1.4,0-2.5,1.1-2.5,2.5s1.1,2.5,2.5,2.5s2.5-1.1,2.5-2.5
+			S212.4,999.2,211.1,999.2z"/>
 		<g>
-			<path d="M227.8,945.2h-2c0-5-2.5-9.2-5.4-9.2c-2.9,0-5.4,4.2-5.4,9.2h-2c0-6.3,3.2-11.2,7.4-11.2
-				C224.6,934,227.8,939,227.8,945.2z"/>
+			<path d="M219.9,991.9h-2.4c0-6-3-11-6.5-11s-6.5,5-6.5,11h-2.4c0-7.6,3.8-13.4,8.9-13.4C216,978.4,219.9,984.4,219.9,991.9z"/>
 		</g>
 	</g>
-	<rect x="42" y="517" class="st13" width="48" height="35"/>
+	<g>
+		<text transform="matrix(1 0 0 1 66.6572 732.7793)" class="st8 st1">1 Glass</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 255.4941 730.7793)" class="st8 st1">1 Plastic</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 257.4941 789.9785)" class="st8 st1">Trash bag</text>
+		<text transform="matrix(1 0 0 1 257.4941 810.1387)" class="st8 st1">= 150 items</text>
+	</g>
+	<g>
+		<text transform="matrix(0.9581 0 0 1 67.6572 802.249)" class="st8 st9">1 Can</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 88.6572 905.4482)" class="st8 st1">Ground</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 88.6715 947.9757)" class="st8 st1">Bin</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 91.6715 995.3234)" class="st8 st1">Bag</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 88.6572 1048.4268)" class="st8 st1">Connected</text>
+		<text transform="matrix(1 0 0 1 88.6572 1068.5859)" class="st8 st1">to residence</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 262.4941 1049.4268)" class="st8 st1">Connected</text>
+		<text transform="matrix(1 0 0 1 262.4941 1069.5859)" class="st8 st1">to business</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 261.4941 992.8203)" class="st8 st1">Needs someone</text>
+		<text transform="matrix(1 0 0 1 261.4941 1012.9805)" class="st8 st1">to get in</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 262.4941 903.4473)" class="st8 st1">Private</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 261.4941 951.1328)" class="st8 st1">Public</text>
+	</g>
+	<text transform="matrix(1 0 0 1 72.6567 591.2969)" class="st8 st1">Pablo y Violeta’s</text>
+	<text transform="matrix(1 0 0 1 72.6567 611.457)" class="st8 st1">comments</text>
+	<text transform="matrix(1 0 0 1 71.6567 528.8965)" class="st8 st1">Observations</text>
+	<g>
+		<text transform="matrix(1 0 0 1 259.4941 591.2959)" class="st8 st1">Pablo y Violeta’s</text>
+		<text transform="matrix(1 0 0 1 259.4941 611.4561)" class="st8 st1">encounters</text>
+	</g>
 	
-		<image style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/pablo_y_violeta/legend/Camera.png"  transform="matrix(2.695100e-02 0 0 2.695100e-02 203.9989 516.9988)">
+		<image style="overflow:visible;enable-background:new    ;" width="123" height="150" xlink:href="../../img/angel/legend/Hand.png"  transform="matrix(0.287 0 0 0.287 208.0345 574.1849)">
+	</image>
+	
+		<image style="overflow:visible;enable-background:new    ;" width="150" height="106" xlink:href="../../img/angel/legend/Comment.png"  transform="matrix(0.3522 0 0 0.3522 14.9724 576.039)">
+	</image>
+	<text transform="matrix(1 0 0 1 17.917 671.168)" class="st10 st11">ITEMS</text>
+	<text transform="matrix(1 0 0 1 12.3169 866.3672)" class="st10 st11">LOCATIONS</text>
+	
+		<image style="overflow:visible;enable-background:new    ;" width="49" height="150" xlink:href="../../img/angel/legend/Glass.png"  transform="matrix(0.3916 0 0 0.3916 32.0275 695.0457)">
+	</image>
+	
+		<image style="overflow:visible;enable-background:new    ;" width="97" height="150" xlink:href="../../img/angel/legend/Can.png"  transform="matrix(0.24 0 0 0.24 31.9788 775.8134)">
+	</image>
+	
+		<image style="overflow:visible;enable-background:new    ;" width="59" height="150" xlink:href="../../img/angel/legend/Plastic.png"  transform="matrix(0.4006 0 0 0.4006 210.9657 692.365)">
+	</image>
+	
+		<image style="overflow:visible;enable-background:new    ;" width="122" height="150" xlink:href="../../img/angel/legend/trash_bag-5.png"  transform="matrix(0.3427 0 0 0.3427 202.9823 765.0144)">
 	</image>
 	<g>
-		<text transform="matrix(1 0 0 1 42.6502 489.8654)"><tspan x="0" y="0" class="st0 st3 st14">&gt;</tspan><tspan x="8.5" y="0" class="st0 st3 st6"> OPEN SCRIPT</tspan></text>
+		<text transform="matrix(1 0 0 1 258.4941 520.5791)" class="st8 st1">Visual notes</text>
+		<text transform="matrix(1 0 0 1 258.4941 538.7793)" class="st12 st8 st11">CLICK TO VIEW</text>
 	</g>
-	<line class="st15" x1="42.2" y1="492" x2="353.2" y2="492"/>
-</g>
-<g id="data_legend_icons">
-	<text transform="matrix(1 0 0 1 85.3453 550.2094)" class="st16 st17">Cans</text>
-	<text transform="matrix(1 0 0 1 85.3451 603.7245)" class="st16 st17">Glass</text>
-	<text transform="matrix(1 0 0 1 85.3453 657.239)" class="st16 st17">Plastic</text>
-	<text transform="matrix(1 0 0 1 85.3456 714.6341)"><tspan x="0" y="0" class="st16 st17">10 unsorted items</tspan><tspan x="0" y="15.8" class="st16 st17">Each one can be redeemed for 5 cents</tspan></text>
-	<text transform="matrix(1 0 0 1 85.3453 782.6341)"><tspan x="0" y="0" class="st16 st17">10 sorted items</tspan><tspan x="0" y="15.8" class="st16 st17">Each one can be redeemed for 6 or 6.5 cents</tspan></text>
+	<rect x="12" y="506" class="st13" width="48" height="35"/>
 	
-		<image style="overflow:visible;" width="243" height="375" xlink:href="../../img/pablo_y_violeta/legend/Can.png"  transform="matrix(9.488724e-02 0 0 9.488724e-02 41.4293 517)">
+		<image style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/angel/legend/Camera.png"  transform="matrix(0.3077 0 0 0.3077 196.9494 506.0659)">
 	</image>
-	
-		<image style="overflow:visible;" width="194" height="592" xlink:href="../../img/pablo_y_violeta/legend/Glass.png"  transform="matrix(8.958174e-02 0 0 8.958174e-02 44.2687 557.772)">
-	</image>
-	
-		<image style="overflow:visible;" width="216" height="551" xlink:href="../../img/pablo_y_violeta/legend/Plastic.png"  transform="matrix(9.272574e-02 0 0 9.272574e-02 42.9437 615.3964)">
-	</image>
-	
-		<image style="overflow:visible;" width="158" height="726" xlink:href="../../img/pablo_y_violeta/legend/DataViz_legend_dots.png"  transform="matrix(0.1217 -9.739679e-03 9.739679e-03 0.1217 42.9466 705.5184)">
-	</image>
+	<g>
+		<text transform="matrix(1 0 0 1 42.6502 481.8654)" class="st12 st8 st14">&gt;</text>
+		<text transform="matrix(1 0 0 1 51.1502 481.8654)" class="st12 st8 st15"> OPEN SCRIPT</text>
+	</g>
+	<line class="st16" x1="42.2" y1="484" x2="353.2" y2="484"/>
 </g>
 </svg>
