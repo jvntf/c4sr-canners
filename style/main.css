@@ -11,11 +11,12 @@ html, body {
 	height:100vh;
 	margin-top: -12vh;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
 	position: fixed;
 	z-index: 20;
 }
+
 @media only screen and (min-width: 600px){
 	#screen_cover{
 		display: none;
