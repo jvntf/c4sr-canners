@@ -1,57 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 389.8 1080" style="enable-background:new 0 0 389.8 1080;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#999999;}
-	.st1{font-family:'AmaticSC-Regular';}
-	.st2{font-size:32px;}
-	.st3{font-family:'Roboto-BoldItalic';}
-	.st4{font-size:12px;}
-	.st5{font-size:10px;}
-	.st6{fill:#D7DED5;}
-	.st7{font-family:'Roboto-Regular';}
-	.st8{font-size:13.1545px;}
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{font-family:'Roboto-Regular';}
+	.st3{font-size:16.8px;}
+	.st4{font-family:'Roboto-BoldItalic';}
+	.st5{fill:#999999;}
+	.st6{font-size:14px;}
+	.st7{fill:#D7DED5;}
 </style>
 <style>@import url('../svg_styles.css')</style>
 <g id="header">
-	
-		<image style="overflow:visible;" width="3243" height="3227" xlink:href="../../img/pedro/legend/Walter.png"  transform="matrix(-9.851364e-02 0 0 9.851364e-02 341.6376 46.4172)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="1621" height="1613" xlink:href="../../img/pedro/legend/Walter.png"  transform="matrix(-0.1971 0 0 0.1971 341.6377 46.4173)">
 	</image>
 
-	<!-- <polygon class="st0" points="42,444 67,457 42,469.9 	"/>
-	<text transform="matrix(1 0 0 1 77.3324 469.9994)" class="st1 st2">Meet Walter</text> -->
-	
-		<image id="sc-image" style="visibility:hidden; overflow:visible;" width="602" height="79" xlink:href="../../img/pedro/legend/Soundcloud.png"  transform="matrix(0.459 0 0 0.3578 41 398)">
+		<image style="visibility:hidden;overflow:visible;enable-background:new    ;" width="602" height="79" id="sc-image" xlink:href="../../img/pedro/legend/Soundcloud.png"  transform="matrix(0.459 0 0 0.3578 41 398)">
 	</image>
 </g>
-<g id="legend_icons">
-	<text transform="matrix(1 0 0 1 102.6712 523.0924)" class="st3 st4">Observations</text>
+<g id="data_legend_icons_1_" class="st0">
+	<text transform="matrix(1 0 0 1 51.9579 510.8649)" class="st1 st2 st3">Cans</text>
+	<text transform="matrix(1 0 0 1 51.9576 564.38)" class="st1 st2 st3">Glass</text>
+	<text transform="matrix(1 0 0 1 51.9579 617.8945)" class="st1 st2 st3">Plastic</text>
+	<text transform="matrix(1 0 0 1 51.9581 688.2896)" class="st1 st2 st3">10 unsorted items</text>
+	<text transform="matrix(1 0 0 1 51.9581 704.0896)" class="st1 st2 st3">Each one can be redeemed for 5 cents</text>
+	<text transform="matrix(1 0 0 1 51.9579 756.2896)" class="st1 st2 st3">10 sorted items</text>
+	<text transform="matrix(1 0 0 1 51.9579 772.0896)" class="st1 st2 st3">Each one can be redeemed for 6 or 6.5 cents</text>
+
+		<image style="display:inline;overflow:visible;enable-background:new    ;" width="97" height="150" xlink:href="../../img/angel/legend/Can.png"  transform="matrix(0.2374 0 0 0.2374 8.0586 487.6447)">
+	</image>
+
+		<image style="display:inline;overflow:visible;enable-background:new    ;" width="49" height="150" xlink:href="../../img/angel/legend/Glass.png"  transform="matrix(0.3537 0 0 0.3537 10.906 528.4195)">
+	</image>
+
+		<image style="display:inline;overflow:visible;enable-background:new    ;" width="59" height="150" xlink:href="../../img/angel/legend/Plastic.png"  transform="matrix(0.3405 0 0 0.3405 9.5271 586.0634)">
+	</image>
+
+		<image style="display:inline;overflow:visible;enable-background:new    ;" width="32" height="150" xlink:href="../../img/angel/legend/DataViz_legend_dots.png"  transform="matrix(0.5895 -4.718178e-02 4.718178e-02 0.5895 9.7375 676.1202)">
+	</image>
+</g>
+<g id="legend_icons_1_">
+	<text transform="matrix(1 0 0 1 74.6567 511.8965)" class="st4 st3">Observations</text>
 	<g>
-		<text transform="matrix(1 0 0 1 260.4123 522.8654)"><tspan x="0" y="0" class="st3 st4">Visual notes</tspan><tspan x="0" y="13" class="st0 st3 st5">CLICK TO VIEW</tspan></text>
+		<text transform="matrix(1 0 0 1 261.4941 503.5791)" class="st4 st3">Visual notes</text>
+		<text transform="matrix(1 0 0 1 261.4941 521.7793)" class="st5 st4 st6">CLICK TO VIEW</text>
 	</g>
-	<rect x="42" y="507" class="st6" width="48" height="35"/>
-	
-		<image style="overflow:visible;" width="1709" height="1318" xlink:href="../../img/pedro/legend/Camera.png"  transform="matrix(2.695115e-02 0 0 2.695115e-02 204 507)">
-	</image>
-</g>
-<g id="data_legend_icons">
-	<text transform="matrix(1 0 0 1 87.9579 538.7594)" class="st7 st8">Cans</text>
-	<text transform="matrix(1 0 0 1 87.9576 592.2746)" class="st7 st8">Glass</text>
-	<text transform="matrix(1 0 0 1 87.9579 645.7891)" class="st7 st8">Plastic</text>
-	<text transform="matrix(1 0 0 1 87.9581 703.1841)"><tspan x="0" y="0" class="st7 st8">10 unsorted items</tspan><tspan x="0" y="15.8" class="st7 st8">Each one can be redeemed for 5 cents</tspan></text>
-	<text transform="matrix(1 0 0 1 87.9579 771.1841)"><tspan x="0" y="0" class="st7 st8">10 sorted items</tspan><tspan x="0" y="15.8" class="st7 st8">Each one can be redeemed for 6 or 6.5 cents</tspan></text>
-	
-		<image style="overflow:visible;" width="243" height="375" xlink:href="../../img/pedro/legend/Can.png"  transform="matrix(9.488724e-02 0 0 9.488724e-02 44.0419 505.5501)">
-	</image>
-	
-		<image style="overflow:visible;" width="194" height="592" xlink:href="../../img/pedro/legend/Glass.png"  transform="matrix(8.958174e-02 0 0 8.958174e-02 46.8812 546.3221)">
-	</image>
-	
-		<image style="overflow:visible;" width="216" height="551" xlink:href="../../01_Working/Walter_data_page_Folder/../../img/pedro/legend/Plastic.png"  transform="matrix(9.272574e-02 0 0 9.272574e-02 45.5563 603.9464)">
-	</image>
-	
-		<image style="overflow:visible;" width="158" height="726" xlink:href="../../01_Working/Walter_data_page_Folder/../../img/pedro/legend/DataViz_legend_dots.png"  transform="matrix(0.1217 -9.739679e-03 9.739679e-03 0.1217 45.5591 694.0684)">
+	<rect x="15" y="489" class="st7" width="48" height="35"/>
+
+		<image style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/angel/legend/Camera.png"  transform="matrix(0.3077 0 0 0.3077 199.9494 489.0659)">
 	</image>
 </g>
 </svg>

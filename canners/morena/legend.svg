@@ -1,192 +1,189 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg id="legend" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-110 -144 389.8 1080" style="enable-background:new -110 -144 389.8 1080;" xml:space="preserve">
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="legend" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 389.8 1080" style="enable-background:new 0 0 389.8 1080;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;}
 	.st1{display:inline;}
-	.st2{font-family:'Roboto-BoldItalic';}
-	.st3{font-size:12px;}
-	.st4{font-family:'Roboto-Bold';}
-	.st5{font-size:10px;}
-	.st6{fill:#999999;}
-	.st7{display:inline;fill:#D7DED5;}
-	.st8{display:inline;fill:none;stroke:#000000;stroke-width:2;}
-	.st9{display:inline;opacity:0.5;}
-	.st10{opacity:0.1797;fill:#883AB5;enable-background:new    ;}
-	.st11{opacity:0.1797;fill:#2AC0FF;enable-background:new    ;}
-	.st12{display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;}
-	.st13{display:inline;fill:none;stroke:#7C7C7C;stroke-miterlimit:10;stroke-dasharray:1,2;}
-	.st14{font-family:'AmaticSC-Regular';}
-	.st15{font-size:32px;}
-	.st16{font-family:'Roboto-Regular';}
-	.st17{font-size:13.1545px;}
+	.st2{font-family:'Roboto-Regular';}
+	.st3{font-size:16.8px;}
+	.st4{fill:none;stroke:#000000;stroke-width:2;}
+	.st5{opacity:0.5;}
+	.st6{opacity:0.1797;fill:#883AB5;enable-background:new    ;}
+	.st7{opacity:0.1797;fill:#2AC0FF;enable-background:new    ;}
+	.st8{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;}
+	.st9{fill:none;stroke:#7C7C7C;stroke-miterlimit:10;stroke-dasharray:1,2;}
+	.st10{font-family:'Roboto-BoldItalic';}
+	.st11{font-size:17.5343px;}
+	.st12{font-family:'Roboto-Bold';}
+	.st13{font-size:14px;}
+	.st14{fill:#999999;}
+	.st15{fill:#D7DED5;}
 </style>
 <style>@import url('../svg_styles.css')</style>
-<g id="legend_icons">
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 -7.3285 556.8654)" class="st2 st3">1 Glass</text>
-	</g>
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 150.4123 556.8654)" class="st2 st3">1 Plastic</text>
-	</g>
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 150.4123 624.8654)" class="st2 st3">Trash bag</text>
-		<text transform="matrix(1 0 0 1 150.4123 639.2654)" class="st2 st3">= 150 items</text>
-	</g>
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 -7.3285 625.3234)" class="st2 st3">1 Can</text>
-	</g>
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 -7.3285 716.629)" class="st2 st3">Ground</text>
-	</g>
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 -7.3285 754.9757)" class="st2 st3">Bin</text>
-	</g>
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 -7.3285 793.3234)" class="st2 st3">Bag</text>
-	</g>
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 -7.3286 850.8993)" class="st2 st3">Connected</text>
-		<text transform="matrix(1 0 0 1 -7.3286 865.2993)" class="st2 st3">to residence</text>
-	</g>
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 150.4121 850.8993)" class="st2 st3">Connected</text>
-		<text transform="matrix(1 0 0 1 150.4121 865.2993)" class="st2 st3">to business</text>
-	</g>
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 150.4121 793.3235)" class="st2 st3">Needs someone</text>
-		<text transform="matrix(1 0 0 1 150.4121 807.7235)" class="st2 st3">to get in</text>
-	</g>
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 150.4123 716.6287)" class="st2 st3">Private</text>
-	</g>
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 150.4123 754.9754)" class="st2 st3">Public</text>
-	</g>
-	<text transform="matrix(1 0 0 1 -7.3288 445.0924)" class="st1 st2 st3">Morena’s</text>
-	<text transform="matrix(1 0 0 1 -7.3288 459.4924)" class="st1 st2 st3">comments</text>
-	<text transform="matrix(1 0 0 1 -7.3288 379.0924)" class="st1 st2 st3">Observations</text>
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 150.4122 445.092)" class="st2 st3">Morena’s</text>
-		<text transform="matrix(1 0 0 1 150.4122 459.492)" class="st2 st3">encounters</text>
-	</g>
-	
-		<image style="display:inline;overflow:visible;enable-background:new    ;" width="123" height="150" xlink:href="../../img/morena/legend/Hand.png"  transform="matrix(0.287 0 0 0.287 103.0345 423.1849)">
+<g id="header">
+
+		<image style="visibility:hidden;overflow:visible;enable-background:new    ;" width="150" height="19" id="sc-image" xlink:href="../../img/morena/legend/Soundcloud.png"  transform="matrix(1.8432 0 0 1.4368 40.92 398.4835)">
 	</image>
-	
-		<image style="display:inline;overflow:visible;enable-background:new    ;" width="150" height="106" xlink:href="../../img/morena/legend/Comment.png"  transform="matrix(0.3522 0 0 0.3522 -73.0276 426.039)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="806" height="1072" xlink:href="../../img/morena/legend/Morena.png"  transform="matrix(-0.336 0 0 0.336 314.9248 24.9434)">
 	</image>
-	<text transform="matrix(1 0 0 1 -70 510)" class="st1 st4 st5">ITEMS</text>
-	<text transform="matrix(1 0 0 1 -69 693)" class="st1 st4 st5">LOCATIONS</text>
-	
-		<image style="display:inline;overflow:visible;enable-background:new    ;" width="49" height="150" xlink:href="../../img/morena/legend/Glass.png"  transform="matrix(0.3916 0 0 0.3916 -64.9725 524.0457)">
+</g>
+<g id="data_legend_icons_1_" class="st0">
+	<text transform="matrix(1 0 0 1 46.9579 597.8649)" class="st1 st2 st3">Cans</text>
+	<text transform="matrix(1 0 0 1 46.9576 651.38)" class="st1 st2 st3">Glass</text>
+	<text transform="matrix(1 0 0 1 46.9579 704.8945)" class="st1 st2 st3">Plastic</text>
+	<text transform="matrix(1 0 0 1 46.9581 775.2896)" class="st1 st2 st3">10 unsorted items</text>
+	<text transform="matrix(1 0 0 1 46.9581 791.0896)" class="st1 st2 st3">Each one can be redeemed for 5 cents</text>
+	<text transform="matrix(1 0 0 1 46.9579 843.2896)" class="st1 st2 st3">10 sorted items</text>
+	<text transform="matrix(1 0 0 1 46.9579 859.0896)" class="st1 st2 st3">Each one can be redeemed for 6 or 6.5 cents</text>
+
+		<image style="display:inline;overflow:visible;enable-background:new    ;" width="97" height="150" xlink:href="../../img/angel/legend/Can.png"  transform="matrix(0.2374 0 0 0.2374 3.0586 574.6447)">
 	</image>
-	
-		<image style="display:inline;overflow:visible;enable-background:new    ;" width="97" height="150" xlink:href="../../img/morena/legend/Can.png"  transform="matrix(0.24 0 0 0.24 -67.0212 603.8134)">
+
+		<image style="display:inline;overflow:visible;enable-background:new    ;" width="49" height="150" xlink:href="../../img/angel/legend/Glass.png"  transform="matrix(0.3537 0 0 0.3537 5.906 615.4195)">
 	</image>
-	
-		<image style="display:inline;overflow:visible;enable-background:new    ;" width="59" height="150" xlink:href="../../img/morena/legend/Plastic.png"  transform="matrix(0.4006 0 0 0.4006 104.9657 523.365)">
+
+		<image style="display:inline;overflow:visible;enable-background:new    ;" width="59" height="150" xlink:href="../../img/angel/legend/Plastic.png"  transform="matrix(0.3405 0 0 0.3405 4.5271 673.0634)">
 	</image>
-	
-		<image style="display:inline;overflow:visible;enable-background:new    ;" width="122" height="150" xlink:href="../../img/morena/legend/trash_bag-5.png"  transform="matrix(0.3427 0 0 0.3427 95.9823 592.0144)">
+
+		<image style="display:inline;overflow:visible;enable-background:new    ;" width="32" height="150" xlink:href="../../img/angel/legend/DataViz_legend_dots.png"  transform="matrix(0.5895 -4.718178e-02 4.718178e-02 0.5895 4.7375 763.1202)">
 	</image>
-	<g class="st1">
-		<text transform="matrix(1 0 0 1 150.4123 378.8654)" class="st2 st3">Visual notes</text>
-		<text transform="matrix(1 0 0 1 150.4123 391.8654)" class="st6 st2 st5">CLICK TO VIEW</text>
+</g>
+<g id="legend_icons_1_">
+	<polyline class="st4" points="67.8,920.1 67.8,933.3 18.3,933.3 18.4,920.1 	"/>
+	<g class="st5">
+		<path class="st6" d="M207.6,1040.2c13.6,0.1,27.2-0.1,40.8,0.2c1,0,0.7-1.2,0.6-1.7c-0.2-0.7-1.8-2.5-2.6-2.5
+			c-6.8-0.5-13.7-0.4-20.5-0.4c-6.7,0-13.3-0.1-20-0.2C203.6,1035.7,206.1,1040.2,207.6,1040.2z"/>
+		<path class="st6" d="M207.9,1038.7c13.7,0.1,27.2-0.1,40.9,0.2c0.6,0,0.8-1.1,0.7-1.6c-0.2-0.6-1.3-1.2-1.9-1.2
+			c-13.7-0.6-27.4-0.1-41-0.4c-0.6,0-1.1,1.2-0.8,1.7C205.8,1038.1,207.3,1038.6,207.9,1038.7z"/>
+		<path class="st6" d="M212.9,1044.2c13.7,0,27.5,0,41.2,0c1.9,0-0.6-2.6-0.7-2.6c-1.4-1.3-3.5-3.2-5.5-3.5
+			c-6.6-0.6-13.4-0.4-20-0.4c-6.7,0-13.4,0-20.2-0.2c-1.9-0.1,0.2,2.5,0.4,2.8c1,1.1,1.9,2,3,2.9
+			C211.5,1043.7,212.2,1044.1,212.9,1044.2z"/>
+		<path class="st6" d="M211.4,1041c13.7,0.1,27.4-0.1,41,0.1c1.1,0,1.4-0.8,0.8-1.7c-0.7-0.6-1.6-1.1-2.5-1.4
+			c-0.8-0.5-1.8-0.8-2.8-1.1c-6.7-0.5-13.4-0.2-20.3-0.2c-6.7,0-13.6,0-20.3-0.2c-1.1,0-1.6,0.6-1,1.6c0.7,0.6,1.4,1.2,2.3,1.7
+			C209.7,1040.2,210.5,1040.6,211.4,1041z"/>
+		<path class="st6" d="M207,1039c13.7-0.1,27.4,0,41,0c0.6,0,1.3-1.8,1.6-1.8c-13.7,0-27.4,0-41,0C207.9,1037.2,207.3,1039,207,1039
+			z"/>
+		<path class="st6" d="M208.5,1043.7c13.7,0.1,27.4-0.1,40.9,0.1c2.4,0-1.2-5.3-2.6-5.4c-6.6-0.6-13.2-0.2-19.8-0.2
+			c-6.7,0-13.3,0-20-0.2c-1.3,0-1.2,1.2-0.8,2C206.4,1040.9,207.4,1043.7,208.5,1043.7z"/>
+		<path class="st6" d="M206.2,1040.9c7.2,0.1,14.5,0.1,21.7,0.1c6.1,0,12.4-0.1,18.5,0.2c1.3,0.1,2.3-2.3,0.7-2.3
+			c-13.4,0.1-26.9,0.1-40.3,0.1c-0.6,0-1.4,0.2-1.6,0.8C205.2,1040.4,205.6,1040.9,206.2,1040.9z"/>
 	</g>
-	<rect x="-68" y="363" class="st7" width="48" height="35"/>
-	
-		<image style="display:inline;overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/morena/legend/Camera.png"  transform="matrix(0.3077 0 0 0.3077 93.9494 363.0659)">
-	</image>
-	<polyline class="st8" points="-24.8,741.1 -24.8,752.1 -66,752.1 -65.9,741.1 	"/>
-	<g class="st9">
-		<path class="st10" d="M102.6,853.2c11.3,0.1,22.7-0.1,34,0.2c0.8,0,0.6-1,0.5-1.4c-0.2-0.6-1.5-2.1-2.2-2.1
-			c-5.7-0.4-11.4-0.3-17.1-0.3c-5.6,0-11.1-0.1-16.7-0.2C99.2,849.4,101.3,853.2,102.6,853.2z"/>
-		<path class="st10" d="M102.8,851.9c11.4,0.1,22.7-0.1,34.1,0.2c0.5,0,0.7-0.9,0.6-1.3c-0.2-0.5-1.1-1-1.6-1
-			c-11.4-0.5-22.8-0.1-34.2-0.3c-0.5,0-0.9,1-0.7,1.4C101.1,851.4,102.3,851.8,102.8,851.9z"/>
-		<path class="st10" d="M107,856.5c11.4,0,22.9,0,34.3,0c1.6,0-0.5-2.2-0.6-2.2c-1.2-1.1-2.9-2.7-4.6-2.9
-			c-5.5-0.5-11.2-0.3-16.7-0.3c-5.6,0-11.2,0-16.8-0.2c-1.6-0.1,0.2,2.1,0.3,2.3c0.8,0.9,1.6,1.7,2.5,2.4
-			C105.8,856.1,106.4,856.4,107,856.5z"/>
-		<path class="st10" d="M105.7,853.8c11.4,0.1,22.8-0.1,34.2,0.1c0.9,0,1.2-0.7,0.7-1.4c-0.6-0.5-1.3-0.9-2.1-1.2
-			c-0.7-0.4-1.5-0.7-2.3-0.9c-5.6-0.4-11.2-0.2-16.9-0.2c-5.6,0-11.3,0-16.9-0.2c-0.9,0-1.3,0.5-0.8,1.3c0.6,0.5,1.2,1,1.9,1.4
-			C104.3,853.2,105,853.5,105.7,853.8z"/>
-		<path class="st10" d="M102.1,852.2c11.4-0.1,22.8,0,34.2,0c0.5,0,1.1-1.5,1.3-1.5c-11.4,0-22.8,0-34.2,0
-			C102.8,850.7,102.3,852.2,102.1,852.2z"/>
-		<path class="st10" d="M103.3,856.1c11.4,0.1,22.8-0.1,34.1,0.1c2,0-1-4.4-2.2-4.5c-5.5-0.5-11-0.2-16.5-0.2
-			c-5.6,0-11.1,0-16.7-0.2c-1.1,0-1,1-0.7,1.7C101.6,853.7,102.4,856.1,103.3,856.1z"/>
-		<path class="st10" d="M101.4,853.7c6,0.1,12.1,0.1,18.1,0.1c5.1,0,10.3-0.1,15.4,0.2c1.1,0.1,1.9-1.9,0.6-1.9
-			c-11.2,0.1-22.4,0.1-33.6,0.1c-0.5,0-1.2,0.2-1.3,0.7C100.6,853.3,100.9,853.7,101.4,853.7z"/>
-	</g>
-	<g class="st9">
-		<path class="st11" d="M-55,852.6c10.4,0.1,20.8,0,31.2,0.1c1,0,0.6-1.3,0.3-1.7c-0.6-0.8-1.4-1.8-2.4-2c-2.3-0.3-4.7-0.1-7-0.1
-			c-3.3,0-6.6,0-9.8,0c-4.6,0-9.2-0.1-13.7-0.2C-58.4,848.7-56.2,852.6-55,852.6z"/>
-		<path class="st11" d="M-54.7,851.2c10.4,0.1,20.8-0.1,31.2,0.1c0.6,0,0.8-1.1,0.6-1.4c-0.3-0.6-1.5-0.9-2.1-0.9
-			c-5.1-0.2-10.3,0-15.5,0c-5.1,0-10.3,0-15.4-0.1c-0.5,0-0.9,1-0.7,1.4S-55.3,851.2-54.7,851.2z"/>
-		<path class="st11" d="M-50.5,855.9c10.4,0,20.9,0,31.3,0c1.6,0-0.4-2.1-0.5-2.2c-1.1-1.1-2.8-2.8-4.4-3.1
-			c-1.5-0.2-3.2-0.1-4.8-0.1c-3.6,0-7.1,0-10.7,0c-5.1,0-10.2-0.1-15.4-0.2c-1.6-0.1,0.2,2.1,0.3,2.3c0.8,0.9,1.6,1.7,2.5,2.4
-			C-51.7,855.5-51.2,855.8-50.5,855.9z"/>
-		<path class="st11" d="M-51.8,853.1c10.4,0.1,20.8,0,31.3,0.1c0.9,0,1.3-0.7,0.7-1.4c-0.6-0.5-1.3-0.9-2-1.3
-			c-0.7-0.4-1.5-0.7-2.2-0.9c-1.6-0.1-3.2,0-4.8-0.1c-3.6,0-7.2,0-10.7,0c-5.1,0-10.3-0.1-15.4-0.2c-0.9,0-1.3,0.5-0.8,1.3
-			c0.6,0.5,1.2,1,1.9,1.4C-53.2,852.5-52.5,852.9-51.8,853.1z"/>
-		<path class="st11" d="M-55.5,851.5c10.4,0,20.8,0,31.2,0c0.5,0,1.1-1.5,1.3-1.5c-10.4,0-20.8,0-31.2,0
-			C-54.7,850-55.3,851.5-55.5,851.5z"/>
-		<path class="st11" d="M-54.2,855.4c10.4,0.1,20.8-0.1,31.2,0.1c2.1,0-0.7-4.5-1.9-4.7c-1.5-0.2-3.2,0-4.7,0c-3.6,0-7.1,0-10.7,0
-			c-5.1,0-10.1,0-15.2-0.2c-1.1,0-1,1-0.7,1.7C-56,853-55.1,855.4-54.2,855.4z"/>
-		<path class="st11" d="M-56.1,853c5.1,0.1,10.1,0.1,15.2,0.1c3.6,0,7.2,0,10.7,0c1.6,0,3.3-0.1,4.9,0.1c0.4,0,1.3-0.3,1.4-0.7
-			c0.1-0.3-0.1-1.1-0.5-1c-2.3,0.2-4.8,0-7.1,0c-3.3,0-6.6,0-9.8,0c-4.7,0-9.4,0-14.1,0c-0.5,0-1.2,0.2-1.3,0.7
-			C-57,852.7-56.6,853-56.1,853z"/>
-	</g>
-	<g class="st1">
-		<path d="M96.7,715.3c7.4,0,14.9,0,22.3,0c1.8,0,4.8-0.6,5.7-2.5c0.8-1.8-0.7-2.9-2.4-2.9c-7.4,0-14.9,0-22.3,0
-			c-1.8,0-4.8,0.6-5.7,2.5C93.5,714.2,95,715.3,96.7,715.3L96.7,715.3z"/>
-	</g>
-	<g class="st1">
-		<path d="M97.8,753.1c7.4,0,14.9,0,22.3,0c1.2,0,3-1.8,1.1-1.8c-7.4,0-14.9,0-22.3,0C97.7,751.3,95.9,753.1,97.8,753.1L97.8,753.1z
+	<g class="st5">
+		<path class="st7" d="M31.5,1039.9c12.5,0.1,25,0,37.4,0.1c1.2,0,0.7-1.6,0.4-2c-0.7-1-1.7-2.2-2.9-2.4c-2.8-0.4-5.6-0.1-8.4-0.1
+			c-4,0-7.9,0-11.8,0c-5.5,0-11-0.1-16.4-0.2C27.4,1035.2,30.1,1039.9,31.5,1039.9z"/>
+		<path class="st7" d="M31.9,1038.2c12.5,0.1,25-0.1,37.4,0.1c0.7,0,1-1.3,0.7-1.7c-0.4-0.7-1.8-1.1-2.5-1.1c-6.1-0.2-12.4,0-18.6,0
+			c-6.1,0-12.4,0-18.5-0.1c-0.6,0-1.1,1.2-0.8,1.7S31.2,1038.2,31.9,1038.2z"/>
+		<path class="st7" d="M36.9,1043.9c12.5,0,25.1,0,37.6,0c1.9,0-0.5-2.5-0.6-2.6c-1.3-1.3-3.4-3.4-5.3-3.7c-1.8-0.2-3.8-0.1-5.8-0.1
+			c-4.3,0-8.5,0-12.8,0c-6.1,0-12.2-0.1-18.5-0.2c-1.9-0.1,0.2,2.5,0.4,2.8c1,1.1,1.9,2,3,2.9C35.5,1043.4,36.1,1043.8,36.9,1043.9z
 			"/>
+		<path class="st7" d="M35.4,1040.5c12.5,0.1,25,0,37.6,0.1c1.1,0,1.6-0.8,0.8-1.7c-0.7-0.6-1.6-1.1-2.4-1.6s-1.8-0.8-2.6-1.1
+			c-1.9-0.1-3.8,0-5.8-0.1c-4.3,0-8.6,0-12.8,0c-6.1,0-12.4-0.1-18.5-0.2c-1.1,0-1.6,0.6-1,1.6c0.7,0.6,1.4,1.2,2.3,1.7
+			C33.7,1039.8,34.5,1040.3,35.4,1040.5z"/>
+		<path class="st7" d="M30.9,1038.6c12.5,0,25,0,37.4,0c0.6,0,1.3-1.8,1.6-1.8c-12.5,0-25,0-37.4,0
+			C31.9,1036.8,31.2,1038.6,30.9,1038.6z"/>
+		<path class="st7" d="M32.5,1043.3c12.5,0.1,25-0.1,37.4,0.1c2.5,0-0.8-5.4-2.3-5.6c-1.8-0.2-3.8,0-5.6,0c-4.3,0-8.5,0-12.8,0
+			c-6.1,0-12.1,0-18.2-0.2c-1.3,0-1.2,1.2-0.8,2C30.3,1040.4,31.4,1043.3,32.5,1043.3z"/>
+		<path class="st7" d="M30.2,1040.4c6.1,0.1,12.1,0.1,18.2,0.1c4.3,0,8.6,0,12.8,0c1.9,0,4-0.1,5.9,0.1c0.5,0,1.6-0.4,1.7-0.8
+			s-0.1-1.3-0.6-1.2c-2.8,0.2-5.8,0-8.5,0c-4,0-7.9,0-11.8,0c-5.6,0-11.3,0-16.9,0c-0.6,0-1.4,0.2-1.6,0.8
+			C29.1,1040,29.6,1040.4,30.2,1040.4z"/>
 	</g>
-	<line class="st8" x1="-66" y1="712.9" x2="-25" y2="712.9"/>
-	<path class="st12" d="M-31.4,781.7c3.1,0,5.7,2.5,5.7,5.7s-2.5,5.7-5.7,5.7l-30-0.2c-3.1,0-5.7-2.5-5.7-5.7s2.5-5.7,5.7-5.7"/>
-	<line class="st13" x1="-65.5" y1="842" x2="-65.5" y2="861"/>
-	<line class="st13" x1="93.5" y1="842" x2="93.5" y2="861"/>
-	<path class="st1" d="M-44.3,850c-7.2,0-14.5,0-21.7,0v1.8c6.9,0,13.8,0,20.6,0C-44.2,851.8-42.3,850-44.3,850z"/>
-	<path class="st1" d="M114.7,850.4c-7.2,0-14.5,0-21.7,0v1.8c6.9,0,13.8,0,20.6,0C114.8,852.2,116.7,850.4,114.7,850.4z"/>
-	<g class="st1">
-		<path d="M117.8,807.5h-14.7v-16.2h14.7V807.5z M110.5,797.3c-1.2,0-2.1,0.9-2.1,2.1c0,1.2,0.9,2.1,2.1,2.1s2.1-0.9,2.1-2.1
-			S111.6,797.3,110.5,797.3z"/>
+	<g>
+		<path d="M199.6,889.8c8.9,0,17.9,0,26.8,0c2.2,0,5.8-0.7,6.8-3c1-2.2-0.8-3.5-2.9-3.5c-8.9,0-17.9,0-26.8,0c-2.2,0-5.8,0.7-6.8,3
+			C195.7,888.5,197.5,889.8,199.6,889.8L199.6,889.8z"/>
+	</g>
+	<g>
+		<path d="M200.9,932.1c8.9,0,17.9,0,26.8,0c1.4,0,3.6-2.2,1.3-2.2c-8.9,0-17.9,0-26.8,0C200.8,930,198.6,932.1,200.9,932.1
+			L200.9,932.1z"/>
+	</g>
+	<line class="st4" x1="18.3" y1="886.3" x2="67.5" y2="886.3"/>
+	<path class="st8" d="M61.8,971.2c3.7,0,6.8,3,6.8,6.8s-3,6.8-6.8,6.8l-36-0.2c-3.7,0-6.8-3-6.8-6.8s3-6.8,6.8-6.8"/>
+	<line class="st9" x1="18.9" y1="1027.2" x2="18.9" y2="1050"/>
+	<line class="st9" x1="200.7" y1="1026.8" x2="200.7" y2="1049.6"/>
+	<path d="M44.4,1036.8c-8.6,0-17.4,0-26,0v2.2c8.3,0,16.6,0,24.7,0C44.5,1039,46.8,1036.8,44.4,1036.8z"/>
+	<path d="M226.2,1036.9c-8.6,0-17.4,0-26,0v2.2c8.3,0,16.6,0,24.7,0C226.3,1039,228.6,1036.9,226.2,1036.9z"/>
+	<g>
+		<path d="M217.9,996.4h-17.6V977h17.6V996.4z M209.1,984.2c-1.4,0-2.5,1.1-2.5,2.5s1.1,2.5,2.5,2.5s2.5-1.1,2.5-2.5
+			S210.4,984.2,209.1,984.2z"/>
 		<g>
-			<path d="M117.8,791.2h-2c0-5-2.5-9.2-5.4-9.2s-5.4,4.2-5.4,9.2h-2c0-6.3,3.2-11.2,7.4-11.2S117.8,785,117.8,791.2z"/>
+			<path d="M217.9,976.9h-2.4c0-6-3-11-6.5-11s-6.5,5-6.5,11h-2.4c0-7.6,3.8-13.4,8.9-13.4C214,963.4,217.9,969.4,217.9,976.9z"/>
 		</g>
 	</g>
-</g>
-<g id="header">
-	<!-- <polygon class="st6" points="-68,300 -43,313 -68,325.9 	"/>
-	<text transform="matrix(1 0 0 1 -34.6422 324.9994)" class="st14 st15">Meet Morena</text> -->
-	
-		<image id="sc-image" style="visibility:hidden;overflow:visible;enable-background:new    ;" width="150" height="19" xlink:href="../../img/morena/legend/Soundcloud.png"  transform="matrix(1.8432 0 0 1.4368 -69.08 254.4835)">
+	<g>
+		<text transform="matrix(1 0 0 1 64.6572 717.7793)" class="st10 st3">1 Glass</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 253.4941 715.7793)" class="st10 st3">1 Plastic</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 255.4941 774.9785)" class="st10 st3">Trash bag</text>
+		<text transform="matrix(1 0 0 1 255.4941 795.1387)" class="st10 st3">= 150 items</text>
+	</g>
+	<g>
+		<text transform="matrix(0.9581 0 0 1 65.6572 787.249)" class="st10 st11">1 Can</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 86.6572 890.4482)" class="st10 st3">Ground</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 86.6715 932.9757)" class="st10 st3">Bin</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 89.6715 980.3234)" class="st10 st3">Bag</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 86.6572 1033.4268)" class="st10 st3">Connected</text>
+		<text transform="matrix(1 0 0 1 86.6572 1053.5859)" class="st10 st3">to residence</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 260.4941 1034.4268)" class="st10 st3">Connected</text>
+		<text transform="matrix(1 0 0 1 260.4941 1054.5859)" class="st10 st3">to business</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 259.4941 977.8203)" class="st10 st3">Needs someone</text>
+		<text transform="matrix(1 0 0 1 259.4941 997.9805)" class="st10 st3">to get in</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 260.4941 888.4473)" class="st10 st3">Private</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 259.4941 936.1328)" class="st10 st3">Public</text>
+	</g>
+	<text transform="matrix(1 0 0 1 72.6567 576.2969)" class="st10 st3">Morena’s</text>
+	<text transform="matrix(1 0 0 1 72.6567 596.457)" class="st10 st3">comments</text>
+	<text transform="matrix(1 0 0 1 69.6567 513.8965)" class="st10 st3">Observations</text>
+	<g>
+		<text transform="matrix(1 0 0 1 260.4941 576.2959)" class="st10 st3">Morena’s</text>
+		<text transform="matrix(1 0 0 1 260.4941 596.4561)" class="st10 st3">encounters</text>
+	</g>
+
+		<image style="overflow:visible;enable-background:new    ;" width="123" height="150" xlink:href="../../img/angel/legend/Hand.png"  transform="matrix(0.287 0 0 0.287 206.0345 559.1849)">
 	</image>
-		<image style="overflow:visible;enable-background:new    ;" width="806" height="1072" xlink:href="../../img/morena/legend/Morena.png"  transform="matrix(-0.336 0 0 0.336 204.9248 -119.0566)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="150" height="106" xlink:href="../../img/angel/legend/Comment.png"  transform="matrix(0.3522 0 0 0.3522 12.9724 561.039)">
 	</image>
-</g>
-<g id="data_legend_icons">
-	<text transform="matrix(1 0 0 1 -22.8236 429.9655)" class="st16 st17">Cans</text>
-	<text transform="matrix(1 0 0 1 -22.8238 483.4807)" class="st16 st17">Glass</text>
-	<text transform="matrix(1 0 0 1 -22.8236 536.9951)" class="st16 st17">Plastic</text>
-	<text transform="matrix(1 0 0 1 -22.8234 594.3903)" class="st16 st17">10 unsorted items</text>
-	<text transform="matrix(1 0 0 1 -22.8234 610.1903)" class="st16 st17">Each one can be redeemed for 5 cents</text>
-	<text transform="matrix(1 0 0 1 -22.8236 662.3903)" class="st16 st17">10 sorted items</text>
-	<text transform="matrix(1 0 0 1 -22.8236 678.1903)" class="st16 st17">Each one can be redeemed for 6 or 6.5 cents</text>
-	
-		<image style="overflow:visible;enable-background:new    ;" width="97" height="150" xlink:href="../../img/morena/legend/Can.png"  transform="matrix(0.2374 0 0 0.2374 -66.7229 396.7454)">
+	<text transform="matrix(1 0 0 1 15.917 656.168)" class="st12 st13">ITEMS</text>
+	<text transform="matrix(1 0 0 1 10.3169 851.3672)" class="st12 st13">LOCATIONS</text>
+
+		<image style="overflow:visible;enable-background:new    ;" width="49" height="150" xlink:href="../../img/angel/legend/Glass.png"  transform="matrix(0.3916 0 0 0.3916 30.0275 680.0457)">
 	</image>
-	
-		<image style="overflow:visible;enable-background:new    ;" width="49" height="150" xlink:href="../../img/morena/legend/Glass.png"  transform="matrix(0.3537 0 0 0.3537 -63.8754 437.5202)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="97" height="150" xlink:href="../../img/angel/legend/Can.png"  transform="matrix(0.24 0 0 0.24 29.9788 760.8134)">
 	</image>
-	
-		<image style="overflow:visible;enable-background:new    ;" width="59" height="150" xlink:href="../../img/morena/legend/Plastic.png"  transform="matrix(0.3405 0 0 0.3405 -65.2544 495.164)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="59" height="150" xlink:href="../../img/angel/legend/Plastic.png"  transform="matrix(0.4006 0 0 0.4006 208.9657 677.365)">
 	</image>
-	
-		<image style="overflow:visible;enable-background:new    ;" width="158" height="726" xlink:href="../../img/morena/legend/DataViz_legend_dots.png"  transform="matrix(0.1217 -9.739679e-03 9.739679e-03 0.1217 -65.2223 585.2745)">
+
+		<image style="overflow:visible;enable-background:new    ;" width="122" height="150" xlink:href="../../img/angel/legend/trash_bag-5.png"  transform="matrix(0.3427 0 0 0.3427 200.9823 750.0144)">
+	</image>
+	<g>
+		<text transform="matrix(1 0 0 1 256.4941 505.5791)" class="st10 st3">Visual notes</text>
+		<text transform="matrix(1 0 0 1 256.4941 523.7793)" class="st14 st10 st13">CLICK TO VIEW</text>
+	</g>
+	<rect x="10" y="491" class="st15" width="48" height="35"/>
+
+		<image style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/angel/legend/Camera.png"  transform="matrix(0.3077 0 0 0.3077 194.9494 491.0659)">
 	</image>
 </g>
 </svg>
