@@ -131,7 +131,7 @@ let loadCameraImages = function(){
                         }
                     });
                 }
-            } 
+            }
             else if(file.includes("folder")){
                 let num = Number(file.split('-')[1])
                 var subimgs = []
@@ -145,7 +145,7 @@ let loadCameraImages = function(){
                     .attr("active",0)
                     .appendTo("#container");
 
-                
+
 
                 for (let i = 0; i < num; i++) {
                     console.log(i);
@@ -195,7 +195,7 @@ let loadCameraImages = function(){
               img[0].onclick = function(e){
                     e.stopPropagation()
                     // await stopVids();
-                       
+
 
                         // $(this).css({marginTop:"3.5vh", marginLeft:"2.5vw",width:"20vw"})
                         // .animate({"opacity":1});
@@ -206,7 +206,7 @@ let loadCameraImages = function(){
                     closeImgs().then( ()=>{
                         $(this).css({marginTop:"3.5vh", marginLeft:"2.5vw",width:"20vw"})
                                 .animate({"opacity":1});
-      
+
                     });
                 }
 
@@ -223,7 +223,7 @@ let loadCameraImages = function(){
             if(index === files.length-1){
                 resolve();
             }
-        } 
+        }
     })
 }
 let closeImgs = function(){
@@ -233,7 +233,7 @@ let closeImgs = function(){
                 $(".camPopImg").css({marginTop:"0", marginLeft:"0",width:"2vw"});
                 var imgs = $('.camPopImg')
                 for (let i=0; i<imgs.length; i++){
-   
+
                     if (typeof imgs[i].loop !== 'undefined'){
                         clearInterval(imgs[i].loop)
                         $('.folder').fadeOut();
@@ -241,12 +241,12 @@ let closeImgs = function(){
                 }
 
                 // $('.folder').
-                resolve(); 
+                resolve();
             })
             // .css({marginTop:"0", marginLeft:"0",width:"2vw"})
-        
+
     })
-    
+
 }
 
 let stopVids = function(){
@@ -264,7 +264,7 @@ let stopVids = function(){
             }
         }
     })
-    
+
 }
 let loadDataPage = function(){
     return new Promise(function(resolve,reject){
@@ -304,7 +304,7 @@ let makeAllTweens = function(){
         makeAppear("content")
         resolve();
     })
-        
+
 
 
     // var $clock = $('#clock').children();
@@ -313,14 +313,14 @@ let makeAllTweens = function(){
     //     i+=1;
     //     var clockTween = new TimelineMax()
     //                   .add(TweenMax.to('#clock *:nth-child('+i+')', 1 , {visibility:'visible'})); // draw draw dot for 0.1
-    //                           // 
+    //                           //
     //     var clockScene = new ScrollMagic.Scene({triggerElement: '#clock *:nth-child('+i+')', duration:50,offset:75,
     //         tweenChanges: true, reverse: true})
     //             .setTween(clockTween)
     //             // .setPin('#morena_path')
     //             // .addIndicators() // add indicators (requires plugin)
     //             .addTo(controller);
-    // })   
+    // })
 }
 let makeAppear = function(layer){
 
@@ -337,7 +337,7 @@ let makeAppear = function(layer){
             var currentLayerTween = new TimelineMax()
                           .add(TweenMax.to(item, 1 , {visibility:'visible', useFrames:true}))
                            // draw draw dot for 0.1
-                                  // 
+                                  //
             var currentLayerScene = new ScrollMagic.Scene({triggerElement: path_obj, triggerHook: 0.7,
                 duration:0, offset: item.getBoundingClientRect().top,
                 tweenChanges: true, reverse: true})
@@ -353,7 +353,7 @@ let makePathTween = function(){
     var pathTween = new TimelineMax()
                   .add(TweenMax.to(path,  1,{strokeDashoffset: 0, ease:Linear.easeNone, useFrames:true}))
 
-                          // 
+                          //
     var pathScene = new ScrollMagic.Scene({triggerElement: "#path_obj", triggerHook: 0.9,
         duration:path.getBoundingClientRect().height,
         offset: path.getBoundingClientRect().top,
@@ -366,7 +366,7 @@ let makePathTween = function(){
     var scrollTween = new TimelineMax()
                   .add(TweenMax.to('#scroll',  1,{visibility: "hidden", ease:Linear.easeNone, useFrames:true}))
 
-                          // 
+                          //
     var scrollScene = new ScrollMagic.Scene({triggerElement: "#path_obj", triggerHook: 0.68,
         duration:0,
         offset: path.getBoundingClientRect().top,
@@ -385,7 +385,7 @@ let makeDataPageTweens = function(){
     var pathTween = new TimelineMax()
                   .add(TweenMax.to(leg_obj, 0.3 , {opacity:0 ,ease:Linear.easeNone}))
                   .add(TweenMax.to(data_leg_obj, 0.3 , {opacity:1,delay:0.3,ease:Linear.easeNone})); // draw draw dot for 0.1
-                          
+
     var pathScene = new ScrollMagic.Scene({triggerElement: "#data",
         duration:0,
         tweenChanges: true, reverse: true})
@@ -408,7 +408,7 @@ let loadSC = function(location){
             id:"sc",
             width: "15%",
             height: "20"
-        }).html("<a href='http://wnyc.org'>WNYCLINK</a>")
+        }).html("<a href='https://brown.columbia.edu/canners-nyc-goes-live/' target='_blank'>Meet Morena</a>")
         .css({
             position:"fixed",
             zIndex:100,
@@ -446,12 +446,12 @@ let makeClock = function(){
     });
 
     function animatebodymovin(duration, animObject) {
-      
+
       var scrollPosition = theWindow.scrollTop();
       var maxFrames = animObject.totalFrames;
       var frame = (maxFrames / 100) * (scrollPosition / (duration / 100));
       animObject.goToAndStop(frame, true);
-      
+
     }
 }
 
