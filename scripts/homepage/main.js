@@ -33,7 +33,7 @@ $(function(){
 	    }
 	});
 
-	
+
 	$('#popup_info').click(function(e){
 		console.log("hello")
 		e.stopPropagation();
@@ -57,7 +57,7 @@ $(function(){
 	$(".data_portrait").click(function(e){
 		e.stopPropagation();
 		var name = $(this).attr('canner');
-		
+
 		if($(this).attr('id')!='current'){
 			$('#popup').remove();
 			$('.popup_info').remove();
@@ -76,7 +76,7 @@ $(function(){
 			});
 		}
 
-		
+
 		$(this).addClass('active')
 			.css({
 			'visibility':'hidden'
@@ -96,8 +96,8 @@ $(function(){
 		});
 		mySvg.drawsvg('animate');
 
-		
-		
+
+
 
 
 		var topVal = $(this).position().top
@@ -129,7 +129,7 @@ $(function(){
             id:"sc",
             width: "100%",
             height: "20"
-        }).html("<a href='http://wnyc.org'>Meet Morena</a>")
+        }).html("<a href='https://www.wnyc.org/story/she-makes-her-living-5-cents-time/' target='_blank'>Meet Morena</a>")
         .css({
         	fontFamily:"Amatic SC",
         	marginBottom:"2vh"
@@ -160,7 +160,7 @@ $(function(){
 
 	popup.append(namediv).append(scframe).append(link);
 	popup.fadeIn();
-	
+
 	if(name==="venzen"){
 		popup.insertAfter("#current").offset({
 					top:topVal*1.06,
@@ -176,9 +176,9 @@ $(function(){
 	})
 
 	function preparepaths(){
-		
+
 		$('.overlay_path').each(function(){
-			
+
 			var lineLength = this.getTotalLength();
 			$(this).css("stroke-dasharray", lineLength);
 			$(this).css("stroke-dashoffset", lineLength);
