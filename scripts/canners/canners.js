@@ -12,7 +12,7 @@ window.onload=function(){
     $('#canners_menu').mouseenter( (e) => $("#dropdown").fadeIn());
     $('#dropdown').mouseleave( (e) => {
         var next = e.toElement || e.relatedTarget;
-        console.log(next)
+        console.log("wegwgw")
         if (next.id === "buttons"){
             console.log("nothing");
         }else{
@@ -52,7 +52,7 @@ let closeDrop = function(){
 let loadPath = function(){
     return new Promise(function(resolve,reject){
         currentCanner = document.URL.split("!")[1];
-        document.title = currentCanner.charAt(0).toUpperCase() + currentCanner.slice(1);
+        document.title = currentCanner.replace(/_/g," ").toProperCase()
         var obj = document.createElement('object');
         obj.data = currentCanner+'/'+currentCanner+'.svg';
         obj.id = 'path_obj';
@@ -438,3 +438,6 @@ let makeClock = function(){
     }
 }
 
+String.prototype.toProperCase = function () {
+    return this.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+};

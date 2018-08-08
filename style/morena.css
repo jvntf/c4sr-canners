@@ -27,7 +27,7 @@
      height: 12vh;
      border-bottom: 1px solid black;
      background: #F4F2F1;
-     overflow: hidden;
+     /*overflow: hidden;*/
      position: fixed;
      top: 0;
      width: 100%;
