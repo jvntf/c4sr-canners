@@ -129,7 +129,7 @@ $(function(){
             id:"sc",
             width: "100%",
             height: "20"
-        }).html("<a href='https://brown.columbia.edu/canners-nyc-goes-live/' target='_blank'>Meet Morena</a>")
+        }).html("<a href='https://www.wnyc.org/story/she-makes-her-living-5-cents-time/' target='_blank'>Meet Morena</a>")
         .css({
         	fontFamily:"Amatic SC",
         	marginBottom:"2vh"

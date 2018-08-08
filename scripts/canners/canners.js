@@ -408,7 +408,7 @@ let loadSC = function(location){
             id:"sc",
             width: "15%",
             height: "20"
-        }).html("<a href='https://brown.columbia.edu/canners-nyc-goes-live/' target='_blank'>Meet Morena</a>")
+        }).html("<a href='https://www.wnyc.org/story/she-makes-her-living-5-cents-time/' target='_blank'>Meet Morena</a>")
         .css({
             position:"fixed",
             zIndex:100,
