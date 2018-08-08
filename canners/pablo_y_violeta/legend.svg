@@ -21,15 +21,16 @@
 	.st15{font-size:10px;}
 	.st16{fill:none;stroke:#999999;stroke-width:0.75;stroke-miterlimit:10;}
 </style>
+<style>@import url('../svg_styles.css')</style>
 <g id="header">
 	
 		<image style="overflow:visible;enable-background:new    ;" width="2094" height="1396" xlink:href="../../img/pablo_y_violeta/legend/PedroYJosefa.png"  transform="matrix(-0.1791 0 0 0.1791 378.9975 80.0105)">
 	</image>
 	
-		<image style="display:none;overflow:visible;enable-background:new    ;" width="150" height="19" id="sc-image" xlink:href="../../img/pablo_y_violeta/legend/Soundcloud.png"  transform="matrix(1.8432 0 0 1.4368 40.9166 398.4848)">
+		<image style="visibility:hidden;overflow:visible;enable-background:new    ;" width="150" height="19" id="sc-image" xlink:href="../../img/pablo_y_violeta/legend/Soundcloud.png"  transform="matrix(1.8432 0 0 1.4368 40.9166 398.4848)">
 	</image>
 </g>
-<g id="data_legend_icons_1_">
+<g id="data_legend_icons">
 	<text transform="matrix(1 0 0 1 48.9579 612.8649)" class="st0 st1">Cans</text>
 	<text transform="matrix(1 0 0 1 48.9576 666.38)" class="st0 st1">Glass</text>
 	<text transform="matrix(1 0 0 1 48.9579 719.8945)" class="st0 st1">Plastic</text>
@@ -50,7 +51,7 @@
 		<image style="overflow:visible;enable-background:new    ;" width="32" height="150" xlink:href="../../img/angel/legend/DataViz_legend_dots.png"  transform="matrix(0.5895 -4.718178e-02 4.718178e-02 0.5895 6.7375 778.1202)">
 	</image>
 </g>
-<g id="legend_icons_1_">
+<g id="legend_icons">
 	<polyline class="st2" points="69.8,935.1 69.8,948.3 20.3,948.3 20.4,935.1 	"/>
 	<g class="st3">
 		<path class="st4" d="M209.6,1055.2c13.6,0.1,27.2-0.1,40.8,0.2c1,0,0.7-1.2,0.6-1.7c-0.2-0.7-1.8-2.5-2.6-2.5

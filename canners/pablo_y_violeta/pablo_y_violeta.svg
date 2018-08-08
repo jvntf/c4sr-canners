@@ -593,9 +593,12 @@
 		<text transform="matrix(1 0 0 1 456.2842 3687.0439)" class="st1 st2">             </text>
 		<text transform="matrix(1 0 0 1 347.9922 3697.541)" class="st7 st4">about the upcoming winter.</text>
 		<text transform="matrix(1 0 0 1 453.708 3697.541)" class="st1 st2">         </text>
+<!-- three -->
+			
+				<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/pablo_y_violeta/Camera.png"  transform="matrix(0.1832 0 0 0.1832 735.6855 2277.8274)">
+			</image>
 
-			<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/pablo_y_violeta/Camera.png"  transform="matrix(0.1832 0 0 0.1832 493.2703 3702.0452)">
-		</image>
+
 		<rect x="151.4" y="3684.1" class="st10" width="137.8" height="67.1"/>
 		<rect x="161.4" y="3691.6" class="st6" width="117.9" height="48.2"/>
 		<text transform="matrix(1 0 0 1 161.3828 3697.665)" class="st1 st2">             </text>
@@ -736,8 +739,9 @@
 
 			<image style="overflow:visible;enable-background:new    ;" width="122" height="150" xlink:href="../../img/pablo_y_violeta/trash_bag-5.png"  transform="matrix(0.2378 0 0 0.2378 195.476 1372.8516)">
 		</image>
-
-			<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/pablo_y_violeta/Camera.png"  transform="matrix(0.1832 0 0 0.1832 735.6855 2277.8274)">
+<!-- four -->
+			
+		<image class="cameraImage" style="overflow:visible;enable-background:new    ;" width="150" height="115" xlink:href="../../img/pablo_y_violeta/Camera.png"  transform="matrix(0.1832 0 0 0.1832 493.2703 3702.0452)">
 		</image>
 
 			<image style="overflow:visible;enable-background:new    ;" width="123" height="150" xlink:href="../../img/pablo_y_violeta/Hand.png"  transform="matrix(0.1753 0 0 0.1753 681.2053 550.53)">

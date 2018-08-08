@@ -29,7 +29,7 @@
 		<image style="overflow:visible;enable-background:new    ;" width="806" height="1072" xlink:href="../../img/morena/legend/Morena.png"  transform="matrix(-0.336 0 0 0.336 314.9248 24.9434)">
 	</image>
 </g>
-<g id="data_legend_icons_1_" class="st0">
+<g id="data_legend_icons">
 	<text transform="matrix(1 0 0 1 46.9579 597.8649)" class="st1 st2 st3">Cans</text>
 	<text transform="matrix(1 0 0 1 46.9576 651.38)" class="st1 st2 st3">Glass</text>
 	<text transform="matrix(1 0 0 1 46.9579 704.8945)" class="st1 st2 st3">Plastic</text>
@@ -50,7 +50,7 @@
 		<image style="display:inline;overflow:visible;enable-background:new    ;" width="32" height="150" xlink:href="../../img/angel/legend/DataViz_legend_dots.png"  transform="matrix(0.5895 -4.718178e-02 4.718178e-02 0.5895 4.7375 763.1202)">
 	</image>
 </g>
-<g id="legend_icons_1_">
+<g id="legend_icons">
 	<polyline class="st4" points="67.8,920.1 67.8,933.3 18.3,933.3 18.4,920.1 	"/>
 	<g class="st5">
 		<path class="st6" d="M207.6,1040.2c13.6,0.1,27.2-0.1,40.8,0.2c1,0,0.7-1.2,0.6-1.7c-0.2-0.7-1.8-2.5-2.6-2.5
