@@ -24,7 +24,7 @@
 		<image style="overflow:visible;enable-background:new    ;" width="1780" height="1645" xlink:href="../../img/angel/legend/Angel.png"  transform="matrix(-0.186 0 0 0.186 344.9986 52.1151)">
 	</image>
 
-		<image style="display:none;overflow:visible;enable-background:new    ;" width="150" height="19" id="sc-image" xlink:href="../../img/angel/legend/Soundcloud.png"  transform="matrix(1.8432 0 0 1.4368 40.92 398.4835)">
+		<image style="visibility:hidden;overflow:visible;enable-background:new    ;" width="150" height="19" id="sc-image" xlink:href="../../img/angel/legend/Soundcloud.png"  transform="matrix(1.8432 0 0 1.4368 40.92 398.4835)">
 	</image>
 </g>
 <g id="data_legend_icons">

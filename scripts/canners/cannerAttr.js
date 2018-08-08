@@ -8,7 +8,7 @@ var cannerAttr = {
 		images:["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg","8.jpg"]
 		},
 	morena : {
-		sclink : "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/482334315%3Fsecret_token%3Ds-wjOWX&color=%23ff5500&inverse=false&auto_play=false&show_user=false",
+		sclink : "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/482333757%3Fsecret_token%3Ds-huRzd&color=%23ff5500&inverse=false&auto_play=false&show_user=false",
 		images:["1.jpg","folder-24","3.jpg","4.jpg","5.jpg","6.jpg"]
 		},
 	pablo_y_violeta : {
@@ -17,7 +17,7 @@ var cannerAttr = {
 		},
 	venzen : {
 		sclink : "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/482334315%3Fsecret_token%3Ds-wjOWX&color=%23ff5500&inverse=false&auto_play=false&show_user=false",
-		images: ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"]
+		images: ["1.jpg","2.jpg","3.jpg","4.jpg"]
 		},
 	pedro : {
 		sclink : "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/482334324%3Fsecret_token%3Ds-Ji5Y9&color=%23ff5500&inverse=false&auto_play=false&show_user=false",
@@ -27,5 +27,7 @@ var cannerAttr = {
 		sclink : "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/482333484%3Fsecret_token%3Ds-c8wPj&color=%23ff5500&inverse=false&auto_play=false&show_user=false",
 		},
 }
+
+
 
 
